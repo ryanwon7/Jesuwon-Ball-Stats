@@ -1,3 +1,7 @@
+layout: page
+title: "Group Stages"
+permalink: /groups/
+
 <h1>Group Stages</h1>
 <p>Click the group name to view the standings, schedule, and results for each group.</p>
 <h2><a href="/groupa/home">Group A</a></h2>
