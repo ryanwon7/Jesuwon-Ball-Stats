@@ -1,6 +1,6 @@
-teamname: Team A1
-grp_win: 0
-grp_loss: 0
+teamname: Run It Back
+grp_win: 2
+grp_loss: 1
 qf_win: 0
 qf_loss: 0
 sf_win: 0
@@ -34,7 +34,7 @@ f_g2_rd: 0
 f_g3_rd: 0
 
 members:
-  - ign: PlayerA1_1
+  - ign: handyice
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -143,7 +143,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: PlayerA1_2
+  - ign: choob
     agt_g1: no
     cs_g1: 0
     k_g1: 0

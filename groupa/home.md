@@ -23,7 +23,7 @@
   </tr>
   <tr>
     <td>{{a3.teamname}}</td>
-    <td>{{a3.grp_win}}</td>
+    <td>{{a3.grp_win}}</td>	
     <td>{{a3.grp_loss}}</td>
   </tr>
   <tr>
@@ -32,6 +32,8 @@
     <td>{{a4.grp_loss}}</td>
   </tr>
 </table>
+
+<br>
 
 <h2>Schedule</h2>
 <table style="width:100%">
@@ -42,3 +44,18 @@
     <th>Result</th>
     <th>Match Page</th>
   </tr>
+  {% for match_hash in site.data.a_matches %}
+  {% assign match = match_hash[1] %}
+  <tr>
+    <td>{{match.home_team}} vs {{match.away_team}}</td>
+    <td>{{match.time}}</td>
+    <td>{{match.map}}</td>
+    {% if match.complete == False %}	
+    <td>{{match.home_rounds}}-{{match.away_rounds}}</td>
+    {% else %}
+    <td> Not Played Yet </td>
+    {% endif %}
+    <td><a href="/groupa/{{match.id}}">Match Stats</a></td>
+  </tr>
+  {% endfor %}
+ </table>
