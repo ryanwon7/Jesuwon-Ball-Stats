@@ -1,9 +1,9 @@
-home_team: Global Elites
-away_team: Team A3
-hometag: GE
-awaytag: A3
+home_team: Team B2
+away_team: Team B3
+hometag: B2
+awaytag: B3
 time: 7/18, 1:00 PM
-map: Haven
+map: Bind
 id: m4
 home_rounds: 0
 away_rounds: 0

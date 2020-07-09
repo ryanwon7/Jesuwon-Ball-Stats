@@ -8,26 +8,31 @@
 <table style="width:100%">
   <tr>
     <th>Team</th>
+    <th>Members</th>
     <th>Wins</th>
     <th>Losses</th>
   </tr>
   <tr>
-    <td>{{a1.teamname}}</td>
+    <td>{{a1.teamname}} ({{a1.tag}})</td>
+    <td>{% for member in a1.members %}{{member.ign}}, {% endfor %}</td>
     <td>{{a1.grp_win}}</td>
     <td>{{a1.grp_loss}}</td>
   </tr>
   <tr>
-    <td>{{a2.teamname}}</td>
+    <td>{{a2.teamname}} ({{a2.tag}})</td>
+    <td>{% for member in a2.members %}{{member.ign}}, {% endfor %}</td>
     <td>{{a2.grp_win}}</td>
     <td>{{a2.grp_loss}}</td>
   </tr>
   <tr>
-    <td>{{a3.teamname}}</td>
+    <td>{{a3.teamname}} ({{a3.tag}})</td>
+    <td>{% for member in a3.members %}{{member.ign}}, {% endfor %}</td>
     <td>{{a3.grp_win}}</td>	
     <td>{{a3.grp_loss}}</td>
   </tr>
   <tr>
-    <td>{{a4.teamname}}</td>
+    <td>{{a4.teamname}} ({{a4.tag}})</td>
+    <td>{% for member in a4.members %}{{member.ign}}, {% endfor %}</td>
     <td>{{a4.grp_win}}</td>
     <td>{{a4.grp_loss}}</td>
   </tr>
@@ -50,8 +55,8 @@
     <td>{{match.home_team}} vs {{match.away_team}}</td>
     <td>{{match.time}}</td>
     <td>{{match.map}}</td>
-    {% if match.complete == False %}	
-    <td>{{match.home_rounds}}-{{match.away_rounds}}</td>
+    {% if match.complete == "complete" %}	
+    <td>{{match.hometag}} {{match.home_rounds}}-{{match.away_rounds}} {{match.awaytag}} </td>
     {% else %}
     <td> Not Played Yet </td>
     {% endif %}

@@ -1,14 +1,16 @@
-home_team: Team A1
-away_team: Team A2
+home_team: Fire Nation
+away_team: Global Elites
+hometag: TFN
+awaytag: GE
 time: 7/18, 12:00 PM
 map: Ascent
 id: m1
 home_rounds: 13
 away_rounds: 9
-complete: True
+complete: complete
 
 home_members:
-  - ign: handyice
+  - ign: Gecko
     agt: Jett
     cs: 437
     k: 35
@@ -18,7 +20,7 @@ home_members:
     fb: 8
     p: 0
     df: 0
-  - ign: Pantimos
+  - ign: Snake
     agt: Breach
     cs: 233
     k: 19
@@ -28,7 +30,7 @@ home_members:
     fb: 0
     p: 0
     df: 1
-  - ign: Taelego19
+  - ign: uwu Sam
     agt: Sage
     cs: 162
     k: 12
@@ -38,7 +40,7 @@ home_members:
     fb: 2
     p: 2
     df: 0
-  - ign: chomin
+  - ign: uwu Jay
     agt: Viper
     cs: 118
     k: 9
@@ -48,7 +50,7 @@ home_members:
     fb: 2
     p: 5
     df: 0
-  - ign: mangoclient
+  - ign: Jogum Fire
     agt: Sova
     cs: 114
     k: 7

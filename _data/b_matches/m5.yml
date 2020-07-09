@@ -1,10 +1,10 @@
-home_team: Global Elites
-away_team: Team A3
-hometag: GE
-awaytag: A3
-time: 7/18, 1:00 PM
+home_team: Team B2
+away_team: Team B4
+hometag: B2
+awaytag: B4
+time: 7/18, 2:00 PM
 map: Haven
-id: m4
+id: m5
 home_rounds: 0
 away_rounds: 0
 complete: False

@@ -4,10 +4,10 @@
 ## I. Tournament
 
 ### Schedule
-The Tournament will consist of 16, five member teams, with an entry fee of $5 per team member, or $25 per team. The Tournament format will be group stages, with 8 teams advancing to the playoffs, which is single elimination BO3. The Tournament will be played over the course of two days, on **Saturday July 18, 1:00 - 7:30 PM and on Sunday July 19, 3:00 - 9:30 PM**. The first block of three hours on Saturday will be the group stage matches, with a thirty minute break afterwards. The second block of three hours will be games allotted for the quarterfinals. The first block of three hours on Sunday will be the games allotted for the semifinals, with a thirty minute break afterwards, and the second block of three hours on Sunday will be the games allotted for the grand finals. 
+The Tournament will consist of eight teams of five members each, with an entry fee of $5 per team member, or $25 per team. The Tournament format will be group stages, with all eight teams advancing to the playoffs, which is single elimination BO3. The Tournament will be played over the course of two days, on Saturday July 18, 1:00 - 7:30 PM and on Sunday July 19, 3:00 - 9:30 PM. The first block of three hours on Saturday will be the group stage matches, with a thirty minute break afterwards. The second block of three hours will be games allotted for the quarterfinals. The first block of three hours on Sunday will be the games allotted for the semifinals, with a thirty minute break afterwards, and the second block of three hours on Sunday will be the games allotted for the grand finals. 
 
 ### Group Stages
-The Group Stages will occur from 1:00 - 4:00 on Saturday, July 18. The 16 teams in the tournament will be split into four groups of four teams. Each team in a group will play every other team in the group, resulting in three games played for each team. The top two teams from each group will advance, with the groups being ranked by games won. If there is a tie between two or more teams, the following tiebreakers will be applied between the tied teams to determine group ranking (in order):
+The Group Stages will occur from 1:00 - 4:00 on Saturday, July 18. The eight teams in the tournament will be split into two groups of four teams. Each team in a group will play every other team in the group, resulting in three games played for each team. All teams from each group will advance, with the group stages being for seeding. The groups are primarily ranked by games won. If there is a tie between two or more teams, the following tiebreakers will be applied between tied teams to determine ranking (in order):
 * Head to Head Record
 * Total Rounds Won (Games won by Forfeit provide 0 rounds won)
 * Enemy Rounds Won
@@ -23,15 +23,18 @@ The eight teams that advance from the group stages will be given seeds from 1-8,
 * Enemy Rounds Won
 * Random Number Generator
 
-For the bracket formation, the number one team will play the number eight seed, and the number four seed will play the number five seed on the left side of the bracket. The number two seed will play the number seven seed, and the number three seed will play the number six seed on the right side of the bracket. Bracket is shown below. 
+The teams in each group will be given seeds 1-4 based on their performance in the group stages. The top team in a group will play the bottom team from the other group, while the second seeded team from a group will play the third seeded team from the other group.
+First and second seeds from each groups will be placed on opposite sides of the bracket. Bracket is shown below. 
+
+![Playoff Bracket](/resources/bracket.png "Playoff Bracket")
 
 ### Playoff Format
-The games that are played in the quarterfinals, semifinals, and grand finals will be in a best of 3 format. The quarterfinals will be played on Saturday, July 18 from 4:30 - 7:30 PM, while the semifinals and finals will be played on Sunday, July 19 from 3:00 - 6:00 PM and 6:30 to 9:30 PM respectively. For each playoff game, each team will be allowed to ban a map from the four available maps (Ascent, Bind, Haven, and Split).  In the first and third (if played) games, the higher seeded team will be allowed to choose the map the game will be played on. The lower seeded team will then get to select which side they would like to play on first (Attackers or Defenders). The opposite is true for the second game of the BO3 - the lower seed will get to select the map the game will be played on after bans, while the higher seeded team will get to select the side they play on first.
+The games that are played in the quarterfinals, semifinals, and grand finals will be in a best of 3 format. The quarterfinals will be played on Saturday, July 18 from 4:30 - 7:30 PM, while the semifinals and finals will be played on Sunday, July 19 from 3:00 - 6:00 PM and 6:30 to 9:30 PM respectively. For the playoff series, the team with a higher seed regardless of groups will get to pick the first map, while the team with the lower seed will pick the side they would like to play on first. For the second game of the series, the team with the lower seed will pick the map, but cannot pick any map that has already been picked (in this case, whatever map played in the first game). The higher seeded team will pick the side they would like to play on first. For the final game, if played, the team with the higher seed will get to pick the map out of the two unpicked maps in the series, and the lower seed will get to pick the side they would like to play on first. 
 
 ### Prize Pool
-The prize pool will be $400, if all 16 teams participate and pay their entrance fees. The prize pool may be slightly lowered if teams cancel and abandon their deposits, and replacement teams cannot be found. The prize money for first and second place will be adjusted to have 75% of the pool go to the winning team and 25% of the pool to go to the runner-up. Assuming all teams participate without any cancellations, the prize distribution is as follows:
-* 1st Place: $300
-* 2nd Place: $100
+The prize pool will be $200, if all 8 teams participate and pay their entrance fees. **The prize pool may be slightly lowered if teams cancel and abandon their deposits, and replacement teams cannot be found. The prize money for first and second place will be adjusted to have 75% of the pool go to the winning team and 25% of the pool to go to the runner-up.** Assuming all teams participate without any cancellations, the prize distribution is as follows:
+* 1st Place: $150
+* 2nd Place: $50
 
 
 ## II. Gameplay

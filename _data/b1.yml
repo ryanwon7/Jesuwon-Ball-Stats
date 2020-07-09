@@ -1,4 +1,5 @@
-teamname: Team B1
+teamname: Primus Victoribus
+tag: PRVI
 grp_win: 0
 grp_loss: 0
 qf_win: 0
@@ -34,7 +35,7 @@ f_g2_rd: 0
 f_g3_rd: 0
 
 members:
-  - ign: PlayerB1_1 
+  - ign: NeverEndingGains
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -143,7 +144,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: PlayerB1_2 
+  - ign: Sylandia
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -252,7 +253,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: PlayerB1_3 
+  - ign: Kane
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -361,7 +362,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: PlayerB1_4 
+  - ign: Tayriva
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -470,7 +471,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: PlayerB1_5 
+  - ign: Jay
     agt_g1: no
     cs_g1: 0
     k_g1: 0

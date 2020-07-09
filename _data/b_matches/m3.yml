@@ -1,10 +1,10 @@
-home_team: Global Elites
-away_team: Team A3
-hometag: GE
-awaytag: A3
+home_team: Primus Victoribus
+away_team: Team B4
+hometag: PRVI
+awaytag: B4
 time: 7/18, 1:00 PM
-map: Haven
-id: m4
+map: Ascent
+id: m3
 home_rounds: 0
 away_rounds: 0
 complete: False

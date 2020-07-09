@@ -1,6 +1,7 @@
-teamname: Run It Back
-grp_win: 2
-grp_loss: 1
+teamname: Fire Nation
+tag: TFN
+grp_win: 0
+grp_loss: 0
 qf_win: 0
 qf_loss: 0
 sf_win: 0
@@ -34,7 +35,7 @@ f_g2_rd: 0
 f_g3_rd: 0
 
 members:
-  - ign: handyice
+  - ign: Gecko
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -143,7 +144,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: choob
+  - ign: Snake
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -252,7 +253,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: PlayerA1_3
+  - ign: uwu Sam
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -361,7 +362,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: PlayerA1_4
+  - ign: uwu Jay
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -470,7 +471,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: PlayerA1_5
+  - ign: JogumFire
     agt_g1: no
     cs_g1: 0
     k_g1: 0
