@@ -6,7 +6,7 @@
 We are a group of recently graduated and current university students from Philadelphia! We all met through a shared passion for gaming, and VALORANT is the latest game that has caught our eye. We love this game so much, that we decided to run a tournament for fellow gamers in the Philadelphia area.
 
 <h2> How Do I Register My Team? </h2>
-To register your team, you can signup your team at the following link: <a href="https://forms.gle/pVTRymbMVmpsKPtz6">Signup Link</a>. While only the captain of the team inputs most of your team information, all members of a team are required to signup so we can get your IGN and signature on a release form.
+To register your team, you can signup your team at the sign up page, which can be found here: <a href="/signup">Signup Page</a>. While only the captain of the team inputs most of your team information, all members of a team are required to signup so we can get your IGN and signature on a release form.
 
 <h2> Why Do I Have to Pay for this Tournament? </h2>
 Since we are all broke college students, any prize pool money would have to come from registration fees. Don't worry, however - all money from the registration fees goes to the prize pool. If all eight teams register and do not cancel, the final prize pool will amount to $200, with 75% going to the winner and 25% going to second place. In the case that we cannot find eight teams or a team cancels last minute, the prize pool may decrease - the percentage the winning team and second place team gets does not change, however.

@@ -1,1 +1,2 @@
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhSu4cZSnI1du4Q2QZbNMq8uw-BvoO23w2O38fmWQCSym6-g/viewform?embedded=true" width="640" height="1769" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<p> If the following form does not load or work in your browser, visit the original form at the following link: <a href="https://forms.gle/pVTRymbMVmpsKPtz6">Signup Form</a></p>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhSu4cZSnI1du4Q2QZbNMq8uw-BvoO23w2O38fmWQCSym6-g/viewform?embedded=true" width="1200" height="1769" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
