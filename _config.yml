@@ -17,7 +17,6 @@ title: VALORANT Philly Invitational
 email: valorant.phillyinv@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Tournament Results for the VALORANT Philly Invitational
-baseurl: /phillyinv
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
