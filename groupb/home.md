@@ -70,4 +70,7 @@
 
  <p> Group Information will be available once all teams have registered. </p>
  <p> To register for the tournament, use the following link: <a href="https://forms.gle/pVTRymbMVmpsKPtz6">Signup Link</a> </p>
+<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
  {% endif %}  
