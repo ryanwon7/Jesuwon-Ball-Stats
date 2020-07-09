@@ -1,3 +1,4 @@
+{% if nonesense %}  
 <h1>Group A</h1>
 {% assign a1 = site.data.a1 %}
 {% assign a2 = site.data.a2 %}
@@ -64,3 +65,9 @@
   </tr>
   {% endfor %}
  </table>
+ {% else %}
+ <h3> Group Stages have not started yet! </h3>
+
+ <p> Group Information will be available once all teams have registered. </p>
+ <p> To register for the tournament, use the following link: <a href="https://forms.gle/pVTRymbMVmpsKPtz6">Signup Link</a> </p>
+ {% endif %}  
