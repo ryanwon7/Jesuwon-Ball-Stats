@@ -1,0 +1,115 @@
+home_team: Group B Seed 2
+away_team: Group A Seed 3
+hometag: B2
+awaytag: B4
+time: 7/18, 8:30PM
+map: TBD
+id: qf2_3
+home_rounds: 0
+away_rounds: 0
+complete: False
+needed: needed
+
+home_members:
+  - ign: 
+    agt:
+    cs:
+    k: 
+    d: 
+    a: 
+    er: 
+    fb:
+    p: 
+    df: 
+  - ign: 
+    agt:
+    cs:
+    k: 
+    d: 
+    a: 
+    er: 
+    fb:
+    p: 
+    df: 
+  - ign: 
+    agt:
+    cs:
+    k: 
+    d: 
+    a: 
+    er: 
+    fb:
+    p: 
+    df: 
+  - ign: 
+    agt:
+    cs:
+    k: 
+    d: 
+    a: 
+    er: 
+    fb:
+    p: 
+    df: 
+  - ign: 
+    agt:
+    cs:
+    k: 
+    d: 
+    a: 
+    er: 
+    fb:
+    p: 
+    df: 
+
+away_members:
+  - ign: 
+    agt:
+    cs:
+    k: 
+    d: 
+    a: 
+    er: 
+    fb:
+    p: 
+    df: 
+  - ign: 
+    agt:
+    cs:
+    k: 
+    d: 
+    a: 
+    er: 
+    fb:
+    p: 
+    df: 
+  - ign: 
+    agt:
+    cs:
+    k: 
+    d: 
+    a: 
+    er: 
+    fb:
+    p: 
+    df: 
+  - ign: 
+    agt:
+    cs:
+    k: 
+    d: 
+    a: 
+    er: 
+    fb:
+    p: 
+    df: 
+  - ign: 
+    agt:
+    cs:
+    k: 
+    d: 
+    a: 
+    er: 
+    fb:
+    p: 
+    df: 

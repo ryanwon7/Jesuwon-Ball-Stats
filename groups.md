@@ -1,7 +1,7 @@
 
 <h1>Group Stages</h1>
 <p>Click the group name to view the standings, schedule, and results for each group.</p>
-{% if nonesense %}
+{% if true %}
 <h2><a href="/groupa/home">Group A</a></h2>
 {% assign a1 = site.data.a1 %}
 {% assign a2 = site.data.a2 %}

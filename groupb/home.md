@@ -1,4 +1,4 @@
-{% if nonesense %}
+{% if true %}
 <h1>Group B</h1>
 {% assign b1 = site.data.b1 %}
 {% assign b2 = site.data.b2 %}
@@ -12,30 +12,36 @@
     <th>Members</th>
     <th>Wins</th>
     <th>Losses</th>
+    <th>Rounds</th>
+    <th
   </tr>
   <tr>
     <td>{{b1.teamname}} ({{b1.tag}})</td>
     <td>{% for member in b1.members %}{{member.ign}}, {% endfor %}</td>
     <td>{{b1.grp_win}}</td>
     <td>{{b1.grp_loss}}</td>
+    <td>{{ bl.grp_g1_rd | plus: b1.grp_g2_rd | plus: b1.grp_g3_rd }}</td>
   </tr>
   <tr>
     <td>{{b2.teamname}} ({{b2.tag}})</td>
     <td>{% for member in b2.members %}{{member.ign}}, {% endfor %}</td>
     <td>{{b2.grp_win}}</td>
     <td>{{b2.grp_loss}}</td>
+    <td>{{ b2.grp_g1_rd | plus: b2.grp_g2_rd | plus: b2.grp_g3_rd }}</td>
   </tr>
   <tr>
     <td>{{b3.teamname}} ({{b3.tag}})</td>
     <td>{% for member in b3.members %}{{member.ign}}, {% endfor %}</td>
     <td>{{b3.grp_win}}</td>	
     <td>{{b3.grp_loss}}</td>
+    <td>{{ b3.grp_g1_rd | plus: b3.grp_g2_rd | plus: b3.grp_g3_rd }}</td>
   </tr>
   <tr>
     <td>{{b4.teamname}} ({{b4.tag}})</td>
     <td>{% for member in b4.members %}{{member.ign}}, {% endfor %}</td>
     <td>{{b4.grp_win}}</td>
     <td>{{b4.grp_loss}}</td>
+    <td>{{ b4.grp_g1_rd | plus: b4.grp_g2_rd | plus: b4.grp_g3_rd }}</td>
   </tr>
 </table>
 

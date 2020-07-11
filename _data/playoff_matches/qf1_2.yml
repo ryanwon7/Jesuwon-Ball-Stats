@@ -1,0 +1,217 @@
+home_team: Fire Nation
+away_team: Team Avatar
+hometag: TFN
+awaytag: AVT
+time: 7/18, 7:30PM
+map: Ascent
+id: qf1_2
+home_rounds: 6
+away_rounds: 13
+complete: complete
+
+home_members:
+  - ign: Gecko
+    agt: Sage
+    cs: 50
+    k: 8
+    d: 16
+    a: 3
+    er: 40
+    fb: 2
+    p: 2
+    df: 0
+  - ign: Snake
+    agt: Viper
+    cs: 350
+    k: 26
+    d: 11
+    a: 6
+    er: 56
+    fb: 0
+    p: 0
+    df: 1
+  - ign: uwu Sam
+    agt: Phoenix
+    cs: 200
+    k: 15
+    d: 13
+    a: 12
+    er: 60
+    fb: 3
+    p: 2
+    df: 0
+  - ign: uwu Jay
+    agt: Jett
+    cs: 118
+    k: 9
+    d: 12
+    a: 0
+    er: 35
+    fb: 2
+    p: 5
+    df: 0
+  - ign: Jogum Fire
+    agt: Raze
+    cs: 100
+    k: 9
+    d: 12
+    a: 5
+    er: 32
+    fb: 1
+    p: 0
+    df: 0
+
+away_members:
+  - ign: MagicIsEasy
+    agt: Raze
+    cs: 25
+    k: 1
+    d: 17
+    a: 1
+    er: 9
+    fb: 1
+    p: 5
+    df: 0
+  - ign: choob
+    agt: Sage
+    cs: 252
+    k: 18
+    d: 15
+    a: 5
+    er: 102
+    fb: 2
+    p: 2
+    df: 0
+  - ign: chomin
+    agt: Viper
+    cs: 122
+    k: 8
+    d: 17
+    a: 3
+    er: 29
+    fb: 1
+    p: 0
+    df: 0
+  - ign: poopy
+    agt: Reyna
+    cs: 112
+    k: 10
+    d: 16
+    a: 2
+    er: 74
+    fb: 4
+    p: 0
+    df: 0
+  - ign: handyice
+    agt: Cypher
+    cs: 400
+    k: 29
+    d: 14
+    a: 8
+    er: 80
+    fb: 1
+    p: 0
+    df: 0
+# home_members:
+#   - ign: 
+#     agt:
+#     cs:
+#     k: 
+#     d: 
+#     a: 
+#     er: 
+#     fb:
+#     p: 
+#     df: 
+#   - ign: 
+#     agt:
+#     cs:
+#     k: 
+#     d: 
+#     a: 
+#     er: 
+#     fb:
+#     p: 
+#     df: 
+#   - ign: 
+#     agt:
+#     cs:
+#     k: 
+#     d: 
+#     a: 
+#     er: 
+#     fb:
+#     p: 
+#     df: 
+#   - ign: 
+#     agt:
+#     cs:
+#     k: 
+#     d: 
+#     a: 
+#     er: 
+#     fb:
+#     p: 
+#     df: 
+#   - ign: 
+#     agt:
+#     cs:
+#     k: 
+#     d: 
+#     a: 
+#     er: 
+#     fb:
+#     p: 
+#     df: 
+
+# away_members:
+#   - ign: 
+#     agt:
+#     cs:
+#     k: 
+#     d: 
+#     a: 
+#     er: 
+#     fb:
+#     p: 
+#     df: 
+#   - ign: 
+#     agt:
+#     cs:
+#     k: 
+#     d: 
+#     a: 
+#     er: 
+#     fb:
+#     p: 
+#     df: 
+#   - ign: 
+#     agt:
+#     cs:
+#     k: 
+#     d: 
+#     a: 
+#     er: 
+#     fb:
+#     p: 
+#     df: 
+#   - ign: 
+#     agt:
+#     cs:
+#     k: 
+#     d: 
+#     a: 
+#     er: 
+#     fb:
+#     p: 
+#     df: 
+#   - ign: 
+#     agt:
+#     cs:
+#     k: 
+#     d: 
+#     a: 
+#     er: 
+#     fb:
+#     p: 
+#     df: 
