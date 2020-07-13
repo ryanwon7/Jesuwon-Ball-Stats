@@ -1,5 +1,5 @@
-teamname: Team B2
-tag: B2
+teamname: SOS
+tag: SOS
 grp_win: 0
 grp_loss: 0
 qf_win: 0
@@ -35,7 +35,7 @@ f_g2_rd: 0
 f_g3_rd: 0
 
 members:
-  - ign: PlayerB2_1
+  - ign: mental crit
     agt_g1: no
     cs_g1: 0
     k_g1: 0
