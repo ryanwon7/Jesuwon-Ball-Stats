@@ -1,5 +1,5 @@
-teamname: Team A3
-tag: A3
+teamname: Silver Surfers
+tag: SUS
 grp_win: 0
 grp_loss: 0
 qf_win: 0
@@ -35,7 +35,7 @@ f_g2_rd: 0
 f_g3_rd: 0
 
 members:
-  - ign: PlayerA3_1
+  - ign: Pantimos
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -144,7 +144,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: PlayerA3_2
+  - ign: LexHong
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -253,7 +253,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: PlayerA3_3
+  - ign: dksgusdn
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -362,7 +362,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: PlayerA3_4
+  - ign: ChubbsYaMane
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -471,7 +471,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: PlayerA3_5
+  - ign: drew
     agt_g1: no
     cs_g1: 0
     k_g1: 0
