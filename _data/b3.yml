@@ -1,5 +1,5 @@
-teamname: Team B3
-tag: B3
+teamname: Busy 9th Graders
+tag: B9G
 grp_win: 0
 grp_loss: 0
 qf_win: 0
@@ -21,21 +21,27 @@ f_loss: 0
 #f_g2: complete
 #f_g3: complete
 
-grp_g1_rd: 0
-grp_g2_rd: 0
-grp_g3_rd: 0
-qf_g1_rd: 0
-qf_g2_rd: 0
-qf_g3_rd: 0
-sf_g1_rd: 0
-sf_g2_rd: 0
-sf_g3_rd: 0
-f_g1_rd: 0
-f_g2_rd: 0
-f_g3_rd: 0
+grp_g1_rd_w: 0
+grp_g1_rd_l: 0
+grp_g2_rd_w: 0
+grp_g2_rd_l: 0
+grp_g3_rd_w: 0
+grp_g3_rd_l: 0
+qf_g1_rd_w: 0
+qf_g1_rd_l: 0
+qf_g2_rd_w: 0
+qf_g2_rd_l: 0
+qf_g3_rd_w: 0
+qf_g3_rd_l: 0
+f_g1_rd_w: 0
+f_g1_rd_l: 0
+f_g2_rd_w: 0
+f_g2_rd_l: 0
+f_g3_rd_w: 0
+f_g3_rd_l: 0
 
 members:
-  - ign: PlayerB3_1
+  - ign: kuinsim
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -144,7 +150,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: PlayerB3_2
+  - ign: gonggabang
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -253,7 +259,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: PlayerB3_3
+  - ign: mangoclient
     agt_g1: no
     cs_g1: 0
     k_g1: 0
@@ -362,7 +368,7 @@ members:
     fb_f3: 0
     p_f3: 0
     d_f3: 0
-  - ign: PlayerB3_4
+  - ign: Boof
     agt_g1: no
     cs_g1: 0
     k_g1: 0

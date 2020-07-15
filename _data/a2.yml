@@ -21,19 +21,24 @@ f_loss: 0
 #f_g2: complete
 #f_g3: complete
 
-grp_g1_rd: 0
-grp_g2_rd: 0
-grp_g3_rd: 0
-qf_g1_rd: 0
-qf_g2_rd: 0
-qf_g3_rd: 0
-sf_g1_rd: 0
-sf_g2_rd: 0
-sf_g3_rd: 0
-f_g1_rd: 0
-f_g2_rd: 0
-f_g3_rd: 0
-
+grp_g1_rd_w: 0
+grp_g1_rd_l: 0
+grp_g2_rd_w: 0
+grp_g2_rd_l: 0
+grp_g3_rd_w: 0
+grp_g3_rd_l: 0
+qf_g1_rd_w: 0
+qf_g1_rd_l: 0
+qf_g2_rd_w: 0
+qf_g2_rd_l: 0
+qf_g3_rd_w: 0
+qf_g3_rd_l: 0
+f_g1_rd_w: 0
+f_g1_rd_l: 0
+f_g2_rd_w: 0
+f_g2_rd_l: 0
+f_g3_rd_w: 0
+f_g3_rd_l: 0
 members:
   - ign: justinxIP
     agt_g1: no

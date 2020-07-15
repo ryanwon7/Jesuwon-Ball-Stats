@@ -1,6 +1,7 @@
 ---
 title:  Quarterfinal 1
-style:  tabs        # defines body main class
+style:  tabs       # defines body main class
+script: tables
 layout: default
 datatable: true
 ---
@@ -10,8 +11,12 @@ datatable: true
 {% assign qf3 = site.data.playoff_matches.qf1_3 %}
 {% if true %}
 <div>
-	<h2> Quarterfinals: Fire Nation vs Team Avatar</h2>
-	<h3> Score: TFN 1 - 2 AVT </h3>
+	<h1 style="text-align: center;"> Quarterfinals: {{qf1.home_team}} vs {{qf1.away_team}}</h1>
+	<h3 style="text-align: center;"> {{qf1.map}}: {{qf1.hometag}} {{qf1.home_rounds}} - {{qf1.away_rounds}} {{qf1.awaytag}} </h3>
+	<h3 style="text-align: center;"> {{qf2.map}}: {{qf1.hometag}} {{qf2.home_rounds}} - {{qf2.away_rounds}} {{qf1.awaytag}} </h3>
+	{% if qf3.needed == "needed" %}
+	<h3 style="text-align: center;"> {{qf3.map}}: {{qf1.hometag}} {{qf3.home_rounds}} - {{qf3.away_rounds}} {{qf1.awaytag}} </h3>
+	{% endif %}
 	<input type="radio" name="tabs" id="tab1" checked />
 	<label for="tab1">Game 1</label>
 	<input type="radio" name="tabs" id="tab2" />
@@ -30,58 +35,98 @@ datatable: true
 		<p> <b>Team:</b> {{qf1.home_team}} </p>
 		<p> <b>Team:</b> {{qf1.away_team}} </p>
 		{% else %}
-		<h3> Map: {{qf1.map}} </h3>
-		<br>
 		<h2> {{qf1.home_team}} - {{qf1.home_rounds}} </h2>
-		<table style="width:100%">
-		  <tr>
-		    <th>Player</th>
-		    <th>Agent</th>
-		    <th>Combat Score</th>
-		    <th>K/D/A</th>
-		    <th>Econ Rating</th>
-		    <th>First Bloods</th>
-		    <th>Plants</th>
-		    <th>Defuses</th>
-		  </tr>
-		  {% for player in qf1.home_members %}
-		  <tr>
-		    <td>{{player.ign}}</td>
-		    <td>{{player.agt}}</td>
-		    <td>{{player.cs}}</td>
-		    <td>{{player.k}}/{{player.d}}/{{player.a}}</td>
-		    <td>{{player.er}}</td>
-		    <td>{{player.fb}}</td>
-		    <td>{{player.p}}</td>
-		    <td>{{player.df}}</td>
-		  </tr>
-		  {% endfor %}
+		<table class="display">
+			<caption style="text-align: center;"> <b>CS</b> = Combat Score, <b>K</b> = Kills, <b>D</b> = Deaths, <b>A</b> = Assists, <b>ECON</b> = Econ Rating, <b>FB</b> = First Bloods, <b>PL</b> = Plants, <b>DF</b> = Defuses </caption>
+			<colgroup>
+			    <col class="nineteen"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			</colgroup>
+			<thead style="text-align: center;">
+				<tr>
+				    <th>Player Name</th>
+				    <th>Agent</th>
+				    <th>CS</th>
+				    <th>K</th>
+				    <th>D</th>
+				    <th>A</th>
+				    <th>ECON</th>
+				    <th>FB</th>
+				    <th>PL</th>
+				    <th>DF</th>
+				</tr>
+			</thead>
+			<tbody style="text-align: center;">
+			{% for player in qf1.home_members %}
+			<tr>
+			    <td>{{player.ign}}</td>
+			    <td>{{player.agt}}</td>
+			    <td>{{player.cs}}</td>
+			    <td>{{player.k}}</td>
+			    <td>{{player.d}}</td>
+			    <td>{{player.a}}</td>
+			    <td>{{player.er}}</td>
+			    <td>{{player.fb}}</td>
+			    <td>{{player.p}}</td>
+			    <td>{{player.df}}</td>
+			 </tr>
+			{% endfor %}
+			</tbody>
 		</table>
 		<br>
 		<h2> {{qf1.away_team}} - {{qf1.away_rounds}} </h2>
-		<table style="width:100%">
-		  <tr>
-		    <th>Player</th>
-		    <th>Agent</th>
-		    <th>Combat Score</th>
-		    <th>K/D/A</th>
-		    <th>Econ Rating</th>
-		    <th>First Bloods</th>
-		    <th>Plants</th>
-		    <th>Defuses</th>
-		  </tr>
-		  {% for player in qf1.away_members %}
-		  <tr>
-		    <td>{{player.ign}}</td>
-		    <td>{{player.agt}}</td>
-		    <td>{{player.cs}}</td>
-		    <td>{{player.k}}/{{player.d}}/{{player.a}}</td>
-		    <td>{{player.er}}</td>
-		    <td>{{player.fb}}</td>
-		    <td>{{player.p}}</td>
-		    <td>{{player.df}}</td>
-		  </tr>
-		  {% endfor %}
+		<table class="display">
+			<caption style="text-align: center;"> <b>CS</b> = Combat Score, <b>K</b> = Kills, <b>D</b> = Deaths, <b>A</b> = Assists, <b>ECON</b> = Econ Rating, <b>FB</b> = First Bloods, <b>PL</b> = Plants, <b>DF</b> = Defuses </caption>
+			<colgroup>
+			    <col class="nineteen"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			</colgroup>
+			<thead style="text-align: center;">
+				<tr>
+				    <th>Player Name</th>
+				    <th>Agent</th>
+				    <th>CS</th>
+				    <th>K</th>
+				    <th>D</th>
+				    <th>A</th>
+				    <th>ECON</th>
+				    <th>FB</th>
+				    <th>PL</th>
+				    <th>DF</th>
+				</tr>
+			</thead>
+			<tbody style="text-align: center;">
+			{% for player in qf1.away_members %}
+			<tr>
+			    <td>{{player.ign}}</td>
+			    <td>{{player.agt}}</td>
+			    <td>{{player.cs}}</td>
+			    <td>{{player.k}}</td>
+			    <td>{{player.d}}</td>
+			    <td>{{player.a}}</td>
+			    <td>{{player.er}}</td>
+			    <td>{{player.fb}}</td>
+			    <td>{{player.p}}</td>
+			    <td>{{player.df}}</td>
+			 </tr>
+			{% endfor %}
+			</tbody>
 		</table>
 		{% endif %}
 	</div>
@@ -93,58 +138,98 @@ datatable: true
 		<p> <b>Team:</b> {{qf2.home_team}} </p>
 		<p> <b>Team:</b> {{qf2.away_team}} </p>
 		{% else %}
-		<h3> Map: {{qf2.map}} </h3>
-		<br>
 		<h2> {{qf2.home_team}} - {{qf2.home_rounds}} </h2>
-		<table style="width:100%">
-		  <tr>
-		    <th>Player</th>
-		    <th>Agent</th>
-		    <th>Combat Score</th>
-		    <th>K/D/A</th>
-		    <th>Econ Rating</th>
-		    <th>First Bloods</th>
-		    <th>Plants</th>
-		    <th>Defuses</th>
-		  </tr>
-		  {% for player in qf2.home_members %}
-		  <tr>
-		    <td>{{player.ign}}</td>
-		    <td>{{player.agt}}</td>
-		    <td>{{player.cs}}</td>
-		    <td>{{player.k}}/{{player.d}}/{{player.a}}</td>
-		    <td>{{player.er}}</td>
-		    <td>{{player.fb}}</td>
-		    <td>{{player.p}}</td>
-		    <td>{{player.df}}</td>
-		  </tr>
-		  {% endfor %}
+		<table class="display">
+			<caption style="text-align: center;"> <b>CS</b> = Combat Score, <b>K</b> = Kills, <b>D</b> = Deaths, <b>A</b> = Assists, <b>ECON</b> = Econ Rating, <b>FB</b> = First Bloods, <b>PL</b> = Plants, <b>DF</b> = Defuses </caption>
+			<colgroup>
+			    <col class="nineteen"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			</colgroup>
+			<thead style="text-align: center;">
+				<tr>
+				    <th>Player Name</th>
+				    <th>Agent</th>
+				    <th>CS</th>
+				    <th>K</th>
+				    <th>D</th>
+				    <th>A</th>
+				    <th>ECON</th>
+				    <th>FB</th>
+				    <th>PL</th>
+				    <th>DF</th>
+				</tr>
+			</thead>
+			<tbody style="text-align: center;">
+			{% for player in qf2.home_members %}
+			<tr>
+			    <td>{{player.ign}}</td>
+			    <td>{{player.agt}}</td>
+			    <td>{{player.cs}}</td>
+			    <td>{{player.k}}</td>
+			    <td>{{player.d}}</td>
+			    <td>{{player.a}}</td>
+			    <td>{{player.er}}</td>
+			    <td>{{player.fb}}</td>
+			    <td>{{player.p}}</td>
+			    <td>{{player.df}}</td>
+			 </tr>
+			{% endfor %}
+			</tbody>
 		</table>
 		<br>
 		<h2> {{qf2.away_team}} - {{qf2.away_rounds}} </h2>
-		<table style="width:100%">
-		  <tr>
-		    <th>Player</th>
-		    <th>Agent</th>
-		    <th>Combat Score</th>
-		    <th>K/D/A</th>
-		    <th>Econ Rating</th>
-		    <th>First Bloods</th>
-		    <th>Plants</th>
-		    <th>Defuses</th>
-		  </tr>
-		  {% for player in qf2.away_members %}
-		  <tr>
-		    <td>{{player.ign}}</td>
-		    <td>{{player.agt}}</td>
-		    <td>{{player.cs}}</td>
-		    <td>{{player.k}}/{{player.d}}/{{player.a}}</td>
-		    <td>{{player.er}}</td>
-		    <td>{{player.fb}}</td>
-		    <td>{{player.p}}</td>
-		    <td>{{player.df}}</td>
-		  </tr>
-		  {% endfor %}
+		<table class="display">
+			<caption style="text-align: center;"> <b>CS</b> = Combat Score, <b>K</b> = Kills, <b>D</b> = Deaths, <b>A</b> = Assists, <b>ECON</b> = Econ Rating, <b>FB</b> = First Bloods, <b>PL</b> = Plants, <b>DF</b> = Defuses </caption>
+			<colgroup>
+			    <col class="nineteen"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			</colgroup>
+			<thead style="text-align: center;">
+				<tr>
+				    <th>Player Name</th>
+				    <th>Agent</th>
+				    <th>CS</th>
+				    <th>K</th>
+				    <th>D</th>
+				    <th>A</th>
+				    <th>ECON</th>
+				    <th>FB</th>
+				    <th>PL</th>
+				    <th>DF</th>
+				</tr>
+			</thead>
+			<tbody style="text-align: center;">
+			{% for player in qf2.away_members %}
+			<tr>
+			    <td>{{player.ign}}</td>
+			    <td>{{player.agt}}</td>
+			    <td>{{player.cs}}</td>
+			    <td>{{player.k}}</td>
+			    <td>{{player.d}}</td>
+			    <td>{{player.a}}</td>
+			    <td>{{player.er}}</td>
+			    <td>{{player.fb}}</td>
+			    <td>{{player.p}}</td>
+			    <td>{{player.df}}</td>
+			 </tr>
+			{% endfor %}
+			</tbody>
 		</table>
 		{% endif %}
 	</div>
@@ -157,67 +242,98 @@ datatable: true
 		<p> <b>Team:</b> {{qf3.home_team}} </p>
 		<p> <b>Team:</b> {{qf3.away_team}} </p>
 		{% else %}
-		<h3> Map: {{qf3.map}} </h3>
-		<br>
 		<h2> {{qf3.home_team}} - {{qf3.home_rounds}} </h2>
-		<table style="width:100%">
-		  <colgroup>
-		    <col class="thirty" />
-		    <col class="ten" />
-		    <col class="twenty" />
-		    <col class="ten" />
-		    <col class="ten" />
-		    <col class="ten" />
-		    <col class="ten" />
-		  </colgroup>
-		  <tr>
-		    <th>Player</th>
-		    <th>Agent</th>
-		    <th>Combat Score</th>
-		    <th>K/D/A</th>
-		    <th>Econ Rating</th>
-		    <th>First Bloods</th>
-		    <th>Plants</th>
-		    <th>Defuses</th>
-		  </tr>
-		  {% for player in qf3.home_members %}
-		  <tr>
-		    <td>{{player.ign}}</td>
-		    <td>{{player.agt}}</td>
-		    <td>{{player.cs}}</td>
-		    <td>{{player.k}}/{{player.d}}/{{player.a}}</td>
-		    <td>{{player.er}}</td>
-		    <td>{{player.fb}}</td>
-		    <td>{{player.p}}</td>
-		    <td>{{player.df}}</td>
-		  </tr>
-		  {% endfor %}
+		<table class="display">
+			<caption style="text-align: center;"> <b>CS</b> = Combat Score, <b>K</b> = Kills, <b>D</b> = Deaths, <b>A</b> = Assists, <b>ECON</b> = Econ Rating, <b>FB</b> = First Bloods, <b>PL</b> = Plants, <b>DF</b> = Defuses </caption>
+			<colgroup>
+			    <col class="nineteen"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			</colgroup>
+			<thead style="text-align: center;">
+				<tr>
+				    <th>Player Name</th>
+				    <th>Agent</th>
+				    <th>CS</th>
+				    <th>K</th>
+				    <th>D</th>
+				    <th>A</th>
+				    <th>ECON</th>
+				    <th>FB</th>
+				    <th>PL</th>
+				    <th>DF</th>
+				</tr>
+			</thead>
+			<tbody style="text-align: center;">
+			{% for player in qf3.home_members %}
+			<tr>
+			    <td>{{player.ign}}</td>
+			    <td>{{player.agt}}</td>
+			    <td>{{player.cs}}</td>
+			    <td>{{player.k}}</td>
+			    <td>{{player.d}}</td>
+			    <td>{{player.a}}</td>
+			    <td>{{player.er}}</td>
+			    <td>{{player.fb}}</td>
+			    <td>{{player.p}}</td>
+			    <td>{{player.df}}</td>
+			 </tr>
+			{% endfor %}
+			</tbody>
 		</table>
 		<br>
 		<h2> {{qf3.away_team}} - {{qf3.away_rounds}} </h2>
-		<table id="MyTable">
-		  <tr>
-		    <th>Player</th>
-		    <th>Agent</th>
-		    <th>Combat Score</th>
-		    <th>K/D/A</th>
-		    <th>Econ Rating</th>
-		    <th>First Bloods</th>
-		    <th>Plants</th>
-		    <th>Defuses</th>
-		  </tr>
-		  {% for player in qf3.away_members %}
-		  <tr>
-		    <td>{{player.ign}}</td>
-		    <td>{{player.agt}}</td>
-		    <td>{{player.cs}}</td>
-		    <td>{{player.k}}/{{player.d}}/{{player.a}}</td>
-		    <td>{{player.er}}</td>
-		    <td>{{player.fb}}</td>
-		    <td>{{player.p}}</td>
-		    <td>{{player.df}}</td>
-		  </tr>
-		  {% endfor %}
+		<table class="display">
+			<caption style="text-align: center;"> <b>CS</b> = Combat Score, <b>K</b> = Kills, <b>D</b> = Deaths, <b>A</b> = Assists, <b>ECON</b> = Econ Rating, <b>FB</b> = First Bloods, <b>PL</b> = Plants, <b>DF</b> = Defuses </caption>
+			<colgroup>
+			    <col class="nineteen"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			    <col class="nine"/>
+			</colgroup>
+			<thead style="text-align: center;">
+				<tr>
+				    <th>Player Name</th>
+				    <th>Agent</th>
+				    <th>CS</th>
+				    <th>K</th>
+				    <th>D</th>
+				    <th>A</th>
+				    <th>ECON</th>
+				    <th>FB</th>
+				    <th>PL</th>
+				    <th>DF</th>
+				</tr>
+			</thead>
+			<tbody style="text-align: center;">
+			{% for player in qf3.away_members %}
+			<tr>
+			    <td>{{player.ign}}</td>
+			    <td>{{player.agt}}</td>
+			    <td>{{player.cs}}</td>
+			    <td>{{player.k}}</td>
+			    <td>{{player.d}}</td>
+			    <td>{{player.a}}</td>
+			    <td>{{player.er}}</td>
+			    <td>{{player.fb}}</td>
+			    <td>{{player.p}}</td>
+			    <td>{{player.df}}</td>
+			 </tr>
+			{% endfor %}
+			</tbody>
 		</table>
 		{% endif %}
 	</div>
@@ -228,30 +344,36 @@ datatable: true
 		<p> <b>Team:</b> {{qf3.home_team}} </p>
 		<p> <b>Team:</b> {{qf3.away_team}} </p>
 		{% else %}
-		<h3> Maps: {{qf1.map}}, {{qf2.map}}, {{qf3.map}} </h3>
-		<br>
 		<h2> {{qf3.home_team}}</h2>
-		<table id="myTable" class="display">
+		<table class="display">
+			<caption style="text-align: center;"> <b>ACS</b> = Average Combat Score, <b>K</b> = Kills, <b>D</b> = Deaths, <b>A</b> = Assists, <b>AER</b> = Average Econ Rating, <b>FB</b> = First Bloods, <b>PL</b> = Plants, <b>DF</b> = Defuses </caption>
 			<colgroup>
-			    <col class="thirty"/>
-			    <col class="ten"/>
 			    <col class="twenty"/>
 			    <col class="ten"/>
 			    <col class="ten"/>
 			    <col class="ten"/>
-				<col class="ten"/>
+			    <col class="ten"/>
+			    <col class="ten"/>
+			    <col class="ten"/>
+			    <col class="ten"/>
+			    <col class="ten"/>
 			</colgroup>
+			<thead style="text-align: center;">
 				<tr>
-				  	<th>Player</th>
-				    <th>Avg. CS</th>
-				    <th>K/D/A</th>
-				    <th>Avg. ER</th>
-				    <th>First Bloods</th>
-				    <th>Plants</th>
-				    <th>Defuses</th>
+				    <th>Player Name</th>
+				    <th>ACS</th>
+				    <th>K</th>
+				    <th>D</th>
+				    <th>A</th>
+				    <th>AER</th>
+				    <th>FB</th>
+				    <th>PL</th>
+				    <th>DF</th>
 				</tr>
-		    {% for player in qf1.home_members %}
-		    {% assign player_name = player.ign %}
+			</thead>
+			<tbody style="text-align: center;">
+			{% for player in qf1.home_members %}
+			{% assign player_name = player.ign %}
 			    {% for player2 in qf2.home_members %}
 			  		{% if player2.ign contains player_name %}
 			  			{% assign g2_cs = player2.cs %}
@@ -263,63 +385,76 @@ datatable: true
 			  			{% assign g2_p = player2.p %}
 			  			{% assign g2_df = player2.df %}
 			  		{% endif %}
-			    {% endfor %}
-			    {% if qf3.needed ==  "needed" %}
-				    {% for player3 in qf3.home_members %}
-				  		{% if player3.ign contains player_name %}
-				  			{% assign g3_cs = player3.cs %}
-				  			{% assign g3_k = player3.k %}
-				  			{% assign g3_d = player3.d %}
-				  			{% assign g3_a = player3.a %}
-				  			{% assign g3_er = player3.er %}
-				  			{% assign g3_fb = player3.fb %}
-				  			{% assign g3_p = player3.p %}
-				  			{% assign g3_df = player3.df %}
-				  		{% endif %}
-				    {% endfor %}
-					<tr>
-						<td>{{player.ign}}</td>
-						<td>{{player.cs | plus: g2_cs | plus: g3_cs | divided_by: 3}}</td>
-						<td>{{player.k | plus: g2_k | plus: g3_k }}/{{player.d | plus: g2_d | plus: g3_d }}/{{player.a | plus: g2_a | plus: g3_a }}</td>
-						<td>{{player.er | plus: g2_er | plus: g3_er | divided_by: 3}}</td>
-						<td>{{player.fb | plus: g2_fb | plus: g3_fb }}</td>
-						<td>{{player.p | plus: g2_p | plus: g3_p}}</td>
-						<td>{{player.df | plus: g2_df | plus: g3_df }}</td>
-					</tr>
+				{% endfor %}
+			  	{% if qf3.needed ==  "needed" %}
+			  	{% for player3 in qf3.home_members %}
+			  		{% if player3.ign contains player_name %}
+			  			{% assign g3_cs = player3.cs %}
+			  			{% assign g3_k = player3.k %}
+			  			{% assign g3_d = player3.d %}
+			  			{% assign g3_a = player3.a %}
+			  			{% assign g3_er = player3.er %}
+			  			{% assign g3_fb = player3.fb %}
+			  			{% assign g3_p = player3.p %}
+			  			{% assign g3_df = player3.df %}
+			  		{% endif %}
+			  	{% endfor %}
+				<tr>
+				    <td>{{player.ign}}</td>
+				    <td>{{player.cs | plus: g2_cs | plus: g3_cs | divided_by: 3}}</td>
+				    <td>{{player.k | plus: g2_k | plus: g3_k }}</td>
+				    <td>{{player.d | plus: g2_d | plus: g3_d }}</td>
+				    <td>{{player.a | plus: g2_a | plus: g3_a }}</td>
+				    <td>{{player.er | plus: g2_er | plus: g3_er | divided_by: 3}}</td>
+				    <td>{{player.fb | plus: g2_fb | plus: g3_fb }}</td>
+				    <td>{{player.p | plus: g2_p | plus: g3_p}}</td>
+				    <td>{{player.df | plus: g2_df | plus: g3_df }}</td>
+				</tr>
 				{% else %}
-					<tr>
-					    <td>{{player.ign}}</td>
-					    <td>{{player.cs | plus: g2_cs | divided_by: 2}}</td>
-					    <td>{{player.k | plus: g2_k  }}/{{player.d | plus: g2_d }}/{{player.a | plus: g2_a }}</td>
-					    <td>{{player.er | plus: g2_er | divided_by: 2}}</td>
-					    <td>{{player.fb | plus: g2_fb }}</td>
-					    <td>{{player.p | plus: g2_p }}</td>
-					    <td>{{player.df | plus: g2_df }}</td>
-					</tr>
+				<tr>
+				    <td>{{player.ign}}</td>
+				    <td>{{player.cs | plus: g2_cs | divided_by: 2}}</td>
+				    <td>{{player.k | plus: g2_k | plus: g3_k }}</td>
+				    <td>{{player.d | plus: g2_d | plus: g3_d }}</td>
+				    <td>{{player.a | plus: g2_a | plus: g3_a }}</td>
+				    <td>{{player.er | plus: g2_er | divided_by: 2}}</td>
+				    <td>{{player.fb | plus: g2_fb }}</td>
+				    <td>{{player.p | plus: g2_p }}</td>
+				    <td>{{player.df | plus: g2_df }}</td>
+				</tr>
 				{% endif %}
 			{% endfor %}
+			</tbody>
 		</table>
 		<br>
 		<h2> {{qf3.away_team}} </h2>
-		<table id="myTable" class="display">
+		<table class="display">
+			<caption style="text-align: center;"> <b>ACS</b> = Average Combat Score, <b>K</b> = Kills, <b>D</b> = Deaths, <b>A</b> = Assists, <b>AER</b> = Average Econ Rating, <b>FB</b> = First Bloods, <b>PL</b> = Plants, <b>DF</b> = Defuses </caption>
 			<colgroup>
-			    <col class="thirty"/>
-			    <col class="ten"/>
 			    <col class="twenty"/>
 			    <col class="ten"/>
 			    <col class="ten"/>
 			    <col class="ten"/>
 			    <col class="ten"/>
+			    <col class="ten"/>
+			    <col class="ten"/>
+			    <col class="ten"/>
+			    <col class="ten"/>
 			</colgroup>
+			<thead style="text-align: center;">
 				<tr>
-				    <th>Player</th>
-				    <th>Avg. CS</th>
-				    <th>K/D/A</th>
-				    <th>Avg. ER</th>
-				    <th>First Bloods</th>
-				    <th>Plants</th>
-				    <th>Defuses</th>
+				    <th>Player Name</th>
+				    <th>ACS</th>
+				    <th>K</th>
+				    <th>D</th>
+				    <th>A</th>
+				    <th>AER</th>
+				    <th>FB</th>
+				    <th>PL</th>
+				    <th>DF</th>
 				</tr>
+			</thead>
+			<tbody style="text-align: center;">
 			{% for player in qf1.away_members %}
 			{% assign player_name = player.ign %}
 			    {% for player2 in qf2.away_members %}
@@ -350,7 +485,9 @@ datatable: true
 				<tr>
 				    <td>{{player.ign}}</td>
 				    <td>{{player.cs | plus: g2_cs | plus: g3_cs | divided_by: 3}}</td>
-				    <td>{{player.k | plus: g2_k | plus: g3_k }}/{{player.d | plus: g2_d | plus: g3_d }}/{{player.a | plus: g2_a | plus: g3_a }}</td>
+				    <td>{{player.k | plus: g2_k | plus: g3_k }}</td>
+				    <td>{{player.d | plus: g2_d | plus: g3_d }}</td>
+				    <td>{{player.a | plus: g2_a | plus: g3_a }}</td>
 				    <td>{{player.er | plus: g2_er | plus: g3_er | divided_by: 3}}</td>
 				    <td>{{player.fb | plus: g2_fb | plus: g3_fb }}</td>
 				    <td>{{player.p | plus: g2_p | plus: g3_p}}</td>
@@ -360,14 +497,17 @@ datatable: true
 				<tr>
 				    <td>{{player.ign}}</td>
 				    <td>{{player.cs | plus: g2_cs | divided_by: 2}}</td>
-				    <td>{{player.k | plus: g2_k  }}/{{player.d | plus: g2_d }}/{{player.a | plus: g2_a }}</td>
+				    <td>{{player.k | plus: g2_k | plus: g3_k }}</td>
+				    <td>{{player.d | plus: g2_d | plus: g3_d }}</td>
+				    <td>{{player.a | plus: g2_a | plus: g3_a }}</td>
 				    <td>{{player.er | plus: g2_er | divided_by: 2}}</td>
 				    <td>{{player.fb | plus: g2_fb }}</td>
 				    <td>{{player.p | plus: g2_p }}</td>
 				    <td>{{player.df | plus: g2_df }}</td>
 				</tr>
 				{% endif %}
-				{% endfor %}
+			{% endfor %}
+			</tbody>
 		</table>
 		{% endif %}
 	</div>

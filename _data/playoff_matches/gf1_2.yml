@@ -1,10 +1,10 @@
-home_team: Team B3
-away_team: Team B4
-hometag: B3
-awaytag: B4
-time: 7/18, 12:00 PM
-map: Bind
-id: m2
+home_team: SF 1 Winner
+away_team: SF 2 Winner
+hometag: SF1
+awaytag: SF2
+time: 7/19, 7:30PM
+map: TBD
+id: gf1_2
 home_rounds: 0
 away_rounds: 0
 complete: False

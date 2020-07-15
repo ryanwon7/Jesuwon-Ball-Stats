@@ -1,10 +1,10 @@
-home_team: Team B3
-away_team: Team B4
-hometag: B3
-awaytag: B4
-time: 7/18, 12:00 PM
-map: Bind
-id: m2
+home_team: Group A Seed 2
+away_team: Group B Seed 3
+hometag: A2
+awaytag: B3
+time: 7/18, 4:30PM
+map: TBD
+id: qf4_2
 home_rounds: 0
 away_rounds: 0
 complete: False

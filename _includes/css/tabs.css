@@ -37,6 +37,15 @@ table {
 .thirty {
   width: 30%;
 }
+.forty {
+  width: 40%;
+}
+.nine {
+  width: 9%;
+}
+.nineteen {
+  width: 19%;
+}
 
 #myTable tbody td { text-align: center }
 #myTable tbody td:first-child{ text-align: left }
