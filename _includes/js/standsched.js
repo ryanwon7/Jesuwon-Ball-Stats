@@ -22,13 +22,7 @@ $(document).ready( function () {
         paging: false,
         searching: false,
         info: false,
-        order: [[ 1, "dsc" ]], 
-        bSort: false,
-        aoColumnDefs: [
-            {
-                orderSequence: ["desc", "asc"],
-                aTargets: ['_all']
-            }
-        ]
+        order: [[ 1, "asc" ]],
+        columnDefs: [ { orderable: false, targets: [0, 2, 3, 4] }]
     });
     } );
