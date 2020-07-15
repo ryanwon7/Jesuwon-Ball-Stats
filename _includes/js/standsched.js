@@ -22,8 +22,8 @@ $(document).ready( function () {
         paging: false,
         searching: false,
         info: false,
-        bSort: false,
         order: [[ 1, "dsc" ]], 
+        bSort: false,
         aoColumnDefs: [
             {
                 orderSequence: ["desc", "asc"],
