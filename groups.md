@@ -18,10 +18,10 @@ datatable: true
   <colgroup>
           <col class="twenty"/>
           <col class="ten"/>
-          <col class="forty"/>
-          <col class="ten"/>
-          <col class="ten"/>
-          <col class="ten"/>
+          <col class="fiftyfive"/>
+          <col class="five"/>
+          <col class="five"/>
+          <col class="five"/>
       </colgroup>
   <thead>
     <tr>
@@ -79,10 +79,10 @@ datatable: true
   <colgroup>
           <col class="twenty"/>
           <col class="ten"/>
-          <col class="forty"/>
-          <col class="ten"/>
-          <col class="ten"/>
-          <col class="ten"/>
+          <col class="fiftyfive"/>
+          <col class="five"/>
+          <col class="five"/>
+          <col class="five"/>
       </colgroup>
   <thead>
     <tr>
