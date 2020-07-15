@@ -1,4 +1,4 @@
-home_team: Fire Nation
+home_team: The Fire Nation
 away_team: Silver Surfers
 hometag: TFN
 awaytag: SUS
@@ -7,7 +7,7 @@ map: Haven
 id: m6
 home_rounds: 0
 away_rounds: 0
-complete: True
+complete: 
 
 home_members:
   - ign: 
