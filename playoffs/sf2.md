@@ -337,14 +337,15 @@ datatable: true
 		</table>
 		{% endif %}
 	</div>
+	{% endif %}
 	<div class="tab content4">
 		{% if sf1.complete != "complete" or sf2.complete != "complete" or sf3.complete != "complete" %}
 		<h2> Match Information: </h2>
 		<p> <b>Times:</b> {{sf1.time}} - {{sf3.time}} </p>
-		<p> <b>Team:</b> {{sf3.home_team}} </p>
-		<p> <b>Team:</b> {{sf3.away_team}} </p>
+		<p> <b>Team:</b> {{sf1.home_team}} </p>
+		<p> <b>Team:</b> {{sf1.away_team}} </p>
 		{% else %}
-		<h2> {{sf3.home_team}}</h2>
+		<h2> {{sf1.home_team}}</h2>
 		<table class="display">
 			<caption style="text-align: center;"> <b>ACS</b> = Average Combat Score, <b>K</b> = Kills, <b>D</b> = Deaths, <b>A</b> = Assists, <b>AER</b> = Average Econ Rating, <b>FB</b> = First Bloods, <b>PL</b> = Plants, <b>DF</b> = Defuses </caption>
 			<colgroup>
@@ -427,7 +428,7 @@ datatable: true
 			</tbody>
 		</table>
 		<br>
-		<h2> {{sf3.away_team}} </h2>
+		<h2> {{sf1.away_team}} </h2>
 		<table class="display">
 			<caption style="text-align: center;"> <b>ACS</b> = Average Combat Score, <b>K</b> = Kills, <b>D</b> = Deaths, <b>A</b> = Assists, <b>AER</b> = Average Econ Rating, <b>FB</b> = First Bloods, <b>PL</b> = Plants, <b>DF</b> = Defuses </caption>
 			<colgroup>
@@ -511,7 +512,6 @@ datatable: true
 		</table>
 		{% endif %}
 	</div>
-	{% endif %}
 </div>
 
 {% else %}

@@ -24,22 +24,12 @@ home_members:
     agt: 
     cs: 
     k: 
-    d:
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt:
-    cs: 
-    k: 
     d: 
     a: 
     er: 
     fb: 
     p: 
-    df:
+    df: 
   - ign: 
     agt: 
     cs: 
@@ -50,7 +40,17 @@ home_members:
     fb: 
     p: 
     df: 
-  - ign:
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
     agt: 
     cs: 
     k: 
@@ -70,16 +70,6 @@ away_members:
     a: 
     er: 
     fb: 
-    p:
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
     p: 
     df: 
   - ign: 
@@ -99,7 +89,17 @@ away_members:
     d: 
     a: 
     er: 
-    fb:
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
     p: 
     df: 
   - ign: 

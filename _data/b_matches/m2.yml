@@ -1,6 +1,6 @@
-home_team: Team B3
+home_team: Busy 9th Graders
 away_team: Team B4
-hometag: B3
+hometag: B9G
 awaytag: B4
 time: 7/18, 12:00 PM
 map: Bind
@@ -11,104 +11,104 @@ complete: False
 
 home_members:
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
 
 away_members:
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 

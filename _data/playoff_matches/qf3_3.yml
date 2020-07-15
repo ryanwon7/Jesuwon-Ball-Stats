@@ -7,109 +7,109 @@ map: TBD
 id: qf3_3
 home_rounds: 0
 away_rounds: 0
-complete: False
-needed: needed
+complete: complete
+needed: not
 
 home_members:
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
 
 away_members:
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 

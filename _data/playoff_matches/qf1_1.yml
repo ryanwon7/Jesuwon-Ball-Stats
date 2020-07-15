@@ -1,217 +1,114 @@
-home_team: Fire Nation
-away_team: Team Avatar
-hometag: TFN
-awaytag: AVT
+home_team: Group A Seed 1
+away_team: Group B Seed 4
+hometag: A1
+awaytag: B4
 time: 7/18, 3:30PM
-map: Bind
+map: TBD
 id: qf1_1
-home_rounds: 13
-away_rounds: 8
-complete: complete
+home_rounds: 0
+away_rounds: 0
+complete: 
 
 home_members:
-  - ign: Gecko
-    agt: Jett
-    cs: 437
-    k: 35
-    d: 13
-    a: 1
-    er: 133
-    fb: 8
-    p: 0
-    df: 0
-  - ign: Snake
-    agt: Breach
-    cs: 233
-    k: 19
-    d: 11
-    a: 6
-    er: 56
-    fb: 0
-    p: 0
-    df: 1
-  - ign: uwu Sam
-    agt: Sage
-    cs: 162
-    k: 12
-    d: 16
-    a: 12
-    er: 44
-    fb: 2
-    p: 2
-    df: 0
-  - ign: uwu Jay
-    agt: Viper
-    cs: 118
-    k: 9
-    d: 12
-    a: 0
-    er: 35
-    fb: 2
-    p: 5
-    df: 0
-  - ign: Jogum Fire
-    agt: Sova
-    cs: 114
-    k: 7
-    d: 16
-    a: 5
-    er: 32
-    fb: 1
-    p: 0
-    df: 0
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
 
 away_members:
-  - ign: choob
-    agt: Breach
-    cs: 352
-    k: 26
-    d: 15
-    a: 5
-    er: 102
-    fb: 2
-    p: 2
-    df: 0
-  - ign: poopy
-    agt: Reyna
-    cs: 312
-    k: 24
-    d: 16
-    a: 2
-    er: 74
-    fb: 4
-    p: 0
-    df: 0
-  - ign: handyice
-    agt: Jett
-    cs: 128
-    k: 9
-    d: 17
-    a: 0
-    er: 36
-    fb: 1
-    p: 0
-    df: 0
-  - ign: chomin
-    agt: Cypher
-    cs: 122
-    k: 8
-    d: 17
-    a: 3
-    er: 29
-    fb: 1
-    p: 0
-    df: 0
-  - ign: MagicIsEasy
-    agt: Raze
-    cs: 89
-    k: 4
-    d: 17
-    a: 1
-    er: 9
-    fb: 1
-    p: 5
-    df: 0
-# home_members:
-#   - ign: 
-#     agt:
-#     cs:
-#     k: 
-#     d: 
-#     a: 
-#     er: 
-#     fb:
-#     p: 
-#     df: 
-#   - ign: 
-#     agt:
-#     cs:
-#     k: 
-#     d: 
-#     a: 
-#     er: 
-#     fb:
-#     p: 
-#     df: 
-#   - ign: 
-#     agt:
-#     cs:
-#     k: 
-#     d: 
-#     a: 
-#     er: 
-#     fb:
-#     p: 
-#     df: 
-#   - ign: 
-#     agt:
-#     cs:
-#     k: 
-#     d: 
-#     a: 
-#     er: 
-#     fb:
-#     p: 
-#     df: 
-#   - ign: 
-#     agt:
-#     cs:
-#     k: 
-#     d: 
-#     a: 
-#     er: 
-#     fb:
-#     p: 
-#     df: 
-
-# away_members:
-#   - ign: 
-#     agt:
-#     cs:
-#     k: 
-#     d: 
-#     a: 
-#     er: 
-#     fb:
-#     p: 
-#     df: 
-#   - ign: 
-#     agt:
-#     cs:
-#     k: 
-#     d: 
-#     a: 
-#     er: 
-#     fb:
-#     p: 
-#     df: 
-#   - ign: 
-#     agt:
-#     cs:
-#     k: 
-#     d: 
-#     a: 
-#     er: 
-#     fb:
-#     p: 
-#     df: 
-#   - ign: 
-#     agt:
-#     cs:
-#     k: 
-#     d: 
-#     a: 
-#     er: 
-#     fb:
-#     p: 
-#     df: 
-#   - ign: 
-#     agt:
-#     cs:
-#     k: 
-#     d: 
-#     a: 
-#     er: 
-#     fb:
-#     p: 
-#     df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
