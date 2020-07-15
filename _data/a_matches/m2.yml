@@ -1,6 +1,6 @@
-home_team: Team A3
+home_team: Silver Surfers
 away_team: Team A4
-hometag: A3
+hometag: SUS
 awaytag: A4
 time: 7/18, 12:00 PM
 map: Ascent
@@ -11,104 +11,104 @@ complete:
 
 home_members:
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
 
 away_members:
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 

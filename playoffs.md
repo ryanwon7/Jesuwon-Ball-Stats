@@ -23,9 +23,9 @@ layout: default
         <li class="game game-spacer spacer-one"><a href="/playoffs/qf3">QF3 - Series Page</a></li>
         <li class="game game-bottom winner">Group A Seed 4 <span>0</span></li>
         <li class="spacer">&nbsp;</li>
-        <li class="game game-top winner">Group B Seed 2 <span>0</span></li>
+        <li class="game game-top winner">Group A Seed 2 <span>0</span></li>
         <li class="game game-spacer spacer-one"><a href="/playoffs/qf4">QF4 - Series Page</a></li>
-        <li class="game game-bottom winner">Group A Seed 3 <span>0</span></li>
+        <li class="game game-bottom winner">Group B Seed 3 <span>0</span></li>
         <li class="spacer">&nbsp;</li>
     </ul>
     <ul class="round round-2">

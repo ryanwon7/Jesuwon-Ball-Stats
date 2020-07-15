@@ -1,9 +1,9 @@
 home_team: Global Elites
-away_team: Team A3
+away_team: Silver Surfers
 hometag: GE
-awaytag: A3
+awaytag: SUS
 time: 7/18, 1:00 PM
-map: Haven
+map: Split
 id: m4
 home_rounds: 0
 away_rounds: 0
@@ -11,104 +11,104 @@ complete: False
 
 home_members:
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
 
 away_members:
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 

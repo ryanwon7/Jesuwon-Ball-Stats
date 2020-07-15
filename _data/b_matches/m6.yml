@@ -1,9 +1,9 @@
 home_team: Primus Victoribus
-away_team: Team B3
+away_team: Busy 9th Graders
 hometag: PRVI
-awaytag: B3
+awaytag: B9G
 time: 7/18, 2:00 PM
-map: Bind
+map: Split
 id: m6
 home_rounds: 0
 away_rounds: 0
@@ -11,104 +11,104 @@ complete:
 
 home_members:
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
 
 away_members:
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 
   - ign: 
-    agt:
-    cs:
+    agt: 
+    cs: 
     k: 
     d: 
     a: 
     er: 
-    fb:
+    fb: 
     p: 
     df: 

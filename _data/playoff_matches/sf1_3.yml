@@ -1,0 +1,115 @@
+home_team: QF 1 Winner
+away_team: QF 2 Winner
+hometag: QF1
+awaytag: QF2
+time: 7/19, 5:00PM
+map: TBD
+id: sf1_3
+home_rounds: 0
+away_rounds: 0
+complete: False
+needed: needed
+
+home_members:
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+
+away_members:
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
