@@ -23,6 +23,7 @@ $(document).ready( function () {
         searching: false,
         info: false,
         bSort: false,
+        order: [[ 1, "dsc" ]], 
         aoColumnDefs: [
             {
                 orderSequence: ["desc", "asc"],
