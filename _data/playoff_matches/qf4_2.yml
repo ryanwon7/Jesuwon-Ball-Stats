@@ -1,5 +1,5 @@
 home_team: Silver Surfers
-away_team: Gall Us Daddy
+away_team: Call Us Daddy
 hometag: SUS
 awaytag: CUD
 time: 7/18, 4:30PM
@@ -82,7 +82,7 @@ away_members:
     fb: 1
     p: 0
     df: 0
-  - ign: 0044
+  - ign: "0044"
     agt: Omen
     cs: 131
     k: 7
