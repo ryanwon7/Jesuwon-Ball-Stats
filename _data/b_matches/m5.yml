@@ -5,110 +5,110 @@ awaytag: CUD
 time: 7/18, 2:00 PM
 map: Ascent
 id: m5
-home_rounds: 0
-away_rounds: 0
-complete: False
+home_rounds: 4
+away_rounds: 13
+complete: complete
 
 home_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: lean Scrotum
+    agt: Breach
+    cs: 185
+    k: 10
+    d: 17
+    a: 2
+    er: 55
+    fb: 1
+    p: 0
+    df: 0
+  - ign: uwu Yeji
+    agt: Cypher
+    cs: 183
+    k: 12
+    d: 14
+    a: 1
+    er: 57
+    fb: 1
+    p: 0
+    df: 0
+  - ign: Hunt For Dank
+    agt: Reyna
+    cs: 180
+    k: 8
+    d: 15
+    a: 2
+    er: 53
+    fb: 1
+    p: 0
+    df: 0
+  - ign: mental crit
+    agt: Sage
+    cs: 166
+    k: 8
+    d: 15
+    a: 2
+    er: 53
+    fb: 1
+    p: 0
+    df: 0
+  - ign: uwu Mili
+    agt: Brimstone
+    cs: 98
+    k: 4
+    d: 16
+    a: 2
+    er: 24
+    fb: 1
+    p: 0
+    df: 0
 
 away_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: 라디권
+    agt: Reyna
+    cs: 321
+    k: 20
+    d: 13
+    a: 5
+    er: 53
+    fb: 4
+    p: 0
+    df: 0
+  - ign: 0044
+    agt: Jett
+    cs: 288
+    k: 18
+    d: 7
+    a: 4
+    er: 69
+    fb: 1
+    p: 1
+    df: 0
+  - ign: Sexy Big Toe
+    agt: Cypher
+    cs: 254
+    k: 16
+    d: 7
+    a: 6
+    er: 60
+    fb: 3
+    p: 2
+    df: 0
+  - ign: Imbubbies
+    agt: Omen
+    cs: 215
+    k: 13
+    d: 10
+    a: 3
+    er: 68
+    fb: 3
+    p: 1
+    df: 0
+  - ign: musicgamsang
+    agt: Sage
+    cs: 131
+    k: 10
+    d: 5
+    a: 8
+    er: 37
+    fb: 0
+    p: 5
+    df: 0

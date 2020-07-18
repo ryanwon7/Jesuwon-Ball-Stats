@@ -1,6 +1,6 @@
 teamname: Call Us Daddy
 tag: CUD
-grp_win: 0
+grp_win: 1
 grp_loss: 2
 qf_win: 0
 qf_loss: 0
@@ -10,7 +10,7 @@ f_win: 0
 f_loss: 0
 grp_g1: complete
 grp_g2: complete
-#grp_g3: complete
+grp_g3: complete
 #qf_g1: complete
 #qf_g2: complete
 #qf_g3: complete
@@ -25,8 +25,8 @@ grp_g1_rd_w: 0
 grp_g1_rd_l: 0
 grp_g2_rd_w: 0
 grp_g2_rd_l: 0
-grp_g3_rd_w: 0
-grp_g3_rd_l: 0
+grp_g3_rd_w: 13
+grp_g3_rd_l: 4
 qf_g1_rd_w: 0
 qf_g1_rd_l: 0
 qf_g2_rd_w: 0

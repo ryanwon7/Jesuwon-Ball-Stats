@@ -5,61 +5,61 @@ awaytag: RCB
 time: 7/18, 2:00 PM
 map: Bind
 id: m5
-home_rounds: 0
+home_rounds: 13
 away_rounds: 0
-complete: False
+complete: complete
 
 home_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: Ghost
+    agt: Jett
+    cs: 377
+    k: 20
+    d: 6
+    a: 1
+    er: 92
+    fb: 2
+    p: 3
+    df: 0
+  - ign: WaicX
+    agt: Raze
+    cs: 273
+    k: 12
+    d: 2
+    a: 0
+    er: 94
+    fb: 2
+    p: 0
+    df: 0
+  - ign: BOT
+    agt: Phoenix
+    cs: 233
+    k: 15
+    d: 2
+    a: 0
+    er: 94
+    fb: 2
+    p: 0
+    df: 0
+  - ign: SteeZ
+    agt: Omen
+    cs: 221
+    k: 11
+    d: 3
+    a: 3
+    er: 135
+    fb: 0
+    p: 6
+    df: 0
+  - ign: justiN
+    agt: Brimstone
+    cs: 179
+    k: 7
+    d: 2
+    a: 5
+    er: 101
+    fb: 2
+    p: 2
+    df: 0
 
 away_members:
   - ign: 
