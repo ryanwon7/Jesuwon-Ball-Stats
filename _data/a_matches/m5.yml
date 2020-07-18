@@ -62,53 +62,53 @@ home_members:
     df: 0
 
 away_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: TeemoEatTheWorld
+    agt: Phoenix
+    cs: 170
+    k: 7
+    d: 13
+    a: 1
+    er: 29
+    fb: 1
+    p: 1
+    df: 0
+  - ign: APC Katarina
+    agt: Brimstone
+    cs: 145
+    k: 6
+    d: 13
+    a: 1
+    er: 32
+    fb: 3
+    p: 0
+    df: 0
+  - ign: Taelego19
+    agt: Sage
+    cs: 130
+    k: 5
+    d: 13
+    a: 5
+    er: 37
+    fb: 0
+    p: 0
+    df: 0
+  - ign: ShibukiRan6
+    agt: Raze
+    cs: 48
+    k: 1
+    d: 12
+    a: 0
+    er: 16
+    fb: 0
+    p: 0
+    df: 0
+  - ign: keddestroyer
+    agt: Cypher
+    cs: 0
+    k: 0
+    d: 12
+    a: 0
+    er: 0
+    fb: 0
+    p: 0
+    df: 0
