@@ -1,7 +1,7 @@
 teamname: Global Elites
 tag: GE
 grp_win: 0
-grp_loss: 1
+grp_loss: 2
 qf_win: 0
 qf_loss: 0
 sf_win: 0
@@ -23,8 +23,8 @@ grp_g2: complete
 
 grp_g1_rd_w: 10
 grp_g1_rd_l: 13
-grp_g2_rd_w: 0
-grp_g2_rd_l: 0
+grp_g2_rd_w: 3
+grp_g2_rd_l: 13
 grp_g3_rd_w: 0
 grp_g3_rd_l: 0
 qf_g1_rd_w: 0

@@ -7,7 +7,7 @@ map: Haven
 id: m3
 home_rounds: 0
 away_rounds: 0
-complete: False
+complete: complete
 
 home_members:
   - ign: 
