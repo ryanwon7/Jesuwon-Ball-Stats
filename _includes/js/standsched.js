@@ -26,3 +26,12 @@ $(document).ready( function () {
         columnDefs: [ { orderable: false, targets: [0, 2, 3, 4] }]
     });
     } );
+$(document).ready( function () {
+    $('table.display3').DataTable({
+        paging: false,
+        searching: false,
+        info: false,
+        order: [[ 2, "asc" ]],
+        columnDefs: [ { orderable: false, targets: [0, 1, 3, 4, 5] }]
+    });
+    } );
