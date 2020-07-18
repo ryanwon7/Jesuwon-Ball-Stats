@@ -5,110 +5,110 @@ awaytag: GE
 time: 7/18, 12:00 PM
 map: Ascent
 id: m1
-home_rounds: 13
-away_rounds: 8
-complete: complete
+home_rounds: 0
+away_rounds: 0
+complete: 
 
 home_members:
-  - ign: handyice
-    agt: Jett
-    cs: 321
-    k: 22
-    d: 15
-    a: 5
-    er: 85
-    fb: 6
-    p: 0
-    df: 0
-  - ign: Fried
-    agt: Sage
-    cs: 320
-    k: 25
-    d: 10
-    a: 10
-    er: 95
-    fb: 3
-    p: 3
-    df: 0
-  - ign: poopy
-    agt: Reyna
-    cs: 285
-    k: 20
-    d: 15
-    a: 3
-    er: 85
-    fb: 3
-    p: 0
-    df: 0
-  - ign: MagicIsEasy
-    agt: Brimstone
-    cs: 129
-    k: 10
-    d: 8
-    a: 0
-    er: 51
-    fb: 0
-    p: 6
-    df: 1
-  - ign: Effervescere
-    agt: Sova
-    cs: 111
-    k: 9
-    d: 17
-    a: 1
-    er: 22
-    fb: 1
-    p: 1
-    df: 0
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
 
 away_members:
-  - ign: hood
-    agt: Jett
-    cs: 276
-    k: 19
-    d: 20
-    a: 4
-    er: 68
-    fb: 2
-    p: 0
-    df: 0
-  - ign: hizzypoo
-    agt: Sova
-    cs: 276
-    k: 19
-    d: 14
-    a: 4
-    er: 72
-    fb: 3
-    p: 0
-    df: 1
-  - ign: Thakrar
-    agt: Brimstone
-    cs: 190
-    k: 12
-    d: 17
-    a: 4
-    er: 52
-    fb: 1
-    p: 3
-    df: 0
-  - ign: adz
-    agt: Phoenix
-    cs: 113
-    k: 9
-    d: 19
-    a: 0
-    er: 18
-    fb: 2
-    p: 1
-    df: 0
-  - ign: Licknyopeas
-    agt: Sage
-    cs: 96
-    k: 5
-    d: 16
-    a: 9
-    er: 32
-    fb: 0
-    p: 2
-    df: 0
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
+  - ign: 
+    agt: 
+    cs: 
+    k: 
+    d: 
+    a: 
+    er: 
+    fb: 
+    p: 
+    df: 
