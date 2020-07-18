@@ -7,7 +7,7 @@ map: Split
 id: m4
 home_rounds: 3
 away_rounds: 13
-complete: False
+complete: complete
 
 home_members:
   - ign: Ghost
