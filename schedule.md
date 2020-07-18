@@ -62,7 +62,7 @@ datatable: true
       {% else %}
       <td> Not Played Yet </td>
       {% endif %}
-      <td><a href="/groupa/{{match.id}}">Match Stats</a></td>
+      <td><a href="/groupb/{{match.id}}">Match Stats</a></td>
     </tr>
     {% endfor %}
     {% assign qf1 = site.data.playoff_matches.qf1_1 %}
