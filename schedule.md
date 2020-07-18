@@ -35,7 +35,7 @@ datatable: true
       {% else %}
       <td>{{match.home_team}} vs {{match.away_team}}</td>
       {% endif %}
-      <td> Group A </td>
+      <td><a href="/groupa/home">Group A</a></td>
       <td>{{match.time}}</td>
       <td>{{match.map}}</td>
       {% if match.complete == "complete" %}	
@@ -54,7 +54,7 @@ datatable: true
       {% else %}
       <td>{{match.home_team}} vs {{match.away_team}}</td>
       {% endif %}
-      <td> Group B </td>
+      <td><a href="/groupb/home">Group B</a></td>
       <td>{{match.time}}</td>
       <td>{{match.map}}</td>
       {% if match.complete == "complete" %} 
@@ -68,7 +68,7 @@ datatable: true
     {% assign qf1 = site.data.playoff_matches.qf1_1 %}
     <tr>
       <td>{{qf1.home_team}} vs {{qf1.away_team}}</td>
-      <td> Quarterfinal 1 </td>
+      <td><a href="/playoffs">Quarterfinal 1</a></td>
       <td>{{qf1.time}}</td>
       <td>{{qf1.map}}</td>
       <td>BO3</td>
@@ -77,7 +77,7 @@ datatable: true
     {% assign qf2 = site.data.playoff_matches.qf2_1 %}
     <tr>
       <td>{{qf2.home_team}} vs {{qf2.away_team}}</td>
-      <td> Quarterfinal 2 </td>
+      <td><a href="/playoffs">Quarterfinal 2</a></td>
       <td>{{qf2.time}}</td>
       <td>{{qf2.map}}</td>
       <td>BO3</td>
@@ -86,7 +86,7 @@ datatable: true
     {% assign qf3 = site.data.playoff_matches.qf3_1 %}
     <tr>
       <td>{{qf3.home_team}} vs {{qf3.away_team}}</td>
-      <td> Quarterfinal 3 </td>
+      <td><a href="/playoffs">Quarterfinal 3</a></td>
       <td>{{qf3.time}}</td>
       <td>{{qf3.map}}</td>
       <td>BO3</td>
@@ -95,7 +95,7 @@ datatable: true
     {% assign qf4 = site.data.playoff_matches.qf4_1 %}
     <tr>
       <td>{{qf4.home_team}} vs {{qf4.away_team}}</td>
-      <td> Quarterfinal 4 </td>
+      <td><a href="/playoffs">Quarterfinal 4</a></td>
       <td>{{qf4.time}}</td>
       <td>{{qf4.map}}</td>
       <td>BO3</td>
@@ -104,7 +104,7 @@ datatable: true
     {% assign sf1 = site.data.playoff_matches.sf1_1 %}
     <tr>
       <td>{{sf1.home_team}} vs {{sf1.away_team}}</td>
-      <td> Semifinal 1 </td>
+      <td><a href="/playoffs">Semifinal 1</a></td>
       <td>{{sf1.time}}</td>
       <td>{{sf1.map}}</td>
       <td>BO3</td>
@@ -113,7 +113,7 @@ datatable: true
     {% assign sf2 = site.data.playoff_matches.sf2_1 %}
     <tr>
       <td>{{sf2.home_team}} vs {{sf2.away_team}}</td>
-      <td> Semifinal 2 </td>
+      <td><a href="/playoffs">Semifinal 2</a></td>
       <td>{{sf2.time}}</td>
       <td>{{sf2.map}}</td>
       <td>BO3</td>
@@ -122,7 +122,7 @@ datatable: true
     {% assign gf = site.data.playoff_matches.gf1_1 %}
     <tr>
       <td>{{gf.home_team}} vs {{gf.away_team}}</td>
-      <td> Grand Finals </td>
+      <td><a href="/playoffs">Grand Finals</a></td>
       <td>{{gf.time}}</td>
       <td>{{gf.map}}</td>
       <td>BO3</td>
