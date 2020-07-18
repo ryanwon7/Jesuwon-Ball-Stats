@@ -5,110 +5,110 @@ awaytag: RCB
 time: 7/18, 1:00 PM
 map: Split
 id: m3
-home_rounds: 0
-away_rounds: 0
-complete: False
+home_rounds: 13
+away_rounds: 1
+complete: complete
 
 home_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: TFN Faded
+    agt: Omen
+    cs: 349
+    k: 18
+    d: 3
+    a: 5
+    er: 160
+    fb: 1
+    p: 2
+    df: 0
+  - ign: TFN Snake
+    agt: Cypher
+    cs: 337
+    k: 19
+    d: 4
+    a: 2
+    er: 119
+    fb: 4
+    p: 0
+    df: 0
+  - ign: TFN JogumFire
+    agt: Raze
+    cs: 318
+    k: 14
+    d: 6
+    a: 7
+    er: 158
+    fb: 1
+    p: 1
+    df: 0
+  - ign: TFN Jay
+    agt: Jett
+    cs: 255
+    k: 13
+    d: 6
+    a: 1
+    er: 60
+    fb: 4
+    p: 1
+    df: 0
+  - ign: TFN Ginah
+    agt: Sage
+    cs: 47
+    k: 3
+    d: 6
+    a: 5
+    er: 6
+    fb: 0
+    p: 7
+    df: 0
 
 away_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: APC Katarina
+    agt: Reyna
+    cs: 212
+    k: 9
+    d: 13
+    a: 0
+    er: 49
+    fb: 3
+    p: 0
+    df: 0
+  - ign: Taelego19
+    agt: Cypher
+    cs: 135
+    k: 7
+    d: 13
+    a: 1
+    er: 27
+    fb: 1
+    p: 0
+    df: 0
+  - ign: keddestroyer
+    agt: Brimstone
+    cs: 87
+    k: 3
+    d: 14
+    a: 1
+    er: 29
+    fb: 0
+    p: 0
+    df: 0
+  - ign: ShibukiRan6
+    agt: Sage
+    cs: 87
+    k: 3
+    d: 14
+    a: 2
+    er: 27
+    fb: 0
+    p: 0
+    df: 0
+  - ign: TeemoEatTheWorld
+    agt: Phoenix
+    cs: 77
+    k: 3
+    d: 13
+    a: 1
+    er: 26
+    fb: 0
+    p: 0
+    df: 0

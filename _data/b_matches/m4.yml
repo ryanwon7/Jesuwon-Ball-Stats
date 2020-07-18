@@ -6,109 +6,109 @@ time: 7/18, 1:00 PM
 map: Haven
 id: m4
 home_rounds: 0
-away_rounds: 0
-complete: False
+away_rounds: 13
+complete: complete
 
 home_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: uwu Yeji
+    agt: Cypher
+    cs: 192
+    k: 8
+    d: 13
+    a: 2
+    er: 46
+    fb: 1
+    p: 0
+    df: 0
+  - ign: uwu Mili
+    agt: Brimstone
+    cs: 88
+    k: 4
+    d: 13
+    a: 1
+    er: 26
+    fb: 1
+    p: 0
+    df: 0
+  - ign: mental crit
+    agt: Sage
+    cs: 84
+    k: 2
+    d: 13
+    a: 4
+    er: 31
+    fb: 0
+    p: 1
+    df: 0
+  - ign: Hunt For Dank
+    agt: Jett
+    cs: 61
+    k: 2
+    d: 13
+    a: 1
+    er: 15
+    fb: 0
+    p: 1
+    df: 0
+  - ign: lean Scrotum
+    agt: Breach
+    cs: 60
+    k: 2
+    d: 13
+    a: 1
+    er: 11
+    fb: 0
+    p: 0
+    df: 0
 
 away_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: fellsbad
+    agt: Sage
+    cs: 403
+    k: 21
+    d: 4
+    a: 4
+    er: 110
+    fb: 2
+    p: 0
+    df: 0
+  - ign: gonggabang
+    agt: Jett
+    cs: 360
+    k: 18
+    d: 2
+    a: 1
+    er: 190
+    fb: 6
+    p: 1
+    df: 1
+  - ign: Boof
+    agt: Sage
+    cs: 321
+    k: 14
+    d: 4
+    a: 14
+    er: 95
+    fb: 1
+    p: 0
+    df: 0
+  - ign: poopy
+    agt: Omen
+    cs: 176
+    k: 9
+    d: 3
+    a: 2
+    er: 78
+    fb: 1
+    p: 0
+    df: 1
+  - ign: mangoclient
+    agt: Cypher
+    cs: 78
+    k: 3
+    d: 5
+    a: 7
+    er: 25
+    fb: 1
+    p: 0
+    df: 0

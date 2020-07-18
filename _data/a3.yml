@@ -21,7 +21,7 @@ grp_g1: complete
 #f_g2: complete
 #f_g3: complete
 
-grp_g1_rd_w: 1
+grp_g1_rd_w: 13
 grp_g1_rd_l: 0
 grp_g2_rd_w: 0
 grp_g2_rd_l: 0

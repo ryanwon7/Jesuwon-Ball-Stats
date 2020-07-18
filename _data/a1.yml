@@ -1,6 +1,6 @@
 teamname: Team Fire Nation
 tag: TFN
-grp_win: 1
+grp_win: 2
 grp_loss: 0
 qf_win: 0
 qf_loss: 0
@@ -9,7 +9,7 @@ sf_loss: 0
 f_win: 0
 f_loss: 0
 grp_g1: complete
-#grp_g2: complete
+grp_g2: complete
 #grp_g3: complete
 #qf_g1: complete
 #qf_g2: complete
@@ -21,10 +21,10 @@ grp_g1: complete
 #f_g2: complete
 #f_g3: complete
 
-grp_g1_rd_w: 1
-grp_g1_rd_l: 0
-grp_g2_rd_w: 0
-grp_g2_rd_l: 0
+grp_g1_rd_w: 13
+grp_g1_rd_l: 10
+grp_g2_rd_w: 13
+grp_g2_rd_l: 1
 grp_g3_rd_w: 0
 grp_g3_rd_l: 0
 qf_g1_rd_w: 0
