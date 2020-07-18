@@ -5,110 +5,110 @@ awaytag: GE
 time: 7/18, 12:00 PM
 map: Ascent
 id: m1
-home_rounds: 0
-away_rounds: 0
-complete: 
+home_rounds: 13
+away_rounds: 10
+complete: complete
 
 home_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: TFN Jay
+    agt: Sova
+    cs: 301
+    k: 26
+    d: 15
+    a: 3
+    er: 81
+    fb: 4
+    p: 1
+    df: 0
+  - ign: TFN Faded
+    agt: Omen
+    cs: 241
+    k: 19
+    d: 16
+    a: 4
+    er: 54
+    fb: 6
+    p: 2
+    df: 0
+  - ign: TFN Snake
+    agt: Cypher
+    cs: 194
+    k: 15
+    d: 15
+    a: 4
+    er: 57
+    fb: 0
+    p: 0
+    df: 1
+  - ign: TFN JogumFire
+    agt: Phoenix
+    cs: 167
+    k: 12
+    d: 18
+    a: 5
+    er: 44
+    fb: 1
+    p: 0
+    df: 0
+  - ign: TFN Ginah
+    agt: Sage
+    cs: 157
+    k: 12
+    d: 16
+    a: 8
+    er: 38
+    fb: 0
+    p: 4
+    df: 0
 
 away_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: Ghost
+    agt: Cypher
+    cs: 334
+    k: 26
+    d: 17
+    a: 5
+    er: 64
+    fb: 4
+    p: 2
+    df: 0
+  - ign: WaicX
+    agt: Raze
+    cs: 238
+    k: 17
+    d: 18
+    a: 2
+    er: 56
+    fb: 4
+    p: 0
+    df: 2
+  - ign: BOT
+    agt: Phoenix
+    cs: 202
+    k: 15
+    d: 18
+    a: 8
+    er: 49
+    fb: 2
+    p: 1
+    df: 0
+  - ign: SteeZ
+    agt: Omen
+    cs: 142
+    k: 11
+    d: 17
+    a: 2
+    er: 42
+    fb: 2
+    p: 2
+    df: 0
+  - ign: dewat
+    agt: Sage
+    cs: 140
+    k: 11
+    d: 15
+    a: 7
+    er: 48
+    fb: 0
+    p: 1
+    df: 0
