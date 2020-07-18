@@ -1,14 +1,14 @@
 teamname: Radiant Cherrybomb
 tag: RCB
 grp_win: 0
-grp_loss: 0
+grp_loss: 1
 qf_win: 0
 qf_loss: 0
 sf_win: 0
 sf_loss: 0
 f_win: 0
 f_loss: 0
-#grp_g1: complete
+grp_g1: complete
 #grp_g2: complete
 #grp_g3: complete
 #qf_g1: complete
@@ -22,7 +22,7 @@ f_loss: 0
 #f_g3: complete
 
 grp_g1_rd_w: 0
-grp_g1_rd_l: 0
+grp_g1_rd_l: 1
 grp_g2_rd_w: 0
 grp_g2_rd_l: 0
 grp_g3_rd_w: 0
