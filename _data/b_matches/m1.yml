@@ -72,8 +72,8 @@ away_members:
     fb: 0
     p: 0
     df: 1
-  - ign: 
-    agt: mental crit
+  - ign: mental crit
+    agt: Sage
     cs: 154
     k: 7
     d: 13
