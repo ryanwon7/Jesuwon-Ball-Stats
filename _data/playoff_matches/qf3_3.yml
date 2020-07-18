@@ -7,8 +7,8 @@ map: TBD
 id: qf3_3
 home_rounds: 0
 away_rounds: 0
-complete: complete
-needed: not
+complete: 
+needed: 
 
 home_members:
   - ign: 

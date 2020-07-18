@@ -8,7 +8,7 @@ id: qf2_3
 home_rounds: 0
 away_rounds: 0
 complete: False
-needed: needed
+needed: 
 
 home_members:
   - ign: 
