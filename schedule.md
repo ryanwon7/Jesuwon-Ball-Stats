@@ -71,7 +71,7 @@ datatable: true
       <td><a href="/playoffs">Quarterfinal 1</a></td>
       <td>{{qf1.time}}</td>
       <td>{{qf1.map}}</td>
-      <td>BO3</td>
+      <td>TFN 2-0 MTS</td>
       <td><a href="/playoffs/qf1">Series Stats</a></td>
     </tr>
     {% assign qf2 = site.data.playoff_matches.qf2_1 %}
@@ -80,7 +80,7 @@ datatable: true
       <td><a href="/playoffs">Quarterfinal 2</a></td>
       <td>{{qf2.time}}</td>
       <td>{{qf2.map}}</td>
-      <td>BO3</td>
+      <td>B9G 0-2 GE</td>
       <td><a href="/playoffs/qf2">Series Stats</a></td>
     </tr>
     {% assign qf3 = site.data.playoff_matches.qf3_1 %}
@@ -89,7 +89,7 @@ datatable: true
       <td><a href="/playoffs">Quarterfinal 3</a></td>
       <td>{{qf3.time}}</td>
       <td>{{qf3.map}}</td>
-      <td>BO3</td>
+      <td>PRVI 2-0 RCB</td>
       <td><a href="/playoffs/qf3">Series Stats</a></td>
     </tr>
     {% assign qf4 = site.data.playoff_matches.qf4_1 %}
@@ -107,7 +107,7 @@ datatable: true
       <td><a href="/playoffs">Semifinal 1</a></td>
       <td>{{sf1.time}}</td>
       <td>{{sf1.map}}</td>
-      <td>BO3</td>
+      <td>SUS 2-0 CUD</td>
       <td><a href="/playoffs/sf1">Series Stats</a></td>
     </tr>
     {% assign sf2 = site.data.playoff_matches.sf2_1 %}
