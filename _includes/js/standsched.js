@@ -32,6 +32,6 @@ $(document).ready( function () {
         searching: false,
         info: false,
         order: [[ 2, "asc" ]],
-        columnDefs: [ { orderable: false, targets: [0, 1, 3, 4, 5] }]
+        columnDefs: [ { orderable: false, targets: [0, 3, 4, 5] }]
     });
     } );
