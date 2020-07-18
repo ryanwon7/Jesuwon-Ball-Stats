@@ -11,21 +11,21 @@ layout: default
         <li class="game game-top winner">Quarterfinals - 7/18</li>
         <li>&nbsp;</li>
         <li>&nbsp;</li>
-        <li class="game game-top winner">Team Fire Nation <span>1</span></li>
+        <li class="game game-top winner">Team Fire Nation <span>2</span></li>
         <li class="game game-spacer spacer-one"><a href="/playoffs/qf1">QF1 - Series Page</a></li>
-        <li class="game game-bottom winner">MotaeSolo <span>0</span></li>
+        <li class="game game-bottom">MotaeSolo <span>0</span></li>
         <li class="spacer">&nbsp;</li>
-        <li class="game game-top winner">Busy 9th Graders <span>0</span></li>
+        <li class="game game-top">Busy 9th Graders <span>0</span></li>
         <li class="game game-spacer spacer-one"><a href="/playoffs/qf2">QF2 - Series Page</a></li>
-        <li class="game game-bottom winner">Global Elites <span>1</span></li>
+        <li class="game game-bottom winner">Global Elites <span>2</span></li>
         <li class="spacer">&nbsp;</li>
-        <li class="game game-top winner">Primus Victoribus <span>1</span></li>
+        <li class="game game-top winner">Primus Victoribus <span>2</span></li>
         <li class="game game-spacer spacer-one"><a href="/playoffs/qf3">QF3 - Series Page</a></li>
-        <li class="game game-bottom winner">Radiant Cherrybomb <span>0</span></li>
+        <li class="game game-bottom">Radiant Cherrybomb <span>0</span></li>
         <li class="spacer">&nbsp;</li>
-        <li class="game game-top winner">Silver Surfers <span>0</span></li>
+        <li class="game game-top winner">Silver Surfers <span>2</span></li>
         <li class="game game-spacer spacer-one"><a href="/playoffs/qf4">QF4 - Series Page</a></li>
-        <li class="game game-bottom winner">Call Us Daddy<span>0</span></li>
+        <li class="game game-bottom">Call Us Daddy<span>0</span></li>
         <li class="spacer">&nbsp;</li>
     </ul>
     <ul class="round round-2">
@@ -34,13 +34,13 @@ layout: default
         <li>&nbsp;</li>
         <li>&nbsp;</li>
         <li>&nbsp;</li>
-        <li class="game game-top spacer-one">TBD <span>0</span></li>
+        <li class="game game-top spacer-one">Team Fire Nation <span>0</span></li>
         <li class="game game-spacer spacer-one"><a href="/playoffs/sf1">SF1 - Series Page</a></li>
-        <li class="game game-bottom ">TBD <span>0</span></li>
+        <li class="game game-bottom ">Global Elites <span>0</span></li>
         <li class="spacer">&nbsp;</li>
-        <li class="game game-top ">TBD <span>0</span></li>
+        <li class="game game-top ">Primus Victoribus<span>0</span></li>
         <li class="game game-spacer spacer-one"><a href="/playoffs/sf2">SF2 - Series Page</a></li>
-        <li class="game game-bottom ">TBD <span>0</span></li>
+        <li class="game game-bottom ">Silver Surfers<span>0</span></li>
         <li class="spacer">&nbsp;</li>
     </ul>
     <ul class="round round-3">
