@@ -76,7 +76,7 @@ datatable: true
     </tr>
     {% assign qf2 = site.data.playoff_matches.qf2_1 %}
     <tr>
-      <td>{{qf2.home_team}} vs {{qf2.away_team}}</td>
+      <td><b>{{qf2.home_team}} vs {{qf2.away_team}}</b></td>
       <td><a href="/playoffs">Quarterfinal 2</a></td>
       <td>{{qf2.time}}</td>
       <td>{{qf2.map}}</td>
