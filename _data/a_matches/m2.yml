@@ -93,11 +93,11 @@ away_members:
     p: 0
     df: 0
   - ign: keddestroyer
-    agt: 81
-    cs: 3
-    k: 13
-    d: 2
-    a: 10
+    agt: Cypher
+    cs: 81
+    k: 3
+    d: 13
+    a: 2
     er: 20
     fb: 0
     p: 0
