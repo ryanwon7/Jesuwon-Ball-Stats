@@ -11,15 +11,15 @@ layout: default
         <li class="game game-top winner">Quarterfinals - 7/18</li>
         <li>&nbsp;</li>
         <li>&nbsp;</li>
-        <li class="game game-top winner">Team Fire Nation <span>0</span></li>
+        <li class="game game-top winner">Team Fire Nation <span>1</span></li>
         <li class="game game-spacer spacer-one"><a href="/playoffs/qf1">QF1 - Series Page</a></li>
         <li class="game game-bottom winner">MotaeSolo <span>0</span></li>
         <li class="spacer">&nbsp;</li>
         <li class="game game-top winner">Busy 9th Graders <span>0</span></li>
         <li class="game game-spacer spacer-one"><a href="/playoffs/qf2">QF2 - Series Page</a></li>
-        <li class="game game-bottom winner">Global Elites <span>0</span></li>
+        <li class="game game-bottom winner">Global Elites <span>1</span></li>
         <li class="spacer">&nbsp;</li>
-        <li class="game game-top winner">Primus Victoribus <span>0</span></li>
+        <li class="game game-top winner">Primus Victoribus <span>1</span></li>
         <li class="game game-spacer spacer-one"><a href="/playoffs/qf3">QF3 - Series Page</a></li>
         <li class="game game-bottom winner">Radiant Cherrybomb <span>0</span></li>
         <li class="spacer">&nbsp;</li>
