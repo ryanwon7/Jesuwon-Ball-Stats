@@ -5,12 +5,12 @@ awaytag: CUD
 time: 7/18, 12:00 PM
 map: Bind
 id: m2
-home_rounds: 0
-away_rounds: 0
+home_rounds: 13
+away_rounds: FF
 complete: complete
 
 home_members:
-  - ign: 
+  - ign: feelsbad
     agt: 
     cs: 
     k: 
@@ -20,7 +20,7 @@ home_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: gonggabang
     agt: 
     cs: 
     k: 
@@ -30,7 +30,7 @@ home_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: Boof
     agt: 
     cs: 
     k: 
@@ -40,7 +40,7 @@ home_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: poopy
     agt: 
     cs: 
     k: 
@@ -50,7 +50,7 @@ home_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: mangoclient
     agt: 
     cs: 
     k: 
@@ -62,7 +62,7 @@ home_members:
     df: 
 
 away_members:
-  - ign: 
+  - ign: 라디권
     agt: 
     cs: 
     k: 
@@ -72,7 +72,7 @@ away_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: 0044
     agt: 
     cs: 
     k: 
@@ -82,7 +82,7 @@ away_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: lAngryasianl
     agt: 
     cs: 
     k: 
@@ -92,7 +92,7 @@ away_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: musicgamsang
     agt: 
     cs: 
     k: 
@@ -102,7 +102,7 @@ away_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: umeApricot
     agt: 
     cs: 
     k: 

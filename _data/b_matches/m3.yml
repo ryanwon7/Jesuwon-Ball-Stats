@@ -5,12 +5,12 @@ awaytag: CUD
 time: 7/18, 1:00 PM
 map: Haven
 id: m3
-home_rounds: 0
-away_rounds: 0
+home_rounds: 13
+away_rounds: FF
 complete: complete
 
 home_members:
-  - ign: 
+  - ign: NeverEndingGains
     agt: 
     cs: 
     k: 
@@ -20,7 +20,7 @@ home_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: Sylandia
     agt: 
     cs: 
     k: 
@@ -30,7 +30,7 @@ home_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: mavricGOD
     agt: 
     cs: 
     k: 
@@ -40,7 +40,7 @@ home_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: Tayriva
     agt: 
     cs: 
     k: 
@@ -50,7 +50,7 @@ home_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: Jay
     agt: 
     cs: 
     k: 
@@ -62,7 +62,7 @@ home_members:
     df: 
 
 away_members:
-  - ign: 
+  - ign: 라디권
     agt: 
     cs: 
     k: 
@@ -72,7 +72,7 @@ away_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: 0044
     agt: 
     cs: 
     k: 
@@ -82,7 +82,7 @@ away_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: lAngry Asianl
     agt: 
     cs: 
     k: 
@@ -92,7 +92,7 @@ away_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: musicgamsang
     agt: 
     cs: 
     k: 
@@ -102,7 +102,7 @@ away_members:
     fb: 
     p: 
     df: 
-  - ign: 
+  - ign: umeApricot
     agt: 
     cs: 
     k: 
