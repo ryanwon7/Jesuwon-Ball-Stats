@@ -5,9 +5,9 @@ awaytag: MTS
 time: 7/18, 12:00 PM
 map: Bind
 id: m1
-home_rounds: 13
-away_rounds: 9
-complete: True
+home_rounds: 
+away_rounds: 
+complete: 
 
 home_members:
   - ign: 
