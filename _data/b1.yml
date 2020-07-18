@@ -2,7 +2,7 @@ teamname: Primus Victoribus
 tag: PRVI
 grp_win: 3
 grp_loss: 0
-qf_win: 1
+qf_win: 2
 qf_loss: 0
 sf_win: 0
 sf_loss: 0
@@ -12,7 +12,7 @@ grp_g1: complete
 grp_g2: complete
 grp_g3: complete
 qf_g1: complete
-#qf_g2: complete
+qf_g2: complete
 #qf_g3: complete
 #sf_g1: complete
 #sf_g2: complete
