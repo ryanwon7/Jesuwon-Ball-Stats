@@ -7,7 +7,7 @@ map: TBD
 id: sf1_3
 home_rounds: 0
 away_rounds: 0
-complete: False
+complete: complete
 needed: 
 
 home_members:
