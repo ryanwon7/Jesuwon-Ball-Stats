@@ -3,112 +3,112 @@ away_team: Silver Surfers
 hometag: PRVI
 awaytag: SUS
 time: 7/19, 3:00PM
-map: TBD
+map: Haven
 id: sf2_1
-home_rounds: 0
-away_rounds: 0
-complete: False
+home_rounds: 15
+away_rounds: 13
+complete: complete
 
 home_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: mavricGOD
+    agt: Phoenix
+    cs: 334
+    k: 34
+    d: 17
+    a: 8
+    er: 70
+    fb: 8
+    p: 1
+    df: 0
+  - ign: Jay
+    agt: Sage
+    cs: 228
+    k: 23
+    d: 18
+    a: 5
+    er: 49
+    fb: 5
+    p: 1
+    df: 0
+  - ign: NeverEndingGains
+    agt: Raze
+    cs: 213
+    k: 20
+    d: 19
+    a: 5
+    er: 56
+    fb: 4
+    p: 1
+    df: 2
+  - ign: Sylandia
+    agt: Cypher
+    cs: 150
+    k: 14
+    d: 15
+    a: 5
+    er: 43
+    fb: 1
+    p: 0
+    df: 2
+  - ign: Tayriva
+    agt: Brimstone
+    cs: 137
+    k: 12
+    d: 20
+    a: 7
+    er: 31
+    fb: 0
+    p: 5
+    df: 0
 
 away_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: LexHong
+    agt: Raze
+    cs: 372
+    k: 31
+    d: 23
+    a: 11
+    er: 85
+    fb: 3
+    p: 2
+    df: 0
+  - ign: Pantimos
+    agt: Breach
+    cs: 149
+    k: 13
+    d: 22
+    a: 11
+    er: 38
+    fb: 0
+    p: 2
+    df: 0
+  - ign: drew
+    agt: Sage
+    cs: 217
+    k: 21
+    d: 21
+    a: 12
+    er: 48
+    fb: 5
+    p: 4
+    df: 0
+  - ign: dksgusdn
+    agt: Omen
+    cs: 148
+    k: 16
+    d: 20
+    a: 4
+    er: 31
+    fb: 2
+    p: 1
+    df: 0
+  - ign: ChubbsYaMane
+    agt: Cypher
+    cs: 83
+    k: 7
+    d: 17
+    a: 5
+    er: 22
+    fb: 0
+    p: 3
+    df: 0
