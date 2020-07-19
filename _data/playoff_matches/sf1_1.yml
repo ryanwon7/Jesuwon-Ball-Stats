@@ -3,112 +3,112 @@ away_team: Global Elites
 hometag: TFN
 awaytag: GE
 time: 7/19, 6:00PM
-map: TBD
+map: Haven
 id: sf1_1
-home_rounds: 0
-away_rounds: 0
-complete: False
+home_rounds: 13
+away_rounds: 9
+complete: complete
 
 home_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: TFN Jay
+    agt: Jett
+    cs: 234
+    k: 19
+    d: 15
+    a: 0
+    er: 49
+    fb: 3
+    p: 0
+    df: 1
+  - ign: TFN Ginah
+    agt: Sage
+    cs: 105
+    k: 7
+    d: 14
+    a: 13
+    er: 28
+    fb: 0
+    p: 5
+    df: 2
+  - ign: TFN Faded
+    agt: Omen
+    cs: 269
+    k: 21
+    d: 14
+    a: 5
+    er: 63
+    fb: 3
+    p: 0
+    df: 1
+  - ign: TFN Snake
+    agt: Cypher
+    cs: 210
+    k: 16
+    d: 13
+    a: 3
+    er: 54
+    fb: 1
+    p: 0
+    df: 0
+  - ign: TFN JogumFire
+    agt: Phoenix
+    cs: 273
+    k: 21
+    d: 15
+    a: 4
+    er: 72
+    fb: 5
+    p: 2
+    df: 0
 
 away_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: WaicX
+    agt: Sova
+    cs: 226
+    k: 17
+    d: 15
+    a: 4
+    er: 52
+    fb: 2
+    p: 2
+    df: 1
+  - ign: JustiN
+    agt: Sage
+    cs: 254
+    k: 19
+    d: 17
+    a: 11
+    er: 84
+    fb: 5
+    p: 1
+    df: 0
+  - ign: Ghost
+    agt: Jett
+    cs: 238
+    k: 17
+    d: 20
+    a: 4
+    er: 49
+    fb: 1
+    p: 1
+    df: 0
+  - ign: BOT
+    agt: Phoenix
+    cs: 159
+    k: 13
+    d: 16
+    a: 4
+    er: 28
+    fb: 1
+    p: 0
+    df: 0
+  - ign: SteeZ
+    agt: Omen
+    cs: 99
+    k: 5
+    d: 17
+    a: 6
+    er: 29
+    fb: 1
+    p: 2
+    df: 1
