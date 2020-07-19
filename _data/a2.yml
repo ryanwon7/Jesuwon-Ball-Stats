@@ -5,7 +5,7 @@ grp_loss: 2
 qf_win: 2
 qf_loss: 0
 sf_win: 0
-sf_loss: 1
+sf_loss: 2
 f_win: 0
 f_loss: 0
 grp_g1: complete
@@ -15,7 +15,7 @@ qf_g1: complete
 qf_g2: complete
 #qf_g3: complete
 sf_g1: complete
-#sf_g2: complete
+sf_g2: complete
 #sf_g3: complete
 #f_g1: complete
 #f_g2: complete
