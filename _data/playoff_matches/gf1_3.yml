@@ -3,113 +3,113 @@ away_team: Silver Surfers
 hometag: TFN
 awaytag: SUS
 time: 7/19, 10:30PM
-map: TBD
+map: Bind
 id: gf1_3
-home_rounds: 0
-away_rounds: 0
-complete: False
+home_rounds: 5
+away_rounds: 13
+complete: complete
 needed: needed
 
 home_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: TFN Jay
+    agt: Jett
+    cs: 188
+    k: 11
+    d: 18
+    a: 2
+    er: 40
+    fb: 4
+    p: 0
+    df: 0
+  - ign: TFN Ginah
+    agt: Sage
+    cs: 75
+    k: 3
+    d: 14
+    a: 8
+    er: 25
+    fb: 0
+    p: 6
+    df: 0
+  - ign: TFN Snake
+    agt: Cypher
+    cs: 207
+    k: 12
+    d: 18
+    a: 2
+    er: 42
+    fb: 2
+    p: 0
+    df: 0
+  - ign: TFN JogumFire
+    agt: Raze
+    cs: 170
+    k: 10
+    d: 14
+    a: 2
+    er: 38
+    fb: 1
+    p: 2
+    df: 0
+  - ign: TFN Faded
+    agt: Omen
+    cs: 266
+    k: 18
+    d: 14
+    a: 1
+    er: 63
+    fb: 2
+    p: 1
+    df: 0
 
 away_members:
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
-  - ign: 
-    agt: 
-    cs: 
-    k: 
-    d: 
-    a: 
-    er: 
-    fb: 
-    p: 
-    df: 
+  - ign: drew
+    agt: sage
+    cs: 301
+    k: 20
+    d: 11
+    a: 15
+    er: 82
+    fb: 4
+    p: 5
+    df: 0
+  - ign: dksgusdn
+    agt: Omen
+    cs: 189
+    k: 14
+    d: 9
+    a: 5
+    er: 66
+    fb: 0
+    p: 0
+    df: 0
+  - ign: LexHong
+    agt: Raze
+    cs: 347
+    k: 21
+    d: 13
+    a: 5
+    er: 66
+    fb: 3
+    p: 0
+    df: 0
+  - ign: Pantimos
+    agt: Breach
+    cs: 186
+    k: 13
+    d: 9
+    a: 7
+    er: 70
+    fb: 1
+    p: 1
+    df: 3
+  - ign: ChubbsYaMane
+    agt: Cypher
+    cs: 173
+    k: 10
+    d: 12
+    a: 8
+    er: 67
+    fb: 1
+    p: 0
+    df: 1
