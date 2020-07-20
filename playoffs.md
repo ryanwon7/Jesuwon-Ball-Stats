@@ -34,13 +34,13 @@ layout: default
         <li>&nbsp;</li>
         <li>&nbsp;</li>
         <li>&nbsp;</li>
-        <li class="game game-top spacer-one">Team Fire Nation <span>0</span></li>
+        <li class="game game-top spacer-one winner">Team Fire Nation <span>2</span></li>
         <li class="game game-spacer spacer-one"><a href="/playoffs/sf1">SF1 - Series Page</a></li>
         <li class="game game-bottom ">Global Elites <span>0</span></li>
         <li class="spacer">&nbsp;</li>
-        <li class="game game-top ">Primus Victoribus<span>0</span></li>
+        <li class="game game-top ">Primus Victoribus<span>1</span></li>
         <li class="game game-spacer spacer-one"><a href="/playoffs/sf2">SF2 - Series Page</a></li>
-        <li class="game game-bottom ">Silver Surfers<span>0</span></li>
+        <li class="game game-bottom winner ">Silver Surfers<span>2</span></li>
         <li class="spacer">&nbsp;</li>
     </ul>
     <ul class="round round-3">
@@ -51,9 +51,9 @@ layout: default
         <li>&nbsp;</li>
         <li>&nbsp;</li>
         <li>&nbsp;</li>
-        <li class="game game-top ">TBD <span>0</span></li>
+        <li class="game game-top winner">Team Fire Nation <span>0</span></li>
         <li class="game game-spacer spacer-one"><a href="/playoffs/gf">GF - Series Page</a></li>
-        <li class="game game-bottom ">TBD <span>0</span></li>
+        <li class="game game-bottom winner">Silver Surfers <span>0</span></li>
         <li class="spacer">&nbsp;</li>
     </ul>  
     <ul class="round round-4">
