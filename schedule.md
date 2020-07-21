@@ -107,7 +107,7 @@ datatable: true
       <td><a href="/playoffs">Semifinal 1</a></td>
       <td>{{sf1.time}}</td>
       <td>{{sf1.map}}</td>
-      <td>BO3</td>
+      <td>PRVI 1-2 SUS</td>
       <td><a href="/playoffs/sf1">Series Stats</a></td>
     </tr>
     {% assign sf2 = site.data.playoff_matches.sf2_1 %}
@@ -116,7 +116,7 @@ datatable: true
       <td><a href="/playoffs">Semifinal 2</a></td>
       <td>{{sf2.time}}</td>
       <td>{{sf2.map}}</td>
-      <td>BO3</td>
+      <td>TFN 2-0 GE</td>
       <td><a href="/playoffs/sf2">Series Stats</a></td>
     </tr>
     {% assign gf = site.data.playoff_matches.gf1_1 %}
@@ -125,7 +125,7 @@ datatable: true
       <td><a href="/playoffs">Grand Finals</a></td>
       <td>{{gf.time}}</td>
       <td>{{gf.map}}</td>
-      <td>BO3</td>
+      <td>TFN 1-2 SUS</td>
       <td><a href="/playoffs/gf">Series Stats</a></td>
     </tr>
   </tbody>

@@ -51,12 +51,12 @@ layout: default
         <li>&nbsp;</li>
         <li>&nbsp;</li>
         <li>&nbsp;</li>
-        <li class="game game-top winner">Team Fire Nation <span>0</span></li>
+        <li class="game game-top">Team Fire Nation <span>1</span></li>
         <li class="game game-spacer spacer-one"><a href="/playoffs/gf">GF - Series Page</a></li>
-        <li class="game game-bottom winner">Silver Surfers <span>0</span></li>
+        <li class="game game-bottom winner">Silver Surfers <span>2</span></li>
         <li class="spacer">&nbsp;</li>
     </ul>  
     <ul class="round round-4">
-        <li class="game game-top"><b>Champion</b>: TBD </li>
+        <li class="game game-top winner"><b>Champion</b>: Silver Surfers </li>
     </ul>
 </main>
