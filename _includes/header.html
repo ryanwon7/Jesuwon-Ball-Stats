@@ -3,15 +3,365 @@
     <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}" style="font-size: 20px;">{{ site.title | escape }}</a>
     <div class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: white">
-        Pages
+        Tournaments
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="/">Tournament Info</a>
-        <a class="dropdown-item" href="/schedule">Schedule</a>
-        <a class="dropdown-item" href="/watch">Watch</a>
-        <a class="dropdown-item" href="/groups">Group Stages</a>
-        <a class="dropdown-item" href="/playoffs">Playoffs</a>
+        <a class="dropdown-item" href="/2022/home">2022 - 12th Tournament</a>
+        <a class="dropdown-item" href="/2020/home">2020 - 11th Tournament</a>
+        <a class="dropdown-item" href="/2019/home">2019 - 10th Tournament</a>
+        <a class="dropdown-item" href="/2018/home">2018 - 9th Tournament</a>
+        <a class="dropdown-item" href="/players">By Player</a>
       </div>
     </div>
   </div>
 </nav>
+
+{% if page.archetype == "tournament" %}
+  <nav class="nav nav-tabs nav-fill">
+  {% if page.year == 2022 %}
+    {% if page.type == "home" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2022/home"| relative_url }}"><b>Home</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2022/home"| relative_url }}">Home</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "reg" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2022/regseason"| relative_url }}"><b>Regular Season Standings</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2022/regseason"| relative_url }}">Regular Season Standings</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "playoffs" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2022/playoffs"| relative_url }}"><b>Playoff Bracket</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2022/playoffs"| relative_url }}">Playoff Bracket</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "schedule" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2022/schedule"| relative_url }}"><b>Schedule and Scores</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2022/schedule"| relative_url }}">Schedule and Scores</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "stats" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2022/stats"| relative_url }}"><b>Stats</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2022/stats"| relative_url }}">Stats</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "teams" %}
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
+        <b>Teams</b>
+      </a>
+      <div class="dropdown-menu">
+        {% for team_hash in site.data.seasons.twentytwo.teams %}
+        {% assign team = team_hash[1] %}
+        <a class="dropdown-item" href="/2022/teams/team{{team.team_id}}">{{team.name}}</a>
+        {% endfor %}
+      </div>
+    </li>
+    {% else %}
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Teams
+      </a>
+      <div class="dropdown-menu">
+        {% for team_hash in site.data.seasons.twentytwo.teams %}
+        {% assign team = team_hash[1] %}
+        <a class="dropdown-item" href="/2022/teams/team{{team.team_id}}">{{team.name}}</a>
+        {% endfor %}
+      </div>
+    </li>
+    {% endif %}
+
+    {% if page.type == "awards" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2022/awards"| relative_url }}"><b>Season Awards</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2022/awards"| relative_url }}">Season Awards</a>
+    </li>
+    {% endif %}
+  {% elsif page.year == 2020 %}
+    {% if page.type == "home" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2020/home"| relative_url }}"><b>Home</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2020/home"| relative_url }}">Home</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "reg" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "2020/regseason"| relative_url }}"><b>Regular Season Standings</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "2020/regseason"| relative_url }}">Regular Season Standings</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "playoffs" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2020/playoffs"| relative_url }}"><b>Playoff Bracket</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2020/playoffs"| relative_url }}">Playoff Bracket</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "schedule" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2020/schedule"| relative_url }}"><b>Schedule and Scores</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2020/schedule"| relative_url }}">Schedule and Scores</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "stats" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2020/stats"| relative_url }}"><b>Stats</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2020/stats"| relative_url }}">Stats</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "teams" %}
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
+        <b>Teams</b>
+      </a>
+      <div class="dropdown-menu">
+        {% for team_hash in site.data.seasons.twenty.teams %}
+        {% assign team = team_hash[1] %}
+        <a class="dropdown-item" href="/2020/teams/team{{team.team_id}}">{{team.name}}</a>
+        {% endfor %}
+      </div>
+    </li>
+    {% else %}
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Teams
+      </a>
+      <div class="dropdown-menu">
+        {% for team_hash in site.data.seasons.twenty.teams %}
+        {% assign team = team_hash[1] %}
+        <a class="dropdown-item" href="/2020/teams/team{{team.team_id}}">{{team.name}}</a>
+        {% endfor %}
+      </div>
+    </li>
+    {% endif %}
+
+    {% if page.type == "awards" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2020/awards"| relative_url }}"><b>Season Awards</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2020/awards"| relative_url }}">Season Awards</a>
+    </li>
+    {% endif %}
+  {% elsif page.year == 2019 %}
+    {% if page.type == "home" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2019/home"| relative_url }}"><b>Home</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2019/home"| relative_url }}">Home</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "reg" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "2019/regseason"| relative_url }}"><b>Regular Season Standings</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "2019/regseason"| relative_url }}">Regular Season Standings</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "playoffs" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2019/playoffs"| relative_url }}"><b>Playoff Bracket</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2019/playoffs"| relative_url }}">Playoff Bracket</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "schedule" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2019/schedule"| relative_url }}"><b>Schedule and Scores</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2019/schedule"| relative_url }}">Schedule and Scores</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "stats" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2019/stats"| relative_url }}"><b>Stats</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2019/stats"| relative_url }}">Stats</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "teams" %}
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
+        <b>Teams</b>
+      </a>
+      <div class="dropdown-menu">
+        {% for team_hash in site.data.seasons.nineteen.teams %}
+        {% assign team = team_hash[1] %}
+        <a class="dropdown-item" href="/2019/teams/team{{team.team_id}}">{{team.name}}</a>
+        {% endfor %}
+      </div>
+    </li>
+    {% else %}
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Teams
+      </a>
+      <div class="dropdown-menu">
+        {% for team_hash in site.data.seasons.nineteen.teams %}
+        {% assign team = team_hash[1] %}
+        <a class="dropdown-item" href="/2019/teams/team{{team.team_id}}">{{team.name}}</a>
+        {% endfor %}
+      </div>
+    </li>
+    {% endif %}
+
+    {% if page.type == "awards" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2019/awards"| relative_url }}"><b>Season Awards</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2019/awards"| relative_url }}">Season Awards</a>
+    </li>
+    {% endif %}
+  {% elsif page.year == 2018 %}
+    {% if page.type == "home" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2018/home"| relative_url }}"><b>Home</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2018/home"| relative_url }}">Home</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "reg" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "2018/regseason"| relative_url }}"><b>Regular Season Standings</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "2018/regseason"| relative_url }}">Regular Season Standings</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "playoffs" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2018/playoffs"| relative_url }}"><b>Playoff Bracket</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2018/playoffs"| relative_url }}">Playoff Bracket</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "schedule" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2018/schedule"| relative_url }}"><b>Schedule and Scores</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2018/schedule"| relative_url }}">Schedule and Scores</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "stats" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2018/stats"| relative_url }}"><b>Stats</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2018/stats"| relative_url }}">Stats</a>
+    </li>
+    {% endif %}
+
+    {% if page.type == "teams" %}
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
+        <b>Teams</b>
+      </a>
+      <div class="dropdown-menu">
+        {% for team_hash in site.data.seasons.eighteen.teams %}
+        {% assign team = team_hash[1] %}
+        <a class="dropdown-item" href="/2018/teams/team{{team.team_id}}">{{team.name}}</a>
+        {% endfor %}
+      </div>
+    </li>
+    {% else %}
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Teams
+      </a>
+      <div class="dropdown-menu">
+        {% for team_hash in site.data.seasons.eighteen.teams %}
+        {% assign team = team_hash[1] %}
+        <a class="dropdown-item" href="/2018/teams/team{{team.team_id}}">{{team.name}}</a>
+        {% endfor %}
+      </div>
+    </li>
+    {% endif %}
+
+    {% if page.type == "awards" %}
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ "/2018/awards"| relative_url }}"><b>Season Awards</b></a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ "/2018/awards"| relative_url }}">Season Awards</a>
+    </li>
+    {% endif %}
+  {% endif %}
+  </nav>
+{% endif %}

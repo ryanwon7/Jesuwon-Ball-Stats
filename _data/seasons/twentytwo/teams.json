@@ -1,0 +1,89 @@
+{
+	"bigpuppies":
+	{
+		"team_id": 1,
+		"name": "Big Puppies",
+		"tag": "PUP",
+		"captain": "Sahn Yoon",
+		"season": 2022,
+		"wins": 3,
+		"losses": 1,
+		"seed": 1,
+		"players":
+		[{"name": "Sahn Yoon", "player_id": 31},
+		{"name": "Eric Moon", "player_id": 26},
+		{"name": "Elijah Park", "player_id": 29},
+		{"name": "Yong Sang Park", "player_id": 32},
+		{"name": "Eugene Kim", "player_id": 13},
+		{"name": "Calvin Hong", "player_id": 3}]
+	},
+	"dreamteam":
+	{
+		"team_id": 2,
+		"name": "Dream Team",
+		"tag": "DRM",
+		"captain": "Bryce Kim",
+		"season": 2022,
+		"wins": 0,
+		"losses": 4,
+		"seed": 5,
+		"players":
+		[{"name": "Bryce Kim", "player_id": 8},
+		{"name": "Kyle Ju", "player_id": 4},
+		{"name": "Domin Kim", "player_id": 11},
+		{"name": "Ryan Lee", "player_id": 19},
+		{"name": "Urim Lee", "player_id": 20},
+		{"name": "Elijah Park", "player_id": 29}]
+	},
+	"muchomango":
+	{
+		"team_id": 3,
+		"name": "Mucho Mango",
+		"tag": "MM",
+		"captain": "Caleb Jung",
+		"season": 2022,
+		"wins": 3,
+		"losses": 1,
+		"seed": 2,
+		"players":
+		[{"name": "Caleb Jung", "player_id": 5},
+		{"name": "Daniel Lee", "player_id": 15},
+		{"name": "Jason Lee", "player_id": 18},
+		{"name": "David Moon", "player_id": 25},
+		{"name": "Isaac Sohn", "player_id": 34}]
+	},
+	"tacoamigos":
+	{
+		"team_id": 4,
+		"name": "Taco Amigos",
+		"tag": "TAC",
+		"captain": "Dan Kim",
+		"season": 2022,
+		"wins": 1,
+		"losses": 3,
+		"seed": 4,
+		"players":
+		[{"name": "Dan Kim", "player_id": 9},
+		{"name": "Song Seng Geu", "player_id": 2},
+		{"name": "Ezekiel Kim", "player_id": 14},
+		{"name": "Alan Moon", "player_id": 22},
+		{"name": "Paul Park", "player_id": 31}]
+	},
+	"uglyducklings":
+	{
+		"team_id": 5,
+		"name": "Ugly Ducklings",
+		"tag": "UGL",
+		"captain": "Joseph Jung",
+		"season": 2022,
+		"wins": 3,
+		"losses": 1,
+		"seed": 3,
+		"players":
+		[{"name": "Joseph Jung", "player_id": 6},
+		{"name": "Jun Sung Park", "player_id": 30},
+		{"name": "Daniel Ro", "player_id": 33},
+		{"name": "Ian Sunwoo", "player_id": 36},
+		{"name": "Ryan Won", "player_id": 38}]
+	}
+}

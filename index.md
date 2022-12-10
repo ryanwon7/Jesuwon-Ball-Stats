@@ -1,17 +1,20 @@
-<h1> VALORANT Philly Invitational </h1>
+<h1> Jesuwon Community Church Basketball Tournaments </h1>
 
-<img src="resources/Valorant_Poster_02.jpg" alt="Philly Invitational Poster">
+<img src="resources/jesuwon_logo.jpg" alt="Jesuwon Community Church">
 
-<h2> Who Are We? </h2>
-We are a group of recently graduated and current university students from Philadelphia! We all met through a shared passion for gaming, and VALORANT is the latest game that has caught our eye. We love this game so much, that we decided to run a tournament for fellow gamers in the Philadelphia area.
+<h2> Recent Results </h2>
+When the 2023 tournament begins, the most recent results for the week will be posted here!
 
-<h2> How Do I Register My Team? </h2>
-To register your team, you can signup your team at the sign up page, which can be found here: <a href="/signup">Signup Page</a>. While only the captain of the team inputs most of your team information, all members of a team are required to signup so we can get your IGN and signature on a release form.
+<h2> Announcements </h2>
+The deadline to signup for the 2023 tournament is 12/11! Please make sure to register and pay by this date.
 
-<h2> Why Do I Have to Pay for this Tournament? </h2>
-Since we are all broke college students, any prize pool money would have to come from registration fees. Don't worry, however - all money from the registration fees goes to the prize pool. If all eight teams register and do not cancel, the final prize pool will amount to $200, with 75% going to the winner and 25% going to second place. In the case that we cannot find eight teams or a team cancels last minute, the prize pool may decrease - the percentage the winning team and second place team gets does not change, however.
+<h2> The Annual Basketball Tournament </h2>
+Every year at the end of January, Jesuwon Community Church hosts a basketball tournament for its youth group, college group, and young adults. This tournament has been running for over 13 years, with the upcoming edition in January 2023 being the 13th tournament ever hosted.
 
-You might also wonder why we require at least half the deposit up front during registration. Since we anticipate many teams would like to participate in the Philly Invitationals, we require a deposit so that teams will not sign up for one of the limited spots in the tournament and then cancel before the tournament starts. This way, we can ensure that we can get the most teams as possible in the tournament! Please note that any cancellations after 7/15, or three days before the start of the tournament, will cause us not to refund your deposit.
+<img src="resources/ball_tourney.jpg" alt="Jesuwon Ball Tourney">
+
+<h2> Past Results and Stats </h2>
+This website holds all the results and stats from past tournaments all the way back to 2018. Click a tournament in the top right navbar to view how it went, or select "By Player" to search up stats for a specific player.
 
 <h2> How Can I Reach Out to You? </h2>
 If you'd like to reach out to us with any questions, concerns, or business inquiries, please reach out to us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>. We're new at the tournament process, so feel free to hit us up with any constructive criticism you may have!
