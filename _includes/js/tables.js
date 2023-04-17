@@ -1,7 +1,7 @@
 $(document).ready( function () {
     $('table.display').DataTable({
     	paging: false,
-    	order: [[ 2, "dsc" ]],
+    	order: [[ 1, "dsc" ]],
     	searching: false,
     	info: false,
     	aoColumnDefs: [
@@ -37,5 +37,20 @@ $(document).ready( function () {
         searching: false,
         info: false,
         order: [[ 1, "asc" ]]
+    });
+    } );
+
+$(document).ready( function () {
+    $('table.display4').DataTable({
+        paging: true,
+        searching: false,
+        info: false,
+        order: [[ 1, "dsc" ]],
+        aoColumnDefs: [
+            {
+                orderSequence: ["desc", "asc"],
+                aTargets: ['_all']
+            }
+        ]
     });
     } );

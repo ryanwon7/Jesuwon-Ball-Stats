@@ -11,21 +11,19 @@ datatable: true
 <h2> {{page.year}} Schedule and Scores </h2>
 <table class="display3">
   <colgroup>
-    <col class="thirtyy"/>
-    <col class="twenty"/>
-    <col class="ten"/>
-    <col class="ten"/>
+    <col class="thirty"/>
     <col class="fifteen"/>
+    <col class="twenty"/>
+    <col class="twenty"/>
     <col class="fifteen"/>
   </colgroup>
   <thead>
     <tr>
       <th>Matchup</th>
-      <th>Stage</th>
-      <th>Date</th>
-      <th>Time</th>
-      <th>Result</th>
       <th>Match Page</th>
+      <th>Stage</th>
+      <th>Date and Time</th>
+      <th>Result</th>
     </tr>
   </thead>
   <tbody>
@@ -35,11 +33,10 @@ datatable: true
 	{% assign away = site.data.seasons.twentytwo.teams[match.away_team_name] %}
     <tr>
       <td><b>{{home.name}} vs {{away.name}}</b></td>
-      <td>{{match.type}}</td>
-      <td>{{match.short_date}}</td>
-      <td>{{match.time}}</td>
-      <td>{{home.tag}} {{match.home_score}} - {{match.away_score}} {{away.tag}}</td>
       <td><a href="/{{page.year}}/games/game{{match.game_id}}">Match Stats</a></td>
+      <td>{{match.type}}</td>
+      <td>{{match.short_date}}, {{match.time}}</td>
+      <td>{{home.tag}} {{match.home_score}} - {{match.away_score}} {{away.tag}}</td>
     </tr>
     {% endfor %}
   </tbody>

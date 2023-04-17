@@ -22,7 +22,7 @@ datatable: true
 <h2> ({{home.seed}}) {{home.name}} </h2>
 {% endif %}
 <table class="display">
-  <caption style="text-align: center;"> <b>PTS</b> = Points Scored, <b>AST</b> = Assists, <b>REB</b> = Rebounds, <b>STL</b> = Steals, <b>BLK</b> = Blocks </caption>
+  <caption style="text-align: center;"> <b>PTS</b> = Points Scored, <b>REB</b> = Rebounds, <b>AST</b> = Assists, <b>STL</b> = Steals, <b>BLK</b> = Blocks </caption>
   <colgroup>
       <col class="nineteen"/>
       <col class="nine"/>
@@ -35,8 +35,8 @@ datatable: true
     <tr>
         <th>Player Name</th>
         <th>PTS</th>
-        <th>AST</th>
         <th>REB</th>
+        <th>AST</th>
         <th>STL</th>
         <th>BLK</th>
     </tr>
@@ -52,13 +52,13 @@ datatable: true
   <tr>
       <td><a href="/players/{{player.player_id}}">{{player.player_name}}</a></td>
       <td>{{player.pts}}</td>
-      <td>{{player.ast}}</td>
       <td>{{player.reb}}</td>
+      <td>{{player.ast}}</td>
       <td>{{player.stl}}</td>
       <td>{{player.blk}}</td>
       {% assign pts_total = pts_total | plus: player.pts %}
-      {% assign ast_total = ast_total | plus: player.ast %}
       {% assign reb_total = reb_total | plus: player.reb %}
+      {% assign ast_total = ast_total | plus: player.ast %}
       {% assign stl_total = stl_total | plus: player.stl %}
       {% assign blk_total = blk_total | plus: player.blk %}
    </tr>
@@ -68,8 +68,8 @@ datatable: true
     <tr>
         <th>Team Total</th>
         <th>{{pts_total}}</th>
-        <th>{{ast_total}}</th>
         <th>{{reb_total}}</th>
+        <th>{{ast_total}}</th>
         <th>{{stl_total}}</th>
         <th>{{blk_total}}</th>
     </tr>
@@ -96,16 +96,16 @@ datatable: true
     <tr>
         <th>Player Name</th>
         <th>PTS</th>
-        <th>AST</th>
         <th>REB</th>
+        <th>AST</th>
         <th>STL</th>
         <th>BLK</th>
     </tr>
   </thead>
   <tbody style="text-align: center;">
   {% assign pts_total = 0 %}
-  {% assign ast_total = 0 %}
   {% assign reb_total = 0 %}
+  {% assign ast_total = 0 %}
   {% assign stl_total = 0 %}
   {% assign blk_total = 0 %}
   {% for player in site.data.seasons.twentytwo.player_logs["gamelogs"].value %}
@@ -113,13 +113,13 @@ datatable: true
   <tr>
       <td><a href="/players/{{player.player_id}}">{{player.player_name}}</a></td>
       <td>{{player.pts}}</td>
-      <td>{{player.ast}}</td>
       <td>{{player.reb}}</td>
+      <td>{{player.ast}}</td>
       <td>{{player.stl}}</td>
       <td>{{player.blk}}</td>
       {% assign pts_total = pts_total | plus: player.pts %}
-      {% assign ast_total = ast_total | plus: player.ast %}
       {% assign reb_total = reb_total | plus: player.reb %}
+      {% assign ast_total = ast_total | plus: player.ast %}
       {% assign stl_total = stl_total | plus: player.stl %}
       {% assign blk_total = blk_total | plus: player.blk %}
    </tr>
@@ -129,8 +129,8 @@ datatable: true
     <tr>
         <th>Team Total</th>
         <th>{{pts_total}}</th>
-        <th>{{ast_total}}</th>
         <th>{{reb_total}}</th>
+        <th>{{ast_total}}</th>
         <th>{{stl_total}}</th>
         <th>{{blk_total}}</th>
     </tr>

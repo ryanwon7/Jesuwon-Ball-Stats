@@ -34,8 +34,7 @@ datatable: true
 			<table class="display3">
 			  <colgroup>
 			      <col class="nineteen"/>
-			      <col class="nine"/>
-			      <col class="nine"/>
+			      <col class="nineteen"/>
 			      <col class="nine"/>
 			      <col class="nine"/>
 			      <col class="nine"/>
@@ -45,8 +44,7 @@ datatable: true
 			  <thead>
 			    <tr>
 			      <th>Opponent</th>
-			      <th>Date</th>
-			      <th>Result</th>
+			      <th>Date, Result</th>
 			      <th>PTS</th>
 			      <th>AST</th>
 			      <th>REB</th>
@@ -70,11 +68,11 @@ datatable: true
 					{% assign opp_data = site.data.seasons.twentytwo.teams[opp] %}
 				    <tr>
 				      <td>vs <a href="/{{page.year}}/teams/team{{opp_data.team_id}}">{{opp_data.name}}</a></td>
-				      <td>{{match.short_date}}</td>
+				      <td>{{match.short_date}}, 
 					  {% if match.home_score > match.away_score %}
-				      <td> <b>W</b>, {{match.home_score}} - {{match.away_score}} </td>
+				      <b>W</b>, {{match.home_score}} - {{match.away_score}} </td>
 				      {% else %}
-				      <td> <b>L</b>, {{match.home_score}} - {{match.away_score}} </td>
+				      <b>L</b>, {{match.home_score}} - {{match.away_score}} </td>
 				      {% endif %}
 					{% assign pts_total = 0 %}
 					{% assign ast_total = 0 %}
@@ -107,11 +105,11 @@ datatable: true
 					{% assign opp_data = site.data.seasons.twentytwo.teams[opp] %}
 				    <tr>
 				      <td>@ <a href="/{{page.year}}/teams/team{{opp_data.team_id}}">{{opp_data.name}}</a></td>
-				      <td>{{match.short_date}}</td>
+				      <td>{{match.short_date}}, 
 					  {% if match.home_score > match.away_score %}
-				      <td> <b>L</b>,  {{match.home_score}} - {{match.away_score}} </td>
+				      <b>L</b>,  {{match.home_score}} - {{match.away_score}} </td>
 				      {% else %}
-				      <td> <b>W</b>, {{match.home_score}} - {{match.away_score}} </td>
+				      <b>W</b>, {{match.home_score}} - {{match.away_score}} </td>
 				      {% endif %}
 					{% assign pts_total = 0 %}
 					{% assign ast_total = 0 %}
@@ -147,12 +145,11 @@ datatable: true
 				<tr>
 				    <th>Regular Season Average</th>
 				    <th></th>
-				    <th></th>
-				    <th>{{ovr_pts_total | times: 1.0 | divided_by: ovr_gp}}</th>
-				    <th>{{ovr_ast_total | times: 1.0 | divided_by: ovr_gp}}</th>
-				    <th>{{ovr_reb_total | times: 1.0 | divided_by: ovr_gp}}</th>
-				    <th>{{ovr_stl_total | times: 1.0 | divided_by: ovr_gp}}</th>
-				    <th>{{ovr_blk_total | times: 1.0 | divided_by: ovr_gp}}</th>
+				    <th>{{ovr_pts_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
+				    <th>{{ovr_ast_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
+				    <th>{{ovr_reb_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
+				    <th>{{ovr_stl_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
+				    <th>{{ovr_blk_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
 				</tr>
 				</tfoot>
 			 </table>
@@ -161,8 +158,7 @@ datatable: true
 			<table class="display3">
 			  <colgroup>
 			      <col class="nineteen"/>
-			      <col class="nine"/>
-			      <col class="nine"/>
+			      <col class="nineteen"/>
 			      <col class="nine"/>
 			      <col class="nine"/>
 			      <col class="nine"/>
@@ -172,8 +168,7 @@ datatable: true
 			  <thead>
 			    <tr>
 			      <th>Opponent</th>
-			      <th>Date</th>
-			      <th>Result</th>
+			      <th>Date, Result</th>
 			      <th>PTS</th>
 			      <th>AST</th>
 			      <th>REB</th>
@@ -197,11 +192,10 @@ datatable: true
 					{% assign opp_data = site.data.seasons.twentytwo.teams[opp] %}
 				    <tr>
 				      <td>vs <a href="/{{page.year}}/teams/team{{opp_data.team_id}}">{{opp_data.name}}</a></td>
-				      <td>{{match.short_date}}</td>
 					  {% if match.home_score > match.away_score %}
-				      <td> <b>W</b>, {{match.home_score}} - {{match.away_score}} </td>
+				      <td>{{match.short_date}}, <b>W</b>, {{match.home_score}} - {{match.away_score}} </td>
 				      {% else %}
-				      <td> <b>L</b>, {{match.home_score}} - {{match.away_score}} </td>
+				      <td>{{match.short_date}}, <b>L</b>, {{match.home_score}} - {{match.away_score}} </td>
 				      {% endif %}
 					{% assign pts_total = 0 %}
 					{% assign ast_total = 0 %}
@@ -234,11 +228,10 @@ datatable: true
 					{% assign opp_data = site.data.seasons.twentytwo.teams[opp] %}
 				    <tr>
 				      <td>@ <a href="/{{page.year}}/teams/team{{opp_data.team_id}}">{{opp_data.name}}</a></td>
-				      <td>{{match.short_date}}</td>
 					  {% if match.home_score > match.away_score %}
-				      <td> <b>L</b>,  {{match.home_score}} - {{match.away_score}} </td>
+				      <td>{{match.short_date}}, <b>L</b>,  {{match.home_score}} - {{match.away_score}} </td>
 				      {% else %}
-				      <td> <b>W</b>, {{match.home_score}} - {{match.away_score}} </td>
+				      <td>{{match.short_date}}, <b>W</b>, {{match.home_score}} - {{match.away_score}} </td>
 				      {% endif %}
 					{% assign pts_total = 0 %}
 					{% assign ast_total = 0 %}
@@ -274,12 +267,11 @@ datatable: true
 				<tr>
 				    <th>Playoff Average</th>
 				    <th></th>
-				    <th></th>
-				    <th>{{ovr_pts_total | times: 1.0 | divided_by: ovr_gp}}</th>
-				    <th>{{ovr_ast_total | times: 1.0 | divided_by: ovr_gp}}</th>
-				    <th>{{ovr_reb_total | times: 1.0 | divided_by: ovr_gp}}</th>
-				    <th>{{ovr_stl_total | times: 1.0 | divided_by: ovr_gp}}</th>
-				    <th>{{ovr_blk_total | times: 1.0 | divided_by: ovr_gp}}</th>
+				    <th>{{ovr_pts_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
+				    <th>{{ovr_ast_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
+				    <th>{{ovr_reb_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
+				    <th>{{ovr_stl_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
+				    <th>{{ovr_blk_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
 				</tr>
 				</tfoot>
 			 </table>

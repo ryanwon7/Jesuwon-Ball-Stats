@@ -60,12 +60,26 @@
     {% endif %}
 
     {% if page.type == "stats" %}
-    <li class="nav-item">
-      <a class="nav-link active" href="{{ "/2022/stats"| relative_url }}"><b>Stats</b></a>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
+        <b>Stats</b>
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="/2022/stats/regseason">Regular Season Stats</a>
+        <a class="dropdown-item" href="/2022/stats/playoffs">Playoff Stats</a>
+        <a class="dropdown-item" href="/2022/stats/seasonleaders">Season Leaders</a>
+      </div>
     </li>
     {% else %}
-    <li class="nav-item">
-      <a class="nav-link" href="{{ "/2022/stats"| relative_url }}">Stats</a>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Stats
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="/2022/stats/regseason">Regular Season Stats</a>
+        <a class="dropdown-item" href="/2022/stats/playoffs">Playoff Stats</a>
+        <a class="dropdown-item" href="/2022/stats/seasonleaders">Season Leaders</a>
+      </div>
     </li>
     {% endif %}
 

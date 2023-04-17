@@ -1,0 +1,87 @@
+{
+	"fishtaxi":
+	{
+		"team_id": 1,
+		"name": "Fish Taxi",
+		"tag": "FTX",
+		"captain": "Daniel Ro",
+		"season": 2022,
+		"wins": 0,
+		"losses": 0,
+		"seed": 0,
+		"players":
+		[{"name": "Daniel Ro", "player_id": 33},
+		{"name": "Adin Kim", "player_id": 26},
+		{"name": "Alan Moon", "player_id": 22},
+		{"name": "John Hwang", "player_id": 50},
+		{"name": "Minwoo Lee", "player_id": 51}]
+	},
+	"honeybuns":
+	{
+		"team_id": 2,
+		"name": "Honey Buns",
+		"tag": "BUN",
+		"captain": "Jaiyup Yoo",
+		"season": 2023,
+		"wins": 1,
+		"losses": 0,
+		"seed": 0,
+		"players":
+		[{"name": "Jaiyup Yoo", "player_id": 39},
+		{"name": "David Moon", "player_id": 25},
+		{"name": "Urim Lee", "player_id": 20},
+		{"name": "Timmy Sohn", "player_id": 42},
+		{"name": "Ryan Won", "player_id": 38}]
+	},
+	"jesuwonfavorites":
+	{
+		"team_id": 3,
+		"name": "Jesuwon Favorites",
+		"tag": "FAV",
+		"captain": "Ian Sunwoo",
+		"season": 2023,
+		"wins": 0,
+		"losses": 1,
+		"seed": 0,
+		"players":
+		[{"name": "Ian Sunwoo", "player_id": 36},
+		{"name": "Caleb Jung", "player_id": 5},
+		{"name": "Daniel Lee", "player_id": 15},
+		{"name": "Alex Hong", "player_id": 49},
+		{"name": "Jeremy Park", "player_id": 48}]
+	},
+	"ww":
+	{
+		"team_id": 4,
+		"name": "WW",
+		"tag": "WW",
+		"captain": "Joseph Jung",
+		"season": 2023,
+		"wins": 1,
+		"losses": 0,
+		"seed": 0,
+		"players":
+		[{"name": "Joseph Jung", "player_id": 6},
+		{"name": "Eric Moon", "player_id": 26},
+		{"name": "Jason Lee", "player_id": 18},
+		{"name": "Daniel Kim", "player_id": 43},
+		{"name": "Joshua Ha", "player_id": 44}]
+	},
+	"fourdk":
+	{
+		"team_id": 5,
+		"name": "4DK",
+		"tag": "4DK",
+		"captain": "Joseph Jung",
+		"season": 2023,
+		"wins": 0,
+		"losses": 1,
+		"seed": 0,
+		"players":
+		[{"name": "Sahn Yoon", "player_id": 41},
+		{"name": "Isaac Sohn", "player_id": 34},
+		{"name": "Jacob Moon", "player_id": 45},
+		{"name": "Joon Kim", "player_id": 36},
+		{"name": "Ryan Lee", "player_id": 19},]
+	}
+}

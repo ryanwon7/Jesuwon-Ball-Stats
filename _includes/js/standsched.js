@@ -22,12 +22,28 @@ $(document).ready( function () {
         columnDefs: [ { orderable: false, targets: [0, 2, 3, 4] }]
     });
     } );
+
 $(document).ready( function () {
     $('table.display3').DataTable({
         paging: false,
         searching: false,
         info: false,
-        order: [[ 2, "asc" ]],
-        columnDefs: [ { orderable: false, targets: [3, 4, 5] }]
+        order: [[ 3, "asc" ]],
+        columnDefs: [ { orderable: false, targets: [1, 4] }]
+    });
+    } );
+
+$(document).ready( function () {
+    $('table.display4').DataTable({
+        paging: true,
+        searching: false,
+        info: false,
+        order: [[ 1, "dsc" ]],
+        aoColumnDefs: [
+            {
+                orderSequence: ["desc", "asc"],
+                aTargets: ['_all']
+            }
+        ]
     });
     } );

@@ -1,0 +1,32 @@
+{
+  "game1":
+  {
+    "game_id": 1,
+    "home_team_id": 5,
+    "home_team_name": "fourdk",
+    "away_team_id": 2,
+    "away_team_name": "honeybuns",
+    "long_date": "April 17, 2023",
+    "short_date": "04/17/23",
+    "time": "4:00 PM",
+    "stage": "reg",
+    "type": "Regular Season Week 1",
+    "home_score": 35,
+    "away_score": 46,
+  },
+  "game2":
+  {
+    "game_id": 2,
+    "home_team_id": 3,
+    "home_team_name": "jesuwonfavorites",
+    "away_team_id": 4,
+    "away_team_name": "ww",
+    "long_date": "April 17, 2023",
+    "short_date": "04/17/23",
+    "time": "4:40 PM",
+    "stage": "reg",
+    "type": "Regular Season Week 1",
+    "home_score": 53,
+    "away_score": 72,
+  }
+}

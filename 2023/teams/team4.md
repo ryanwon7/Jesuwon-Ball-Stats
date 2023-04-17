@@ -1,20 +1,18 @@
 ---
 archetype: tournament
 type: teams
-year: 2022
-id: 1
+year: 2023
+id: 4
 style: tabs       # defines body main class
 script: tables
 layout: default
 datatable: true
 ---
-{% for team_hash in site.data.seasons.twentytwo.teams %}
+{% for team_hash in site.data.seasons.twentythree.teams %}
 {% assign team = team_hash[1] %}
 {% if team.team_id == page.id %}
 <h2> {{page.year}} Season - {{team.name}} </h2>
 <p><b>Regular Season Record</b>: {{team.wins}} - {{team.losses}}</p>
-<p><b>Playoff Seed</b>: {{team.seed}}</p>
-<p><b>Playoff Results</b>: Lost in Semifinals</p>
 <p><b>Captain</b>: {{team.captain}}</p>
 <p><b>Players</b>: 
 {% for player in team.players %}
@@ -59,13 +57,13 @@ datatable: true
 				{% assign ovr_stl_total = 0 %}
 				{% assign ovr_blk_total = 0 %}
 				{% assign ovr_gp = 0 %}
-			    {% for game in site.data.seasons.twentytwo.games %}
+			    {% for game in site.data.seasons.twentythree.games %}
 				    {% assign match = game[1] %}
 					{% if match.stage == "reg" %}
 					{% if match.home_team_id == page.id %}
 					{% assign ovr_gp = ovr_gp | plus: 1 %}
 					{% assign opp = match.away_team_name %}
-					{% assign opp_data = site.data.seasons.twentytwo.teams[opp] %}
+					{% assign opp_data = site.data.seasons.twentythree.teams[opp] %}
 				    <tr>
 				      <td>vs <a href="/{{page.year}}/teams/team{{opp_data.team_id}}">{{opp_data.name}}</a></td>
 				      <td>{{match.short_date}}, 
@@ -79,7 +77,7 @@ datatable: true
 					{% assign reb_total = 0 %}
 					{% assign stl_total = 0 %}
 					{% assign blk_total = 0 %}
-					{% for player in site.data.seasons.twentytwo.player_logs["gamelogs"].value %}
+					{% for player in site.data.seasons.twentythree.player_logs["gamelogs"].value %}
 					{% if player.game_id == match.game_id and player.team_id == page.id %}
 				    {% assign pts_total = pts_total | plus: player.pts %}
 				    {% assign ast_total = ast_total | plus: player.ast %}
@@ -102,7 +100,7 @@ datatable: true
 					{% elsif match.away_team_id == page.id %}
 					{% assign ovr_gp = ovr_gp | plus: 1 %}
 					{% assign opp = match.home_team_name %}
-					{% assign opp_data = site.data.seasons.twentytwo.teams[opp] %}
+					{% assign opp_data = site.data.seasons.twentythree.teams[opp] %}
 				    <tr>
 				      <td>@ <a href="/{{page.year}}/teams/team{{opp_data.team_id}}">{{opp_data.name}}</a></td>
 				      <td>{{match.short_date}}, 
@@ -116,7 +114,7 @@ datatable: true
 					{% assign reb_total = 0 %}
 					{% assign stl_total = 0 %}
 					{% assign blk_total = 0 %}
-					{% for player in site.data.seasons.twentytwo.player_logs["gamelogs"].value %}
+					{% for player in site.data.seasons.twentythree.player_logs["gamelogs"].value %}
 					{% if player.game_id == match.game_id and player.team_id == page.id %}
 				    {% assign pts_total = pts_total | plus: player.pts %}
 				    {% assign ast_total = ast_total | plus: player.ast %}
@@ -183,13 +181,13 @@ datatable: true
 				{% assign ovr_stl_total = 0 %}
 				{% assign ovr_blk_total = 0 %}
 				{% assign ovr_gp = 0 %}
-			    {% for game in site.data.seasons.twentytwo.games %}
+			    {% for game in site.data.seasons.twentythree.games %}
 				    {% assign match = game[1] %}
 					{% if match.stage != "reg" %}
 					{% if match.home_team_id == page.id %}
 					{% assign ovr_gp = ovr_gp | plus: 1 %}
 					{% assign opp = match.away_team_name %}
-					{% assign opp_data = site.data.seasons.twentytwo.teams[opp] %}
+					{% assign opp_data = site.data.seasons.twentythree.teams[opp] %}
 				    <tr>
 				      <td>vs <a href="/{{page.year}}/teams/team{{opp_data.team_id}}">{{opp_data.name}}</a></td>
 					  {% if match.home_score > match.away_score %}
@@ -202,7 +200,7 @@ datatable: true
 					{% assign reb_total = 0 %}
 					{% assign stl_total = 0 %}
 					{% assign blk_total = 0 %}
-					{% for player in site.data.seasons.twentytwo.player_logs["gamelogs"].value %}
+					{% for player in site.data.seasons.twentythree.player_logs["gamelogs"].value %}
 					{% if player.game_id == match.game_id and player.team_id == page.id %}
 				    {% assign pts_total = pts_total | plus: player.pts %}
 				    {% assign ast_total = ast_total | plus: player.ast %}
@@ -225,7 +223,7 @@ datatable: true
 					{% elsif match.away_team_id == page.id %}
 					{% assign ovr_gp = ovr_gp | plus: 1 %}
 					{% assign opp = match.home_team_name %}
-					{% assign opp_data = site.data.seasons.twentytwo.teams[opp] %}
+					{% assign opp_data = site.data.seasons.twentythree.teams[opp] %}
 				    <tr>
 				      <td>@ <a href="/{{page.year}}/teams/team{{opp_data.team_id}}">{{opp_data.name}}</a></td>
 					  {% if match.home_score > match.away_score %}
@@ -238,7 +236,7 @@ datatable: true
 					{% assign reb_total = 0 %}
 					{% assign stl_total = 0 %}
 					{% assign blk_total = 0 %}
-					{% for player in site.data.seasons.twentytwo.player_logs["gamelogs"].value %}
+					{% for player in site.data.seasons.twentythree.player_logs["gamelogs"].value %}
 					{% if player.game_id == match.game_id and player.team_id == page.id %}
 				    {% assign pts_total = pts_total | plus: player.pts %}
 				    {% assign ast_total = ast_total | plus: player.ast %}

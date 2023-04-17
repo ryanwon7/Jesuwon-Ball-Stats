@@ -162,3 +162,42 @@
   player_id: 41
   active: yes 
 
+- player_name: Timmy Sohn
+  player_id: 42
+  active: yes
+
+- player_name: Daniel Kim
+  player_id: 43
+  active: yes
+
+- player_name: Joshua Ha
+  player_id: 44
+  active: yes
+
+- player_name: Jacob Moon
+  player_id: 45
+  active: yes
+
+- player_name: Joon Kim
+  player_id: 46
+  active: yes
+
+- player_name: Christian Kim
+  player_id: 47
+  active: yes
+
+- player_name: Jeremy Park
+  player_id: 48
+  active: yes
+
+- player_name: Alex Hong
+  player_id: 49
+  active: yes
+
+- player_name: John Hwang
+  player_id: 50
+  active: yes
+
+- player_name: Minwoo Lee
+  player_id: 51
+  active: yes
