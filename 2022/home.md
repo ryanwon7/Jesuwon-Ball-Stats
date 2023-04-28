@@ -22,7 +22,7 @@ datatable: true
 {% endif %}
 {% endfor %}
 
-<img src="/resources/2022/champs.JPG" alt="Champions">
+<img src="/resources/2022/champs.jpg" alt="Champions">
 
 <br>
 <br>
