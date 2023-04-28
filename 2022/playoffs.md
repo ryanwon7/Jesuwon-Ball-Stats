@@ -2,51 +2,50 @@
 archetype: tournament
 type: playoffs
 year: 2022
-style:  playoffs         # defines body main class
+style:  tabs       # defines body main class
+script: standsched
 layout: default
+datatable: true
 ---
 <h2> {{page.year}} Playoff Bracket </h2>
-<main id="tournament" class="main">
-    <ul class="round round-1">
-        <li>&nbsp;</li>
-        <li class="game game-top winner">Quarterfinals - 4/10</li>
-        <li>&nbsp;</li>
-        <li class="game game-top">(5) Dream Team <span>26</span></li>
-        <li class="game game-spacer spacer-one"><a href="/2022/games/game11">QF - Match Page</a></li>
-        <li class="game game-bottom winner">(4) Taco Amigos <span>46</span></li>
-        <li class="spacer">&nbsp;</li>
-    </ul>
-    <ul class="round round-2">
-        <li>&nbsp;</li>
-        <li class="game game-top winner">Semifinals - 4/17</li>
-        <li>&nbsp;</li>
-        <li>&nbsp;</li>
-        <li>&nbsp;</li>
-        <li class="game game-top spacer-one winner">(4) Taco Amigos <span>54</span></li>
-        <li class="game game-spacer spacer-one"><a href="/2022/games/game13">SF1 - Match Page</a></li>
-        <li>&nbsp;</li>
-        <li class="game game-bottom ">(1) Big Puppies <span>52</span></li>
-        <li class="spacer">&nbsp;</li>
-        <li class="game game-top ">(3) Ugly Ducklings<span>27</span></li>
-        <li class="game game-spacer spacer-one"><a href="/2022/games/game12">SF2 - Match Page</a></li>
-        <li>&nbsp;</li>
-        <li class="game game-bottom winner ">(2) Mucho Mango<span>47</span></li>
-        <li class="spacer">&nbsp;</li>
-    </ul>
-    <ul class="round round-3">
-        <li>&nbsp;</li>
-        <li class="game game-top winner">Championship - 4/24</li>
-        <li>&nbsp;</li>
-        <li>&nbsp;</li>
-        <li>&nbsp;</li>
-        <li>&nbsp;</li>
-        <li class="game game-top winner">(4) Taco Amigos <span>54</span></li>
-        <li class="game game-spacer spacer-one"><a href="/2022/games/game14">CH - Match Page</a></li>
-        <li>&nbsp;</li>
-        <li class="game game-bottom">(2) Mucho Mango <span>46</span></li>
-        <li class="spacer">&nbsp;</li>
-    </ul>  
-    <ul class="round round-4">
-        <li class="game game-top winner"><b>Champion</b>: Taco Amigos </li>
-    </ul>
-</main>
+<h4> Champions: (4) Taco Amigos</h4>
+
+<img src="/resources/{{page.year}}/bracket.png" alt="Championship Bracket">
+
+<br>
+<h4> Match Pages </h4>
+<h2> {{page.year}} Schedule and Scores </h2>
+<table class="display3">
+  <colgroup>
+    <col class="thirty"/>
+    <col class="fifteen"/>
+    <col class="twenty"/>
+    <col class="twenty"/>
+    <col class="fifteen"/>
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Matchup</th>
+      <th>Match Page</th>
+      <th>Stage</th>
+      <th>Date and Time</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for game in site.data.seasons.twentytwo.games %}
+    {% assign match = game[1] %}
+    {% if match.stage != "reg" %}
+    {% assign home = site.data.seasons.twentytwo.teams[match.home_team_name] %}
+    {% assign away = site.data.seasons.twentytwo.teams[match.away_team_name] %}
+    <tr>
+      <td><b>{{home.name}} vs {{away.name}}</b></td>
+      <td><a href="/{{page.year}}/games/game{{match.game_id}}">Match Stats</a></td>
+      <td>{{match.type}}</td>
+      <td>{{match.short_date}}, {{match.time}}</td>
+      <td>{{home.tag}} {{match.home_score}} - {{match.away_score}} {{away.tag}}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </tbody>
+ </table>

@@ -13,7 +13,6 @@ datatable: true
 {% if team.team_id == page.id %}
 <h2> {{page.year}} Season - {{team.name}} </h2>
 <p><b>Regular Season Record</b>: {{team.wins}} - {{team.losses}}</p>
-<p><b>Playoff Results</b>: Lost in Semifinals</p>
 <p><b>Captain</b>: {{team.captain}}</p>
 <p><b>Players</b>: 
 {% for player in team.players %}
@@ -45,13 +44,15 @@ datatable: true
 			      <th>Opponent</th>
 			      <th>Date, Result</th>
 			      <th>PTS</th>
-			      <th>AST</th>
 			      <th>REB</th>
+			      <th>AST</th>
 			      <th>STL</th>
 			      <th>BLK</th>
 			    </tr>
 			  </thead>
 			  <tbody>
+				{% assign 3pts_pttotal = 0 %}
+				{% assign 2pts_pttotal = 0 %}
 				{% assign ovr_pts_total = 0 %}
 				{% assign ovr_ast_total = 0 %}
 				{% assign ovr_reb_total = 0 %}
@@ -74,27 +75,41 @@ datatable: true
 				      <b>L</b>, {{match.home_score}} - {{match.away_score}} </td>
 				      {% endif %}
 					{% assign pts_total = 0 %}
+					{% assign twoptmk_total = 0 %}
+					{% assign twoptms_total = 0 %}
+					{% assign thrptmk_total = 0 %}
+					{% assign thrptms_total = 0 %}
+					{% assign ftmk_total = 0 %}
+					{% assign ftms_total = 0 %}
 					{% assign ast_total = 0 %}
 					{% assign reb_total = 0 %}
 					{% assign stl_total = 0 %}
 					{% assign blk_total = 0 %}
 					{% for player in site.data.seasons.twentythree.player_logs["gamelogs"].value %}
 					{% if player.game_id == match.game_id and player.team_id == page.id %}
-				    {% assign pts_total = pts_total | plus: player.pts %}
+				    {% assign twoptmk_total = twoptmk_total | plus: player.twopmk %}
+				    {% assign twoptms_total = twoptms_total | plus: player.twopms %}
+				    {% assign thrptmk_total = thrptmk_total | plus: player.thrpmk %}
+				    {% assign thrptms_total = thrptms_total | plus: player.thrpms %}
+				    {% assign ftmk_total = ftmk_total | plus: player.ftmk %}
+				    {% assign ftms_total = ftms_total | plus: player.ftms %}
 				    {% assign ast_total = ast_total | plus: player.ast %}
 				    {% assign reb_total = reb_total | plus: player.reb %}
 				    {% assign stl_total = stl_total | plus: player.stl %}
 				    {% assign blk_total = blk_total | plus: player.blk %}
 					{% endif %}
 					{% endfor %}
+					{% assign thrpts_pttotal = thrptmk_total | times: 3 %}
+					{% assign twopts_pttotal = twoptmk_total | times: 2 %}
+					{% assign pts_total = thrpts_pttotal | plus: twopts_pttotal | plus: ftmk_total %}
 				    {% assign ovr_pts_total = ovr_pts_total | plus: pts_total %}
 				    {% assign ovr_ast_total = ovr_ast_total | plus: ast_total %}
 				    {% assign ovr_reb_total = ovr_reb_total | plus: reb_total %}
 				    {% assign ovr_stl_total = ovr_stl_total | plus: stl_total %}
 				    {% assign ovr_blk_total = ovr_blk_total | plus:blk_total %}
 						<td style="text-align: center;">{{pts_total}}</td>
-						<td style="text-align: center;">{{ast_total}}</td>
 						<td style="text-align: center;">{{reb_total}}</td>
+						<td style="text-align: center;">{{ast_total}}</td>
 						<td style="text-align: center;">{{stl_total}}</td>
 						<td style="text-align: center;">{{blk_total}}</td>
 					</tr>
@@ -111,27 +126,41 @@ datatable: true
 				      <b>W</b>, {{match.home_score}} - {{match.away_score}} </td>
 				      {% endif %}
 					{% assign pts_total = 0 %}
+					{% assign twoptmk_total = 0 %}
+					{% assign twoptms_total = 0 %}
+					{% assign thrptmk_total = 0 %}
+					{% assign thrptms_total = 0 %}
+					{% assign ftmk_total = 0 %}
+					{% assign ftms_total = 0 %}
 					{% assign ast_total = 0 %}
 					{% assign reb_total = 0 %}
 					{% assign stl_total = 0 %}
 					{% assign blk_total = 0 %}
 					{% for player in site.data.seasons.twentythree.player_logs["gamelogs"].value %}
 					{% if player.game_id == match.game_id and player.team_id == page.id %}
-				    {% assign pts_total = pts_total | plus: player.pts %}
+				    {% assign twoptmk_total = twoptmk_total | plus: player.twopmk %}
+				    {% assign twoptms_total = twoptms_total | plus: player.twopms %}
+				    {% assign thrptmk_total = thrptmk_total | plus: player.thrpmk %}
+				    {% assign thrptms_total = thrptms_total | plus: player.thrpms %}
+				    {% assign ftmk_total = ftmk_total | plus: player.ftmk %}
+				    {% assign ftms_total = ftms_total | plus: player.ftms %}
 				    {% assign ast_total = ast_total | plus: player.ast %}
 				    {% assign reb_total = reb_total | plus: player.reb %}
 				    {% assign stl_total = stl_total | plus: player.stl %}
 				    {% assign blk_total = blk_total | plus: player.blk %}
 					{% endif %}
 					{% endfor %}
+					{% assign thrpts_pttotal = thrptmk_total | times: 3 %}
+					{% assign twopts_pttotal = twoptmk_total | times: 2 %}
+					{% assign pts_total = thrpts_pttotal | plus: twopts_pttotal | plus: ftmk_total %}
 				    {% assign ovr_pts_total = ovr_pts_total | plus: pts_total %}
 				    {% assign ovr_ast_total = ovr_ast_total | plus: ast_total %}
 				    {% assign ovr_reb_total = ovr_reb_total | plus: reb_total %}
 				    {% assign ovr_stl_total = ovr_stl_total | plus: stl_total %}
 				    {% assign ovr_blk_total = ovr_blk_total | plus:blk_total %}
 						<td style="text-align: center;">{{pts_total}}</td>
-						<td style="text-align: center;">{{ast_total}}</td>
 						<td style="text-align: center;">{{reb_total}}</td>
+						<td style="text-align: center;">{{ast_total}}</td>
 						<td style="text-align: center;">{{stl_total}}</td>
 						<td style="text-align: center;">{{blk_total}}</td>
 					</tr>
@@ -145,8 +174,8 @@ datatable: true
 				    <th>Regular Season Average</th>
 				    <th></th>
 				    <th>{{ovr_pts_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
-				    <th>{{ovr_ast_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
 				    <th>{{ovr_reb_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
+				    <th>{{ovr_ast_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
 				    <th>{{ovr_stl_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
 				    <th>{{ovr_blk_total | times: 1.0 | divided_by: ovr_gp | round: 1}}</th>
 				</tr>

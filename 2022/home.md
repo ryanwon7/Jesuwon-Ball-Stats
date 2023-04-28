@@ -22,6 +22,8 @@ datatable: true
 {% endif %}
 {% endfor %}
 
+<img src="/resources/2022/champs.JPG" alt="Champions">
+
 <br>
 <br>
 <h3> Season Award Winners </h3>

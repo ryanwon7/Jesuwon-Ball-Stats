@@ -47,3 +47,18 @@ $(document).ready( function () {
         ]
     });
     } );
+
+$(document).ready( function () {
+    $('table.display5').DataTable({
+        paging: false,
+        searching: false,
+        info: false,
+        order: [[ 2, "dsc" ], [4, "asc"]],
+        aoColumnDefs: [
+            {
+                orderSequence: ["desc", "asc"],
+                aTargets: ['_all']
+            }
+        ]
+    });
+    } );

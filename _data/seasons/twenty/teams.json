@@ -1,0 +1,106 @@
+{
+	"bigmountains":
+	{
+		"team_id": 1,
+		"name": "Big Mountains",
+		"tag": "MNT",
+		"captain": "Sahn Yoon",
+		"season": 2020,
+		"wins": 2,
+		"losses": 3,
+		"seed": 3,
+		"players":
+		[{"name": "Sahn Yoon", "player_id": 41},
+		{"name": "Kyle Ju", "player_id": 4},
+		{"name": "David Moon", "player_id": 25},
+		{"name": "Daniel Kim", "player_id": 10},
+		{"name": "David Yoon", "player_id": 40}]
+	},
+	"bodybuckets":
+	{
+		"team_id": 2,
+		"name": "Body Buckets",
+		"tag": "BB",
+		"captain": "Bryce Kim",
+		"season": 2020,
+		"wins": 1,
+		"losses": 4,
+		"seed": 6,
+		"players":
+		[{"name": "Bryce Kim", "player_id": 8},
+		{"name": "Elijah Park", "player_id": 29},
+		{"name": "Daniel Ro", "player_id": 33},
+		{"name": "Paul Park", "player_id": 31},
+		{"name": "Ezekiel Kim", "player_id": 14},
+		{"name": "Isaac Sohn", "player_id": 34}]
+	},
+	"veryberry":
+	{
+		"team_id": 3,
+		"name": "Very Berry",
+		"tag": "VB",
+		"captain": "Caleb Jung",
+		"season": 2020,
+		"wins": 1,
+		"losses": 4,
+		"seed": 5,
+		"players":
+		[{"name": "Caleb Jung", "player_id": 5},
+		{"name": "Eugene Kim", "player_id": 13},
+		{"name": "Hyunjae Lee", "player_id": 17},
+		{"name": "Alan Moon", "player_id": 22},
+		{"name": "Andy Moon", "player_id": 23},
+		{"name": "Isaac Sohn", "player_id": 34}]
+	},
+	"higherandlower":
+	{
+		"team_id": 4,
+		"name": "Higher and Lower",
+		"tag": "HNL",
+		"captain": "Dan Kim",
+		"season": 2020,
+		"wins": 5,
+		"losses": 0,
+		"seed": 1,
+		"players":
+		[{"name": "Dan Kim", "player_id": 9},
+		{"name": "Daniel Moon", "player_id": 24},
+		{"name": "Calvin Hong", "player_id": 3},
+		{"name": "Abe Park", "player_id": 28},
+		{"name": "Jiyoon Song", "player_id": 35}]
+	},
+	"stealers":
+	{
+		"team_id": 5,
+		"name": "Stealers",
+		"tag": "STL",
+		"captain": "Jaiyup Yoo",
+		"season": 2020,
+		"wins": 4,
+		"losses": 1,
+		"seed": 2,
+		"players":
+		[{"name": "Jaiyup Yoo", "player_id": 39},
+		{"name": "Joseph Jung", "player_id": 6},
+		{"name": "Eric Moon", "player_id": 26},
+		{"name": "Urim Lee", "player_id": 20},
+		{"name": "Song Seng Geu", "player_id": 2}]
+	},
+	"unendingprophets":
+	{
+		"team_id": 6,
+		"name": "Unending Prophets",
+		"tag": "UP",
+		"captain": "Edward Kim",
+		"season": 2020,
+		"wins": 2,
+		"losses": 3,
+		"seed": 4,
+		"players":
+		[{"name": "Edward Kim", "player_id": 12},
+		{"name": "Ryan Lee", "player_id": 19},
+		{"name": "Adin Kim", "player_id": 7},
+		{"name": "Ryan Won", "player_id": 38},
+		{"name": "Min Oh", "player_id": 27}]
+	}
+}

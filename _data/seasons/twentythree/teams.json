@@ -6,7 +6,7 @@
 		"tag": "FTX",
 		"captain": "Daniel Ro",
 		"season": 2022,
-		"wins": 0,
+		"wins": 1,
 		"losses": 0,
 		"seed": 0,
 		"players":
@@ -23,7 +23,7 @@
 		"tag": "BUN",
 		"captain": "Jaiyup Yoo",
 		"season": 2023,
-		"wins": 1,
+		"wins": 2,
 		"losses": 0,
 		"seed": 0,
 		"players":
@@ -41,14 +41,15 @@
 		"captain": "Ian Sunwoo",
 		"season": 2023,
 		"wins": 0,
-		"losses": 1,
+		"losses": 2,
 		"seed": 0,
 		"players":
 		[{"name": "Ian Sunwoo", "player_id": 36},
 		{"name": "Caleb Jung", "player_id": 5},
 		{"name": "Daniel Lee", "player_id": 15},
 		{"name": "Alex Hong", "player_id": 49},
-		{"name": "Jeremy Park", "player_id": 48}]
+		{"name": "Jeremy Park", "player_id": 48},
+		{"name": "Christian Kim", "player_id": 47}]
 	},
 	"ww":
 	{
@@ -72,10 +73,10 @@
 		"team_id": 5,
 		"name": "4DK",
 		"tag": "4DK",
-		"captain": "Joseph Jung",
+		"captain": "Sahn Yoon",
 		"season": 2023,
 		"wins": 0,
-		"losses": 1,
+		"losses": 2,
 		"seed": 0,
 		"players":
 		[{"name": "Sahn Yoon", "player_id": 41},
