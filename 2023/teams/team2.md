@@ -63,7 +63,9 @@ datatable: true
 				    {% assign match = game[1] %}
 					{% if match.stage == "reg" %}
 					{% if match.home_team_id == page.id %}
+					{% if match.fin == "yes"  %}
 					{% assign ovr_gp = ovr_gp | plus: 1 %}
+					{% endif %}
 					{% assign opp = match.away_team_name %}
 					{% assign opp_data = site.data.seasons.twentythree.teams[opp] %}
 				    <tr>
@@ -71,8 +73,10 @@ datatable: true
 				      <td>{{match.short_date}}, 
 					  {% if match.home_score > match.away_score %}
 				      <b>W</b>, {{match.home_score}} - {{match.away_score}} </td>
-				      {% else %}
+				      {% elsif match.home_score < match.away_score %} %}
 				      <b>L</b>, {{match.home_score}} - {{match.away_score}} </td>
+				      {% else %}
+				      <b>TBD</b> </td>
 				      {% endif %}
 					{% assign pts_total = 0 %}
 					{% assign twoptmk_total = 0 %}
@@ -114,7 +118,9 @@ datatable: true
 						<td style="text-align: center;">{{blk_total}}</td>
 					</tr>
 					{% elsif match.away_team_id == page.id %}
+					{% if match.fin == "yes"  %}
 					{% assign ovr_gp = ovr_gp | plus: 1 %}
+					{% endif %}
 					{% assign opp = match.home_team_name %}
 					{% assign opp_data = site.data.seasons.twentythree.teams[opp] %}
 				    <tr>
@@ -122,8 +128,10 @@ datatable: true
 				      <td>{{match.short_date}}, 
 					  {% if match.home_score > match.away_score %}
 				      <b>L</b>,  {{match.home_score}} - {{match.away_score}} </td>
-				      {% else %}
+				      {% elsif match.home_score < match.away_score %}
 				      <b>W</b>, {{match.home_score}} - {{match.away_score}} </td>
+				      {% else %}
+				      <b>TBD</b> </td>
 				      {% endif %}
 					{% assign pts_total = 0 %}
 					{% assign twoptmk_total = 0 %}
