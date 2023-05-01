@@ -6,7 +6,7 @@
 		"tag": "FTX",
 		"captain": "Daniel Ro",
 		"season": 2022,
-		"wins": 1,
+		"wins": 2,
 		"losses": 0,
 		"seed": 0,
 		"players":
@@ -40,7 +40,7 @@
 		"tag": "FAV",
 		"captain": "Ian Sunwoo",
 		"season": 2023,
-		"wins": 0,
+		"wins": 1,
 		"losses": 2,
 		"seed": 0,
 		"players":
@@ -59,7 +59,7 @@
 		"captain": "Joseph Jung",
 		"season": 2023,
 		"wins": 1,
-		"losses": 0,
+		"losses": 1,
 		"seed": 0,
 		"players":
 		[{"name": "Joseph Jung", "player_id": 6},
@@ -76,7 +76,7 @@
 		"captain": "Sahn Yoon",
 		"season": 2023,
 		"wins": 0,
-		"losses": 2,
+		"losses": 3,
 		"seed": 0,
 		"players":
 		[{"name": "Sahn Yoon", "player_id": 41},
