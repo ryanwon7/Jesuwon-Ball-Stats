@@ -107,9 +107,9 @@
     "time": "4:00 PM",
     "stage": "reg",
     "type": "Regular Season Week 4",
-    "fin": "no",
-    "home_score": 0,
-    "away_score": 0,
+    "fin": "yes",
+    "home_score": 49,
+    "away_score": 62,
   },
   "game8":
   {
@@ -123,9 +123,9 @@
     "time": "4:30 PM",
     "stage": "reg",
     "type": "Regular Season Week 4",
-    "fin": "no",
-    "home_score": 0,
-    "away_score": 0,
+    "fin": "yes",
+    "home_score": 51,
+    "away_score": 52,
   },
   "game9":
   {
