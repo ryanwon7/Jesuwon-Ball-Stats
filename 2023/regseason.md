@@ -11,7 +11,7 @@ datatable: true
 <h2> {{page.year}} Regular Season Standings </h2>
 This year, the fifth place team does not qualify for playoffs.
 <table class="display">
-  <caption style="text-align: center;"> <b>PF</b> = Points For/Scored, <b>PA</b> = Points Against, <b>+/-</b> = Point Differential<br><b>Tiebreakers</b>: 1. Point Differential 2. Points  For 3. Head to Head Record</caption>
+  <caption style="text-align: center;"> <b>PF</b> = Points For/Scored, <b>PA</b> = Points Against, <b>+/-</b> = Point Differential<br><b>Tiebreakers</b>: 1. Point Differential 2.  Head to Head Record 3. Points  For </caption>
   <colgroup>
           <col class="twenty"/>
           <col class="ten"/>
