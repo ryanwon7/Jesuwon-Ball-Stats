@@ -28,51 +28,51 @@ datatable: true
   <tbody style="text-align: center;">
   	<tr>
       <td><b>Points</b> Per Game</td>
-  		<td><b>Minwoo Lee, 27.0 PPG</b></td>
+  		<td><b>Ryan Won, 26.5 PPG</b></td>
   		<td>Daniel Lee, 26.0 PPG</td>
-      <td>Jason Lee, 25.7 PPG</td>
+      <td>Jason Lee, 25.5 PPG</td>
   	</tr>
     <tr>
       <td><b>Rebounds</b> Per Game</td>
-      <td><b>Jaiyup Yoo, 15.0 RPG</b></td>
-      <td>Daniel Ro, 13.7 RPG</td>
-      <td>Minwoo Lee, 13.3 RPG</td>
+      <td><b>Jaiyup Yoo, 16.0 RPG</b></td>
+      <td>Minwoo Lee, 14.0 RPG</td>
+      <td>Ryan Lee, 13.8 RPG</td>
     </tr>
     <tr>
       <td><b>Assists</b> Per Game</td>
-      <td><b>Jaiyup Yoo, 4.3 APG</b></td>
+      <td><b>Jaiyup Yoo, 4.8 APG</b></td>
       <td>Daniel Ro, 4.3 APG</td>
-      <td>David Moon, 4.0 APG</td>
+      <td>Isaac Sohn, 3.0 APG</td>
     </tr>
     <tr>
       <td><b>Steals</b> Per Game</td>
-      <td><b>Minwoo Lee, 4.7 SPG</b></td>
-      <td>Joseph Jung, 2.7 SPG</td>
+      <td><b>Minwoo Lee, 4.3 SPG</b></td>
       <td>Caleb Jung, 2.7 SPG</td>
+      <td>Daniel Ro, 2.3 SPG</td>
     </tr>
     <tr>
       <td><b>Blocks</b> Per Game</td>
-      <td><b>Ryan Lee, 2.0 BPG</b></td>
+      <td><b>Ryan Lee, 1.8 BPG</b></td>
       <td>Caleb Jung, 1.7 BPG</td>
-      <td>Jason Lee, 1.0 BPG</td>
+      <td>Jason Lee, 0.8 BPG</td>
     </tr>
     <tr>
       <td><b>Field Goal</b> Percentage</td>
-      <td><b>Minwoo Lee, 50.7%</b></td>
-      <td>Jaiyup Yoo, 48.8%</td>
-      <td>Jason Lee, 45.9%</td>
+      <td><b>Minwoo Lee, 48.9%</b></td>
+      <td>Ian Sunwoo, 45.8%</td>
+      <td>Ryan Lee, 45.7%</td>
     </tr>
     <tr>
       <td><b>Three Pointer</b> Percentage</td>
-      <td><b>Jason Lee, 18.4%</b></td>
-      <td>Ryan Won, 18.1%</td>
-      <td>Minwoo Lee, 17.6%</td>
+      <td><b>Adin Kim, 20.0%</b></td>
+      <td>Minwoo Lee, 19.1%</td>
+      <td>Ryan Won, 18.3%</td>
     </tr>
     <tr>
       <td><b>Free Throw</b> Percentage</td>
       <td><b>Ryan Won, 83.3%</b></td>
       <td>Ian Sunwoo, 75.0%</td>
-      <td>Alan Moon, 50.0%</td>
+      <td>Eric Moon, 50.0%</td>
     </tr>
   </tbody>
 </table>
@@ -102,7 +102,7 @@ datatable: true
     </tr>
     <tr>
       <td><b>Rebounds</b></td>
-      <td><b>Daniel Lee Lee, <a href="/2023/games/game6">22 REB</a></b></td>
+      <td><b>Daniel Lee, <a href="/2023/games/game6">22 REB</a></b></td>
       <td>Minwoo Lee, <a href="/2023/games/game5">20 REB</a></td>
       <td>Daniel Ro, <a href="/2023/games/game5">19 REB</a></td>
     </tr>

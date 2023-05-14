@@ -6,7 +6,7 @@
 		"tag": "FTX",
 		"captain": "Daniel Ro",
 		"season": 2022,
-		"wins": 3,
+		"wins": 4,
 		"losses": 0,
 		"seed": 0,
 		"players":
@@ -24,7 +24,7 @@
 		"captain": "Jaiyup Yoo",
 		"season": 2023,
 		"wins": 3,
-		"losses": 0,
+		"losses": 1,
 		"seed": 0,
 		"players":
 		[{"name": "Jaiyup Yoo", "player_id": 39},
@@ -58,7 +58,7 @@
 		"tag": "WW",
 		"captain": "Joseph Jung",
 		"season": 2023,
-		"wins": 1,
+		"wins": 2,
 		"losses": 2,
 		"seed": 0,
 		"players":
@@ -76,7 +76,7 @@
 		"captain": "Sahn Yoon",
 		"season": 2023,
 		"wins": 0,
-		"losses": 3,
+		"losses": 4,
 		"seed": 0,
 		"players":
 		[{"name": "Sahn Yoon", "player_id": 41},
