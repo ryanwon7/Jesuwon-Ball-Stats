@@ -14,7 +14,12 @@ datatable: true
 
 <br>
 
-<h2> Current Season Standings </h2>
+<h2> Current Playoff Bracket </h2>
+
+<img src="/resources/{{page.year}}/bracket.png" alt="Championship Bracket">
+
+<br>
+<h2> Season Standings </h2>
 This year, the fifth place team does not qualify for playoffs.
 <table class="display">
   <caption style="text-align: center;"> <b>PF</b> = Points For/Scored, <b>PA</b> = Points Against, <b>+/-</b> = Point Differential<br><b>Tiebreakers</b>: 1. Point Differential 2.  Head to Head Record 3. Points  For </caption>

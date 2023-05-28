@@ -13,6 +13,8 @@ datatable: true
 {% if team.team_id == page.id %}
 <h2> {{page.year}} Season - {{team.name}} </h2>
 <p><b>Regular Season Record</b>: {{team.wins}} - {{team.losses}}</p>
+<p><b>Playoff Seed</b>: {{team.seed}}</p>
+<p><b>Playoff Results</b>: Made to Finals</p>
 <p><b>Captain</b>: {{team.captain}}</p>
 <p><b>Players</b>: 
 {% for player in team.players %}

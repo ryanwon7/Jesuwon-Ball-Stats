@@ -8,7 +8,7 @@
 		"season": 2022,
 		"wins": 4,
 		"losses": 0,
-		"seed": 0,
+		"seed": 1,
 		"players":
 		[{"name": "Daniel Ro", "player_id": 33},
 		{"name": "Adin Kim", "player_id": 26},
@@ -25,7 +25,7 @@
 		"season": 2023,
 		"wins": 3,
 		"losses": 1,
-		"seed": 0,
+		"seed": 2,
 		"players":
 		[{"name": "Jaiyup Yoo", "player_id": 39},
 		{"name": "David Moon", "player_id": 25},
@@ -42,7 +42,7 @@
 		"season": 2023,
 		"wins": 1,
 		"losses": 3,
-		"seed": 0,
+		"seed": 4,
 		"players":
 		[{"name": "Ian Sunwoo", "player_id": 36},
 		{"name": "Caleb Jung", "player_id": 5},
@@ -60,7 +60,7 @@
 		"season": 2023,
 		"wins": 2,
 		"losses": 2,
-		"seed": 0,
+		"seed": 3,
 		"players":
 		[{"name": "Joseph Jung", "player_id": 6},
 		{"name": "Eric Moon", "player_id": 26},
@@ -77,7 +77,7 @@
 		"season": 2023,
 		"wins": 0,
 		"losses": 4,
-		"seed": 0,
+		"seed": 5,
 		"players":
 		[{"name": "Sahn Yoon", "player_id": 41},
 		{"name": "Isaac Sohn", "player_id": 34},

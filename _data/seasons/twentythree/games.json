@@ -158,5 +158,37 @@
     "fin": "yes",
     "home_score": 43,
     "away_score": 44,
+  },
+  "game11":
+  {
+    "game_id": 11,
+    "home_team_id": 2,
+    "home_team_name": "honeybuns",
+    "away_team_id": 4,
+    "away_team_name": "ww",
+    "long_date": "May 28, 2023",
+    "short_date": "05/28/23",
+    "time": "2:15 PM",
+    "stage": "po sf",
+    "type": "Playoff Semifinals",
+    "fin": "yes",
+    "home_score": 56,
+    "away_score": 46,
+  },
+  "game12":
+  {
+    "game_id": 12,
+    "home_team_id": 1,
+    "home_team_name": "fishtaxi",
+    "away_team_id": 3,
+    "away_team_name": "jesuwonfavorites",
+    "long_date": "May 28, 2023",
+    "short_date": "05/28/23",
+    "time": "2:45 PM",
+    "stage": "po sf",
+    "type": "Playoff Semifinals",
+    "fin": "yes",
+    "home_score": 64,
+    "away_score": 60,
   }
 }
