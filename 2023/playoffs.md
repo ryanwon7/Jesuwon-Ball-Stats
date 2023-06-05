@@ -8,7 +8,7 @@ layout: default
 datatable: true
 ---
 <h2> {{page.year}} Playoff Bracket </h2>
-<h4> Champions: TBD</h4>
+<h4> Champions: Fish Taxi</h4>
 
 <img src="/resources/{{page.year}}/bracket.png" alt="Championship Bracket">
 

@@ -190,5 +190,21 @@
     "fin": "yes",
     "home_score": 64,
     "away_score": 60,
+  },
+  "game13":
+  {
+    "game_id": 13,
+    "home_team_id": 1,
+    "home_team_name": "fishtaxi",
+    "away_team_id": 2,
+    "away_team_name": "honeybuns",
+    "long_date": "June 4, 2023",
+    "short_date": "06/04/23",
+    "time": "2:15 PM",
+    "stage": "po fin",
+    "type": "Playoff Finals",
+    "fin": "yes",
+    "home_score": 60,
+    "away_score": 48,
   }
 }
