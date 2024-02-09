@@ -4,11 +4,11 @@
 
 - player_name: Song Seng Geu
   player_id: 02
-  active: yes 
+  active: no 
 
 - player_name: Calvin Hong
   player_id: 03
-  active: yes 
+  active: no 
 
 - player_name: Kyle Ju
   player_id: 04
@@ -24,7 +24,7 @@
 
 - player_name: Adin Kim
   player_id: 07
-  active: no
+  active: yes
 
 - player_name: Bryce Kim
   player_id: 08
@@ -32,7 +32,7 @@
 
 - player_name: Dan Kim
   player_id: 09
-  active: yes
+  active: no
 
 - player_name: Daniel Kim
   player_id: 10
@@ -40,7 +40,7 @@
 
 - player_name: Domin Kim
   player_id: 11
-  active: yes 
+  active: no 
 
 - player_name: Edward Kim
   player_id: 12
@@ -48,11 +48,11 @@
 
 - player_name: Eugene Kim
   player_id: 13
-  active: yes
+  active: no
 
 - player_name: Ezekiel Kim
   player_id: 14
-  active: yes
+  active: no
 
 - player_name: Daniel Lee
   player_id: 15
@@ -112,23 +112,23 @@
 
 - player_name: Elijah Park
   player_id: 29
-  active: yes 
+  active: no 
 
 - player_name: Jun Sung Park
   player_id: 30
-  active: yes 
+  active: no 
 
 - player_name: Paul Park
   player_id: 31
-  active: yes 
+  active: no 
 
 - player_name: Yong Sang Park
   player_id: 32
-  active: yes 
+  active: no 
 
 - player_name: Daniel Ro
   player_id: 33
-  active: yes 
+  active: no 
 
 - player_name: Isaac Sohn
   player_id: 34
@@ -140,7 +140,7 @@
 
 - player_name: Ian Sunwoo
   player_id: 36
-  active: yes
+  active: no
 
 - player_name: James Won
   player_id: 37
@@ -156,7 +156,7 @@
 
 - player_name: David Yoon
   player_id: 40
-  active: yes 
+  active: no 
 
 - player_name: Sahn Yoon
   player_id: 41
@@ -164,7 +164,7 @@
 
 - player_name: Timmy Sohn
   player_id: 42
-  active: yes
+  active: no
 
 - player_name: Daniel Kim
   player_id: 43
@@ -172,7 +172,7 @@
 
 - player_name: Joshua Ha
   player_id: 44
-  active: yes
+  active: no
 
 - player_name: Jacob Moon
   player_id: 45
@@ -184,7 +184,7 @@
 
 - player_name: Christian Kim
   player_id: 47
-  active: yes
+  active: no
 
 - player_name: Jeremy Park
   player_id: 48
@@ -200,4 +200,25 @@
 
 - player_name: Minwoo Lee
   player_id: 51
+  active: no
+
+- player_name: Andrew Kim
+  player_id: 52
   active: yes
+
+- player_name: Brandon Oh
+  player_id: 53
+  active: yes
+
+- player_name: Jun Jang
+  player_id: 54
+  active: yes
+
+- player_name: Junhee Kim
+  player_id: 55
+  active: yes
+
+- player_name: Justin Hong
+  player_id: 56
+  active: yes
+

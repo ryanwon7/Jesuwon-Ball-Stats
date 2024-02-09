@@ -1,0 +1,87 @@
+{
+	"underdawgs":
+	{
+		"team_id": 1,
+		"name": "Underdawgs",
+		"tag": "UND",
+		"captain": "Ryan Won",
+		"season": 2024,
+		"wins": 0,
+		"losses": 1,
+		"seed": 0,
+		"players":
+		[{"name": "Ryan Won", "player_id": 38},
+		{"name": "Adin Kim", "player_id": 26},
+		{"name": "Andrew Kim", "player_id": 52},
+		{"name": "Bryce Kim", "player_id": 08},
+		{"name": "Jeremy Park", "player_id": 48}]
+	},
+	"hunters":
+	{
+		"team_id": 2,
+		"name": "Hunters",
+		"tag": "HUN",
+		"captain": "Jaiyup Yoo",
+		"season": 2024,
+		"wins": 0,
+		"losses": 0,
+		"seed": 0,
+		"players":
+		[{"name": "Jaiyup Yoo", "player_id": 39},
+		{"name": "Alan Moon", "player_id": 22},
+		{"name": "Brandon Oh", "player_id": 53},
+		{"name": "Jun Jang", "player_id": 54},
+		{"name": "Isaac Sohn", "player_id": 34}]
+	},
+	"juicebox":
+	{
+		"team_id": 3,
+		"name": "Juicebox",
+		"tag": "JBX",
+		"captain": "Caleb Jung",
+		"season": 2024,
+		"wins": 0,
+		"losses": 1,
+		"seed": 0,
+		"players":
+		[{"name": "Caleb Jung", "player_id": 5},
+		{"name": "Daniel Lee", "player_id": 15},
+		{"name": "Jacob Moon", "player_id": 45},
+		{"name": "John Hwang", "player_id": 50},
+		{"name": "Junhee Kim", "player_id": 55}]
+	},
+	"sos":
+	{
+		"team_id": 4,
+		"name": "SOS",
+		"tag": "SOS",
+		"captain": "Joseph Jung",
+		"season": 2024,
+		"wins": 1,
+		"losses": 0,
+		"seed": 0,
+		"players":
+		[{"name": "Joseph Jung", "player_id": 6},
+		{"name": "Alex Hong", "player_id": 49},
+		{"name": "David Moon", "player_id": 25},
+		{"name": "Eric Moon", "player_id": 26},
+		{"name": "Joon Kim", "player_id": 36}]
+	},
+	"legendary":
+	{
+		"team_id": 5,
+		"name": "Legendary",
+		"tag": "LEG",
+		"captain": "Sahn Yoon",
+		"season": 2024,
+		"wins": 1,
+		"losses": 0,
+		"seed": 0,
+		"players":
+		[{"name": "Sahn Yoon", "player_id": 41},
+		{"name": "Jason Lee", "player_id": 18},
+		{"name": "Justin Hong", "player_id": 56},
+		{"name": "Ryan Lee", "player_id": 19},
+		{"name": "Urim Lee", "player_id": 20}]
+	}
+}
