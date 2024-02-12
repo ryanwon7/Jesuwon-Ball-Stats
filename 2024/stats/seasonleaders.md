@@ -29,8 +29,8 @@ datatable: true
   	<tr>
       <td><b>Points</b> Per Game</td>
   		<td><b>Jason Lee, 26.0 PPG</b></td>
+      <td>Ian Sunwoo, 22.0 PPG</td>
   		<td>Ryan Won, 21.5 PPG</td>
-      <td>Alan Moon, 21.0 PPG</td>
   	</tr>
     <tr>
       <td><b>Rebounds</b> Per Game</td>
@@ -60,13 +60,13 @@ datatable: true
       <td><b>Field Goal</b> Percentage</td>
       <td><b>Jaiyup Yoo, 54.5%</b></td>
       <td>Ryan Lee, 53.8%</td>
-      <td>Jason Lee, 48.0%</td>
+      <td>Ian Sunwoo, 50.0%</td>
     </tr>
     <tr>
       <td><b>Three Pointer</b> Percentage</td>
       <td><b>Ryan Won, 17.6%</b></td>
       <td>Jason Lee, 16.7%</td>
-      <td>Ian Sunwoo, 9.1%</td>
+      <td>Joon Kim, 14.3%</td>
     </tr>
     <tr>
       <td><b>Free Throw</b> Percentage</td>
