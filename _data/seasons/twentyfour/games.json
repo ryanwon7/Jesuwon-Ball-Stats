@@ -43,9 +43,9 @@
     "time": "4:00 PM",
     "stage": "reg",
     "type": "Regular Season Week 2",
-    "fin": "no",
-    "home_score": 0,
-    "away_score": 0,
+    "fin": "yes",
+    "home_score": 22,
+    "away_score": 59,
   },
   "game4":
   {
@@ -59,9 +59,9 @@
     "time": "4:30 PM",
     "stage": "reg",
     "type": "Regular Season Week 2",
-    "fin": "no",
-    "home_score": 0,
-    "away_score": 0,
+    "fin": "yes",
+    "home_score": 38,
+    "away_score": 31,
   },
   "game5":
   {
