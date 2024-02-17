@@ -37,7 +37,7 @@ datatable: true
     </tr>
   </thead>
   <tbody style="text-align: center;">
-  {% for curr_player_id in (1..51) %}
+  {% for curr_player_id in (1..56) %}
 	{% assign pts_total = 0 %}
 	{% assign reb_total = 0 %}
 	{% assign ast_total = 0 %}
