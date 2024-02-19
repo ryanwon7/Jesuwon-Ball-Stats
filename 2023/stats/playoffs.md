@@ -79,18 +79,18 @@ datatable: true
       <td>{{stl_total | times: 1.0 | divided_by: games_played | round: 1}}</td>
       <td>{{blk_total | times: 1.0 | divided_by: games_played | round: 1}}</td>
       {% assign fg_total = fgmk_total | plus: fgms_total %}
-      <td>{{100.0 | times: fgmk_total | divided_by: fg_total | round: 1 }}%</td>
+      <td data-order="{{100.0 | times: fgmk_total | divided_by: fg_total | round: 1 }}">{{100.0 | times: fgmk_total | divided_by: fg_total | round: 1 }}%</td>
       {% assign thrp_total = thrpmk_total | plus: thrpms_total %}
       {% if thrp_total == 0 %}
       <th>--%</th>
       {% else %}
-      <td>{{100.0 | times: thrpmk_total | divided_by: thrp_total | round: 1 }}%</td>
+      <td data-order="{{100.0 | times: thrpmk_total | divided_by: thrp_total | round: 1 }}">{{100.0 | times: thrpmk_total | divided_by: thrp_total | round: 1 }}%</td>
       {% endif %}
       {% assign ft_total = ftmk_total | plus: ftms_total %}
       {% if ft_total == 0 %}
       <th>--%</th>
       {% else %}
-      <td>{{100.0 | times: ftmk_total | divided_by: ft_total | round: 1 }}%</td>
+      <td data-order="{{100.0 | times: ftmk_total | divided_by: ft_total | round: 1 }}">{{100.0 | times: ftmk_total | divided_by: ft_total | round: 1 }}%</td>
       {% endif %}
       <td>{{games_played}}</td>
    </tr>
