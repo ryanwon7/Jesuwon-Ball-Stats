@@ -23,7 +23,7 @@
 		"tag": "HUN",
 		"captain": "Jaiyup Yoo",
 		"season": 2024,
-		"wins": 2,
+		"wins": 3,
 		"losses": 0,
 		"seed": 0,
 		"players":
@@ -41,7 +41,7 @@
 		"captain": "Caleb Jung",
 		"season": 2024,
 		"wins": 0,
-		"losses": 2,
+		"losses": 3,
 		"seed": 0,
 		"players":
 		[{"name": "Caleb Jung", "player_id": 5},
@@ -57,7 +57,7 @@
 		"tag": "SOS",
 		"captain": "Joseph Jung",
 		"season": 2024,
-		"wins": 2,
+		"wins": 3,
 		"losses": 1,
 		"seed": 0,
 		"players":
@@ -75,7 +75,7 @@
 		"captain": "Sahn Yoon",
 		"season": 2024,
 		"wins": 2,
-		"losses": 0,
+		"losses": 1,
 		"seed": 0,
 		"players":
 		[{"name": "Sahn Yoon", "player_id": 41},

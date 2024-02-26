@@ -28,51 +28,51 @@ datatable: true
   <tbody style="text-align: center;">
   	<tr>
       <td><b>Points</b> Per Game</td>
-  		<td><b>Jason Lee, 26.0 PPG</b></td>
-      <td>Isaac Sohn, 22.0 PPG</td>
-      <td>Ian Sunwoo, 22.0 PPG</td>
+  		<td><b>Daniel Lee, 26.0 PPG</b></td>
+      <td>Jason Lee, 24.7 PPG</td>
+      <td>Isaac Sohn, 23.7 PPG</td>
   	</tr>
     <tr>
       <td><b>Rebounds</b> Per Game</td>
-      <td><b>Jaiyup Yoo, 16.0 RPG</b></td>
-      <td>Joseph Jung, 15.0 APG</td>
-      <td>Ryan Lee, 14.0 RPG</td>
+      <td><b>Ryan Lee, 15.0 RPG</b></td>
+      <td>Jaiyup Yoo, 14.3 APG</td>
+      <td>Joseph Jung, 14.0 RPG</td>
     </tr>
     <tr>
       <td><b>Assists</b> Per Game</td>
-      <td><b>Jaiyup Yoo, 6.5 APG</b></td>
-      <td>Joseph Jung, 5.0 APG</td>
+      <td><b>Jaiyup Yoo, 6.0 APG</b></td>
       <td>Ryan Won, 4.7 APG</td>
+      <td>Joseph Jung, 4.3 APG</td>
     </tr>
     <tr>
       <td><b>Steals</b> Per Game</td>
-      <td><b>Isaac Sohn, 4.5 SPG</b></td>
-      <td>Ryan Won, 4.3 SPG</td>
-      <td>Jason Lee, 3.0 SPG</td>
+      <td><b>Ryan Won, 4.3 SPG</b></td>
+      <td>Isaac Sohn, 4.0 SPG</td>
+      <td>David Moon, 3.3 SPG</td>
     </tr>
     <tr>
       <td><b>Blocks</b> Per Game</td>
-      <td><b>Jacob Moon, 2.0 BPG</b></td>
-      <td>Eric Moon, 1.7 BPG</td>
-      <td>Caleb Jung, 1.5 BPG</td>
+      <td><b>Jacob Moon, 1.7 BPG</b></td>
+      <td>Eric Moon, 1.5 BPG</td>
+      <td>Caleb Jung, 1.0 BPG</td>
     </tr>
     <tr>
       <td><b>Field Goal</b> Percentage</td>
-      <td><b>Ryan Lee, 57.1%</b></td>
+      <td><b>Ryan Lee, 54.1%</b></td>
       <td>Ian Sunwoo, 50.0%</td>
-      <td>Jaiyup Yoo, 47.8%</td>
+      <td>Jaiyup Yoo, 45.5%</td>
     </tr>
     <tr>
       <td><b>Three Pointer</b> Percentage</td>
-      <td><b>Brandon Oh, 100.0%</b></td>
-      <td>Urim Lee, 20.0%</td>
+      <td><b>Brandon Oh, 33.3%</b></td>
+      <td>Joseph Jung, 15.8%</td>
       <td>Ryan Won, 14.3%</td>
     </tr>
     <tr>
       <td><b>Free Throw</b> Percentage</td>
-      <td><b>David Moon, 100.0%</b></td>
-      <td>Joseph Jung, 50.0%</td>
-      <td>Alan Moon, 50.0%</td>
+      <td><b>David Moon, 75.0%</b></td>
+      <td>Joseph Jung, 66.7%</td>
+      <td>Jason Lee, 66.7%</td>
     </tr>
   </tbody>
 </table>
@@ -96,9 +96,9 @@ datatable: true
   <tbody style="text-align: center;">
     <tr>
       <td><b>Points</b></td>
-      <td><b>Jason Lee, <a href="/2024/games/game1">26 PTS</a></b></td>
+      <td><b>Daniel Lee, <a href="/2024/games/game8">36 PTS</a></b></td>
+      <td>Jason Lee, <a href="/2024/games/game1">26 PTS</a></td>
       <td>Jason Lee, <a href="/2024/games/game5">26 PTS</a></td>
-      <td>Isaac Sohn, <a href="/2024/games/game6">24 PTS</a></td>
     </tr>
     <tr>
       <td><b>Rebounds</b></td>
@@ -116,7 +116,7 @@ datatable: true
       <td><b>Steals</b></td>
       <td><b>Ryan Won, <a href="/2024/games/game2">5 STL</a></b></td>
       <td>Isaac Sohn, <a href="/2024/games/game3">5 STL</a></td>
-      <td>Jacob Moon, <a href="/2024/games/game1">4 STL</a></td>
+      <td>Jaiyup Yoo, <a href="/2024/games/game8">5 STL</a></td>
     </tr>
     <tr>
       <td><b>Blocks</b></td>
