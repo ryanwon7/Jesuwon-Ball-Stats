@@ -28,51 +28,51 @@ datatable: true
   <tbody style="text-align: center;">
   	<tr>
       <td><b>Points</b> Per Game</td>
-  		<td><b>Daniel Lee, 26.0 PPG</b></td>
-      <td>Jason Lee, 24.7 PPG</td>
-      <td>Isaac Sohn, 23.7 PPG</td>
+  		<td><b>Jason Lee, 24.8 PPG</b></td>
+      <td>Daniel Lee, 23.3 PPG</td>
+      <td>Ian Sunwoo, 22.0 PPG</td>
   	</tr>
     <tr>
       <td><b>Rebounds</b> Per Game</td>
-      <td><b>Ryan Lee, 15.0 RPG</b></td>
-      <td>Jaiyup Yoo, 14.3 APG</td>
-      <td>Joseph Jung, 14.0 RPG</td>
+      <td><b>Joseph Jung, 14.0 RPG</b></td>
+      <td>Ryan Lee, 13.5 APG</td>
+      <td>Ryan Won, 13.3 RPG</td>
     </tr>
     <tr>
       <td><b>Assists</b> Per Game</td>
-      <td><b>Jaiyup Yoo, 6.0 APG</b></td>
-      <td>Ryan Won, 4.7 APG</td>
+      <td><b>Jaiyup Yoo, 5.3 APG</b></td>
+      <td>Ryan Won, 4.8 APG</td>
       <td>Joseph Jung, 4.3 APG</td>
     </tr>
     <tr>
       <td><b>Steals</b> Per Game</td>
-      <td><b>Ryan Won, 4.3 SPG</b></td>
-      <td>Isaac Sohn, 4.0 SPG</td>
+      <td><b>Isaac Sohn, 3.8 SPG</b></td>
+      <td>Ryan Won, 3.5 SPG</td>
       <td>David Moon, 3.3 SPG</td>
     </tr>
     <tr>
       <td><b>Blocks</b> Per Game</td>
-      <td><b>Jacob Moon, 1.7 BPG</b></td>
+      <td><b>Caleb Jung, 1.5 BPG</b></td>
       <td>Eric Moon, 1.5 BPG</td>
-      <td>Caleb Jung, 1.0 BPG</td>
+      <td>Jacob Moon, 1.3 BPG</td>
     </tr>
     <tr>
       <td><b>Field Goal</b> Percentage</td>
-      <td><b>Ryan Lee, 54.1%</b></td>
+      <td><b>Ryan Lee, 54.9%</b></td>
       <td>Ian Sunwoo, 50.0%</td>
-      <td>Jaiyup Yoo, 45.5%</td>
+      <td>Isaac Sohn, 44.3%</td>
     </tr>
     <tr>
       <td><b>Three Pointer</b> Percentage</td>
-      <td><b>Brandon Oh, 33.3%</b></td>
+      <td><b>Brandon Oh, 28.6%</b></td>
       <td>Joseph Jung, 15.8%</td>
-      <td>Ryan Won, 14.3%</td>
+      <td>Urim Lee, 14.3%</td>
     </tr>
     <tr>
       <td><b>Free Throw</b> Percentage</td>
-      <td><b>David Moon, 75.0%</b></td>
+      <td><b>Jason Lee, 80.0%</b></td>
+      <td>David Moon, 75.0%</td>
       <td>Joseph Jung, 66.7%</td>
-      <td>Jason Lee, 66.7%</td>
     </tr>
   </tbody>
 </table>

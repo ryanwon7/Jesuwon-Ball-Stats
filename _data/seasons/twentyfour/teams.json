@@ -7,7 +7,7 @@
 		"captain": "Ryan Won",
 		"season": 2024,
 		"wins": 0,
-		"losses": 3,
+		"losses": 4,
 		"seed": 0,
 		"players":
 		[{"name": "Ryan Won", "player_id": 38},
@@ -24,7 +24,7 @@
 		"captain": "Jaiyup Yoo",
 		"season": 2024,
 		"wins": 3,
-		"losses": 0,
+		"losses": 1,
 		"seed": 0,
 		"players":
 		[{"name": "Jaiyup Yoo", "player_id": 39},
@@ -40,7 +40,7 @@
 		"tag": "JBX",
 		"captain": "Caleb Jung",
 		"season": 2024,
-		"wins": 0,
+		"wins": 1,
 		"losses": 3,
 		"seed": 0,
 		"players":
@@ -74,7 +74,7 @@
 		"tag": "LEG",
 		"captain": "Sahn Yoon",
 		"season": 2024,
-		"wins": 2,
+		"wins": 3,
 		"losses": 1,
 		"seed": 0,
 		"players":
