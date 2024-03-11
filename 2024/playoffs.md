@@ -7,14 +7,53 @@ script: standsched
 layout: default
 datatable: true
 ---
-<h2> {{page.year}} Playoffs</h2>
+<h2> {{page.year}} Playoff Bracket </h2>
+<br>
 
-<p> Playoffs begin on March 17th </p>
+<img src="/resources/{{page.year}}/bracket.png" alt="Championship Bracket">
 
-<p> The top three teams from the regular season automatically qualifies to the playoffs. The 4th and 5th place teams with play a play-in game on March 17th, with the winner qualifying to playoffs. </p>
-
-<p> After the play-in game, the 1st place regular season team can pick their opponent for the semifinals, from the 2nd place team, 3rd place team, or the play-in game winner. The two remaining teams will play in the other semifinals. Semifinals will take place on March 24th. </p>
-
-<p> The finals will be on March 31st, between the winners of the two semifinals. </p>
-
-<p> Over the course of the playoffs, the team with the higher seed will be allowed to pick their jersey color and the side they would like to start on.</p>
+<br>
+<h4> Match Pages </h4>
+<h2> {{page.year}} Schedule and Scores </h2>
+<table class="display3">
+  <colgroup>
+    <col class="thirty"/>
+    <col class="fifteen"/>
+    <col class="twenty"/>
+    <col class="twenty"/>
+    <col class="fifteen"/>
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Matchup</th>
+      <th>Match Page</th>
+      <th>Stage</th>
+      <th>Date and Time</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for game in site.data.seasons.twentyfour.games %}
+    {% assign match = game[1] %}
+    {% if match.stage != "reg" %}
+    {% assign home = site.data.seasons.twentyfour.teams[match.home_team_name] %}
+    {% assign away = site.data.seasons.twentyfour.teams[match.away_team_name] %}
+    <tr>
+      <td><b>({{home.seed}}) {{home.name}} vs ({{away.seed}}) {{away.name}}</b></td>
+      {% if match.fin == "yes" %}
+      <td><a href="/{{page.year}}/games/game{{match.game_id}}">Match Stats</a></td>
+      {% else %}
+      <td> TBD </td>
+      {% endif %}
+      <td>{{match.type}}</td>
+      <td>{{match.short_date}}, {{match.time}}</td>
+      {% if match.fin == "yes" %}
+      <td>{{home.tag}} {{match.home_score}} - {{match.away_score}} {{away.tag}}</td>
+      {% else %}
+      <td> TBD </td>
+      {% endif %}
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </tbody>
+ </table>

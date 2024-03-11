@@ -8,7 +8,7 @@
 		"season": 2024,
 		"wins": 0,
 		"losses": 4,
-		"seed": 0,
+		"seed": 5,
 		"players":
 		[{"name": "Ryan Won", "player_id": 38},
 		{"name": "Adin Kim", "player_id": 26},
@@ -25,7 +25,7 @@
 		"season": 2024,
 		"wins": 3,
 		"losses": 1,
-		"seed": 0,
+		"seed": 1,
 		"players":
 		[{"name": "Jaiyup Yoo", "player_id": 39},
 		{"name": "Alan Moon", "player_id": 22},
@@ -42,7 +42,7 @@
 		"season": 2024,
 		"wins": 1,
 		"losses": 3,
-		"seed": 0,
+		"seed": 4,
 		"players":
 		[{"name": "Caleb Jung", "player_id": 5},
 		{"name": "Daniel Lee", "player_id": 15},
@@ -59,7 +59,7 @@
 		"season": 2024,
 		"wins": 3,
 		"losses": 1,
-		"seed": 0,
+		"seed": 3,
 		"players":
 		[{"name": "Joseph Jung", "player_id": 6},
 		{"name": "Alex Hong", "player_id": 49},
@@ -76,7 +76,7 @@
 		"season": 2024,
 		"wins": 3,
 		"losses": 1,
-		"seed": 0,
+		"seed": 2,
 		"players":
 		[{"name": "Sahn Yoon", "player_id": 41},
 		{"name": "Jason Lee", "player_id": 18},
