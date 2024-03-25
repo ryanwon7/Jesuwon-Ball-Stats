@@ -24,6 +24,8 @@ datatable: true
 {% endfor %}
 <br>
 
+<img src="/resources/2023/champs.jpg" alt="Champions">
+
 <h3> Season Award Winners </h3>
 <table class="display2">
   <colgroup>

@@ -8,7 +8,7 @@ layout: default
 datatable: true
 ---
 <h2> {{page.year}} Playoff Bracket </h2>
-<br>
+<h4> Champions: Hunters</h4>
 
 <img src="/resources/{{page.year}}/bracket.png" alt="Championship Bracket">
 

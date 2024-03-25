@@ -219,8 +219,8 @@
     "time": "4:00 PM",
     "stage": "po ch",
     "type": "Playoff Championship",
-    "fin": "no",
-    "home_score": 0,
-    "away_score": 0,
+    "fin": "yes",
+    "home_score": 61,
+    "away_score": 59,
   }
 }

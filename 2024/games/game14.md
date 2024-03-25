@@ -1,5 +1,5 @@
 ---
-gamenum: game11
+gamenum: game14
 archetype: tournament
 year: 2024
 type: schedule
@@ -15,7 +15,7 @@ datatable: true
 <h4 style="text-align: center;"> {{game.type}}: {{game.long_date}} at {{game.time}} </h4>
 <br>
 <h1 style="text-align: center;"> {{home.name}} vs {{away.name}}</h1>
-<h3 style="text-align: center;"> {{home.tag}} {{game.home_score}} - {{game.away_score}} {{away.tag}} (OT)</h3>
+<h3 style="text-align: center;"> {{home.tag}} {{game.home_score}} - {{game.away_score}} {{away.tag}} (2OT)</h3>
 {% if game.stage == "reg" %}
 <h2> {{home.name}} ({{home.wins}}-{{home.losses}})</h2>
 {% else %}
